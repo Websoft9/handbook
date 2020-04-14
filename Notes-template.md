@@ -1,14 +1,11 @@
 # RabbitMQ Notes
 
-组件名称：RabbitMQ-Server
-
-文档地址：https://www.rabbitmq.com/download.html
-
-安装方式： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker
+组件名称：RabbitMQ-Server  
+安装文档：https://www.rabbitmq.com/download.html  
+配置文档：https://www.rabbitmq.com/admin-guide.html
+安装方式： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
 
 责任人：贺琳
-
-
 
 ## 概要
 
@@ -20,6 +17,7 @@ RabbitMQ是一款开源的MQ系统
 * 应用服务器：自带
 * 数据库：无
 * 依赖组件：Erlang
+* 其他：
 
 ## 安装说明
 
@@ -38,8 +36,6 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 yum install erlang rabbitmq-server -y
 ```
 
-
-
 ## 配置
 
 安装完成后，需要依次完成如下配置
@@ -57,8 +53,6 @@ yum install erlang rabbitmq-server -y
     rabbitmqctl add_user admin admin
     rabbitmqctl set_user_tags admin administrator
 ```
-
-
 
 ## 服务
 
@@ -95,6 +89,10 @@ WantedBy=multi-user.target
 | lustering | 25672 |
 | AMQP      | 5672  |
 | http      | 15672 |
+
+#### 有没有CLI工具？
+
+有，通过 `rabbitmqctl` 查看工具的说明
 
 ## 日志
 
