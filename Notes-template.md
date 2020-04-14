@@ -21,11 +21,11 @@ RabbitMQ是一款开源的MQ系统
 
 ## 安装说明
 
+官方提供了erlang和rabbitmq-server的仓库，且官方建议使用其自身提供的仓库，不建议使用操作系统自带的仓库或其他第三方仓库。
+
 下面基于不同的安装方式，分别进行安装说明。
 
 ### CentOS
-
-官方提供了erlang和rabbitmq-server的仓库，且官方建议使用其自身提供的仓库，不建议使用操作系统自带的仓库或其他第三方仓库。
 
 ```shell
 # 分别安装erlang源和rabbitmq-server源
@@ -34,6 +34,18 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 
 # 安装
 yum install erlang rabbitmq-server -y
+```
+
+### Ubuntu
+
+```shell
+# 分别安装erlang源和rabbitmq-server源
+curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.deb.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.deb.sh | sudo bash
+
+# 安装
+sudo apt-get update -y
+apt install erlang rabbitmq-server -y
 ```
 
 ## 配置
