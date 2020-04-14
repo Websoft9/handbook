@@ -5,7 +5,7 @@
 配置文档：https://www.rabbitmq.com/admin-guide.html  
 支持平台： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
 
-责任人：贺琳
+责任人：helin
 
 ## 概要
 
