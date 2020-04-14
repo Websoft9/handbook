@@ -2,7 +2,7 @@
 
 组件名称：RabbitMQ-Server  
 安装文档：https://www.rabbitmq.com/download.html  
-配置文档：https://www.rabbitmq.com/admin-guide.html
+配置文档：https://www.rabbitmq.com/admin-guide.html  
 安装方式： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
 
 责任人：贺琳
