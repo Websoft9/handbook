@@ -48,7 +48,7 @@ sudo apt-get update -y
 apt install erlang rabbitmq-server -y
 ```
 
-### 路径
+## 路径
 
 * 程序路径：/usr/lib/rabbitmq/lib/rabbitmq_server-*
 * 日志路径：/var/log/rabbitmq
