@@ -48,6 +48,13 @@ sudo apt-get update -y
 apt install erlang rabbitmq-server -y
 ```
 
+### 路径
+
+* 程序路径：/usr/lib/rabbitmq/lib/rabbitmq_server-*
+* 日志路径：/var/log/rabbitmq
+
+> 建议补充更多路径信息
+
 ## 配置
 
 安装完成后，需要依次完成如下配置
@@ -86,6 +93,18 @@ ExecStart=/usr/local/bin/puma -b tcp://127.0.0.1:9292 -e production
 User=redmine
 [Install]
 WantedBy=multi-user.target
+```
+
+## 版本号
+
+通过如下的命令获取主要组件的版本号: 
+
+```
+# Check RabbitMQ version
+sudo rabbitmqctl status | grep RabbitMQ*
+
+# Check Erlang version
+ls /usr/lib64/erlang
 ```
 
 ## 常见问题
