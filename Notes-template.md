@@ -3,7 +3,7 @@
 组件名称：RabbitMQ-Server  
 安装文档：https://www.rabbitmq.com/download.html  
 配置文档：https://www.rabbitmq.com/admin-guide.html  
-安装方式： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
+支持平台： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
 
 责任人：贺琳
 
@@ -21,9 +21,9 @@ RabbitMQ是一款开源的MQ系统
 
 ## 安装说明
 
-官方提供了erlang和rabbitmq-server的仓库，且官方建议使用其自身提供的仓库，不建议使用操作系统自带的仓库或其他第三方仓库。
+官方建议使用其自身提供的erlang和rabbitmq-server的仓库，不建议使用操作系统自带的仓库或其他第三方仓库。同时，官方提供了自动安装仓库的自动化脚本。
 
-下面基于不同的安装方式，分别进行安装说明。
+下面基于不同的安装平台，分别进行安装说明。
 
 ### CentOS
 
