@@ -95,6 +95,10 @@ User=redmine
 WantedBy=multi-user.target
 ```
 
+## 环境变量
+
+列出需要增加的环境变量以及增加环境变量的命令
+
 ## 版本号
 
 通过如下的命令获取主要组件的版本号: 
