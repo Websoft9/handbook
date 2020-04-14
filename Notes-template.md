@@ -51,9 +51,9 @@ apt install erlang rabbitmq-server -y
 ## 路径
 
 * 程序路径：/usr/lib/rabbitmq/lib/rabbitmq_server-*
-* 日志路径：/var/log/rabbitmq
-
-> 建议补充更多路径信息
+* 日志路径：/var/log/rabbitmq  
+* 配置文件路径：  
+* 其他...
 
 ## 配置
 
