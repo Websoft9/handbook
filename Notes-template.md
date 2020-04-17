@@ -73,6 +73,24 @@ apt install erlang rabbitmq-server -y
     rabbitmqctl set_user_tags admin administrator
 ```
 
+## 账号密码
+
+### 数据库密码
+
+如果有数据库
+
+* 数据库安装方式：包管理工具自带 or 自行安装
+* 账号密码：
+
+### 后台账号
+
+如果有后台账号
+
+* 登录地址
+* 账号密码
+* 密码修改方案：最好是有命令行修改密码的方案
+
+
 ## 服务
 
 本项目安装后自动生成：rabbitmq-server 服务
