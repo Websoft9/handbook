@@ -7,7 +7,7 @@
 
 任务提交者：helin
 
-## 概要
+## 介绍
 
 RabbitMQ是一款开源的MQ系统，它包含RabbitMQ-Server和RabbitMQ-Client，服务器上运行的是RabbitMQ-Server
 
