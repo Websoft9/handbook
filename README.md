@@ -23,12 +23,12 @@
 
 本项目中提供一个了交付物模板文档 **[RabbitMQ-chenxixi](/RabbitMQ-chenxixi.md)**，请复制模板并根据您的任务进行修改，然后 Fork 本项目后 Commit。
 
-> 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)
-
 您提交的文档需要注意如下几点：
 
 1. 采用 **软件名称-您的姓名拼音.md**的方式命名，例如：Graylog-caiming.md
 2. 您的文档请保持模板中的格式
 3. 您的文档可以在模板的基础上增加更多您认为需要说明的内容（多多益善）
+
+> 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)
 
 
