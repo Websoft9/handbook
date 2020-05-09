@@ -6,4 +6,4 @@
 | -------- | --------------------- | ---- |---- |
 | Seafile | CentOS和Ubuntu两个平台的包安装 | CentOS and Ubuntu |中等 |
 | [OpenCV](https://opencv.org/) | CentOS和Ubuntu两个平台的包安装 | CentOS and Ubuntu  | 中等 |
-| ELK |ELK 是一整套解决方案，是三个软件产品的首字母缩写，Elasticsearch，Logstash 和 Kibana。 | CentOS and Ubuntu | 较难 |
+| ELK |ELK 是一整套解决方案，包含：Elasticsearch，Logstash 和 Kibana| CentOS and Ubuntu | 较难 |
