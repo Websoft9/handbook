@@ -39,7 +39,7 @@
 
 > 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)
 
-#### 后续咋办？
+#### 后续
 
 一旦您提交了任务，我们会2天内对您的任务进行评估，一旦通过我们初步审核，接下来您可以获得：
 
