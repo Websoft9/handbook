@@ -28,22 +28,17 @@
 | Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
 | Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
 
-一旦选定任务之后，请将精准的安装过程信息记录到文档中：
+一旦选定任务之后，请以模板 **[RabbitMQ-chenxixi](/RabbitMQ-chenxixi.md)** 为格式，创建你的项目安装文档，并将精准的安装过程信息记录到文档中：
 
-* 以模板 **[RabbitMQ-chenxixi](/RabbitMQ-chenxixi.md)** 为格式，创建你的项目安装文档
 * 采用 **软件名称-您的姓名拼音.md**的方式命名，例如：Graylog-caiming.md
 * 请保持模板中的格式
 * 欢迎模板的基础上增加更多您认为需要说明的内容（多多益善）
 
-#### 提交结果
+#### 提交文档
 
-先 Fork [本项目](https://github.com/Websoft9test/recruitment)作为您的账户下的一个分支项目，然后增加您的交付文档。
-
-您提交的文档需要注意如下几点：
-
-1. 采用 **软件名称-您的姓名拼音.md**的方式命名，例如：Graylog-caiming.md
-2. 您的文档请保持模板中的格式
-3. 您的文档可以在模板的基础上增加更多您认为需要说明的内容（多多益善）
+1. Fork [本项目](https://github.com/Websoft9test/recruitment)作为您的账户下的一个分支项目
+2. 在分支中增加交付文档（例如：xxx-xxx.md）文件。
+3. 提交分支
 
 > 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)
 
@@ -54,7 +49,6 @@
 * 50元的云服务器补贴
 * 面试机会
 * 众包机会
-* 
 
 ---
 
