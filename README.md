@@ -21,13 +21,13 @@
 您需要做的任务是：
 
 1. 在云服务器上成功安装一款指定的开源软件（点击[【任务清单】](/tasks.md)选任务）
-2. 编写可以体现安装过程的安装文档（参考：[模板](/RabbitMQ-chenxixi.md)）   
+2. 编写可以体现安装过程的安装文档（参考：[模板](/RabbitMQ-cxx.md)）   
 
 文档编写是考察您的能力的唯一依据，此处再详细说明一下：  
 
-选定任务后，以[模板](/RabbitMQ-chenxixi.md)为格式，创建你的项目安装文档，并将精准的安装过程信息记录到文档中：
+选定任务后，以[模板](/RabbitMQ-cxx.md)为格式，创建你的项目安装文档，并将精准的安装过程信息记录到文档中：
 
-* 采用 **软件名称-您的姓名拼音.md**的方式命名，例如：Graylog-caiming.md
+* 采用 **软件名称-您的姓名拼音简写.md**的方式命名，例如：Graylog-cm.md
 * 请保持模板中的格式
 * 可以在模板的基础上增加更多您认为需要说明的内容（多多益善）
 
@@ -39,7 +39,7 @@
 2. 在分支中增加交付文档（例如：xxx-xxx.md）文件。
 3. 提交分支
 
-> 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)
+> 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)。如果不便通过Github提交，可以直接发送邮件
 
 #### 4. 后续
 
