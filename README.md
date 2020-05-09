@@ -1,4 +1,4 @@
-查看招聘职位：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro)
+查看我们的招聘职位：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro) | [拉勾](https://www.lagou.com/gongsi/216808.html)
 
 ![](https://res.infoq.com/articles/continuous-testing-best-practices/en/headerimage/unlocking-continuous-testing-logo-big-1564402385131.jpg)
 
