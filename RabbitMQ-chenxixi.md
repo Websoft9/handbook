@@ -1,11 +1,11 @@
 # RabbitMQ Notes
 
-组件名称：RabbitMQ-Server  
+任务名称：RabbitMQ-Server  
 安装文档：https://www.rabbitmq.com/download.html  
 配置文档：https://www.rabbitmq.com/admin-guide.html  
 支持平台： Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
 
-求职者：helin
+任务提交者：helin
 
 ## 概要
 
@@ -48,13 +48,6 @@ sudo apt-get update -y
 apt install erlang rabbitmq-server -y
 ```
 
-## 路径
-
-* 程序路径：/usr/lib/rabbitmq/lib/rabbitmq_server-*
-* 日志路径：/var/log/rabbitmq  
-* 配置文件路径：  
-* 其他...
-
 ## 配置
 
 安装完成后，需要依次完成如下配置
@@ -73,16 +66,27 @@ apt install erlang rabbitmq-server -y
     rabbitmqctl set_user_tags admin administrator
 ```
 
-## 账号密码
+## 使用
 
-### 数据库密码
+为了可以方便试用，下面的信息是必要的：
+
+### 路径
+
+* 程序路径：/usr/lib/rabbitmq/lib/rabbitmq_server-*
+* 日志路径：/var/log/rabbitmq  
+* 配置文件路径：  
+* 其他...
+
+### 账号密码
+
+#### 数据库密码
 
 如果有数据库
 
 * 数据库安装方式：包管理工具自带 or 自行安装
 * 账号密码：
 
-### 后台账号
+#### 后台账号
 
 如果有后台账号
 
@@ -90,36 +94,19 @@ apt install erlang rabbitmq-server -y
 * 账号密码
 * 密码修改方案：最好是有命令行修改密码的方案
 
-
-## 服务
+### 服务
 
 本项目安装后自动生成：rabbitmq-server 服务
 
-备注：如果开机没有服务，程序无法运行的情况下，需要自行编写服务
+备注：如果开机没有服务，程序无法运行的情况下，需要自行编写Systemd服务
 
-服务的模板如下：
+### 环境变量
 
-```
-[Unit]
-Description=Redmine
-After=nginx.service
-[Service]
-Environment=RAILS_ENV=production
-Type=simple
-WorkingDirectory=/data/wwwroot/redmine
-ExecStart=/usr/local/bin/puma -b tcp://127.0.0.1:9292 -e production 
-User=redmine
-[Install]
-WantedBy=multi-user.target
-```
-
-## 环境变量
-
-列出需要增加的环境变量以及增加环境变量的命令：
+列出需要增加的环境变量命令以及命令
 
 * 名称 | 路径
 
-## 版本号
+### 版本号
 
 通过如下的命令获取主要组件的版本号: 
 
