@@ -20,13 +20,7 @@
 
 在云服务器上成功安装一款指定的开源软件，并提供提供的您编写的安装文档（参考模板：[安装文档模板](/RabbitMQ-chenxixi.md)）  
 
-可选的开源软件（选其一）:
 
-| 名称     | 说明                           | 难度 |
-| -------- | ------------------------------ | ---- |
-| Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
-| Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
-| Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
 
 选定任务后，以模板 **[RabbitMQ-chenxixi](/RabbitMQ-chenxixi.md)** 为格式，创建你的项目安装文档，并将精准的安装过程信息记录到文档中：
 
