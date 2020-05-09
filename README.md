@@ -18,8 +18,11 @@
 * seafile
 * 
 
+我们期望
 
-#### 如何开始？
+#### 准备什么？
+
+
 
 1. 每次创建新的Notes，请基于 Notes-template.md 创建
 2. 需要不断维护 Notes-template 
