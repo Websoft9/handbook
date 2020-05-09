@@ -50,7 +50,7 @@ apt install erlang rabbitmq-server -y
 ...
 ```
 
-## 配置
+## 配置说明
 
 安装完成后，需要依次完成如下配置方可使用
 
@@ -67,7 +67,7 @@ rabbitmqctl set_user_tags admin administrator
 
 ### 其他配置
 
-* 如果开机没有服务，程序无法运行的情况下，需要自行编写Systemd服务
+* 如果项目有需启动进程，则需要自行编写Systemd服务以保证重启服务器后仍然可用
 
 ```
 # Systemd 范例：
