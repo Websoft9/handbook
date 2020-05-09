@@ -1,4 +1,4 @@
-# RabbitMQ Notes
+# RabbitMQ Notes Template
 
 任务名称：RabbitMQ-Server  
 安装文档：https://www.rabbitmq.com/download.html  
