@@ -50,21 +50,42 @@ apt install erlang rabbitmq-server -y
 
 ## 配置
 
-安装完成后，需要依次完成如下配置
+安装完成后，需要依次完成如下配置方可使用
+
+### 基本配置
 
 ```shell
-# Set RabbitMQ
-- name: Restart RabbitMQ
-  shell: systemctl start rabbitmq-server
-
-- name: Enable the management console of RabbitMQ
-  shell: rabbitmq-plugins enable rabbitmq_management
-
-- name: Create administrator for RabbitMQ console
-  shell: |
-    rabbitmqctl add_user admin admin
-    rabbitmqctl set_user_tags admin administrator
+systemctl start rabbitmq-server
+systemctl enable rabbitmq-server
+rabbitmq-plugins enable rabbitmq_management
+rabbitmqctl add_user admin admin
+rabbitmqctl set_user_tags admin administrator
 ```
+
+### 其他配置
+
+* 如果开机没有服务，程序无法运行的情况下，需要自行编写Systemd服务
+
+```
+# Systemd 范例：
+[Unit]
+Description=Redmine
+After=nginx.service
+[Service]
+Environment=RAILS_ENV=production
+Type=simple
+WorkingDirectory=/data/wwwroot/redmine
+ExecStart=/usr/local/bin/puma -b tcp://127.0.0.1:9292 -e production 
+User=redmine
+[Install]
+WantedBy=multi-user.target
+```
+
+* 列出需要增加的环境变量命令以及命令
+```
+# 环境变量
+```
+* 其他
 
 ## 使用
 
@@ -94,17 +115,6 @@ apt install erlang rabbitmq-server -y
 * 账号密码
 * 密码修改方案：最好是有命令行修改密码的方案
 
-### 服务
-
-本项目安装后自动生成：rabbitmq-server 服务
-
-备注：如果开机没有服务，程序无法运行的情况下，需要自行编写Systemd服务
-
-### 环境变量
-
-列出需要增加的环境变量命令以及命令
-
-* 名称 | 路径
 
 ### 版本号
 
@@ -118,19 +128,21 @@ sudo rabbitmqctl status | grep RabbitMQ*
 ls /usr/lib64/erlang
 ```
 
-## 常见问题
+### 端口号
 
-#### 有没有管理控制台？
-
-*http:// 公网 IP:15672* 即可访问控制台，系统默认存在一个无法通过外网访问的guest/guest账号
-
-#### 本项目需要开启哪些端口？
+本项目需要开启的端口号：
 
 | item      | port  |
 | --------- | ----- |
 | lustering | 25672 |
 | AMQP      | 5672  |
 | http      | 15672 |
+
+## 常见问题
+
+#### 有没有管理控制台？
+
+*http:// 公网 IP:15672* 即可访问控制台，系统默认存在一个无法通过外网访问的guest/guest账号
 
 #### 有没有CLI工具？
 
