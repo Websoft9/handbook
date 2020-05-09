@@ -5,5 +5,5 @@
 | 名称     | 说明                           | 难度 |
 | -------- | ------------------------------ | ---- |
 | Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
-| Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
+| [OpenCV](https://opencv.org/) | CentOS和Ubuntu两个平台的包安装 | 中等 |
 | Seafile | CentOS和Ubuntu两个平台的包安装 | 中等 |
