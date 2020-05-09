@@ -36,6 +36,8 @@
 
 #### 提交文档
 
+为了考察您的Github（git）运用能力，请采用如下的方式提交您的文档：
+
 1. Fork [本项目](https://github.com/Websoft9test/recruitment)作为您的账户下的一个分支项目
 2. 在分支中增加交付文档（例如：xxx-xxx.md）文件。
 3. 提交分支
