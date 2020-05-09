@@ -17,7 +17,7 @@ RabbitMQ是一款开源的MQ系统，它包含RabbitMQ-Server和RabbitMQ-Client�
 * 应用服务器：自带
 * 数据库：无
 * 依赖组件：Erlang
-* 服务器配置：最低1核1
+* 服务器配置：不低于1核1
 * 其他：
 
 ## 安装说明
