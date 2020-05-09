@@ -21,7 +21,7 @@
 
 #### 交付什么？
 
-本项目中提供一个交付物模板文档[](RabbitMQ-chenxixi/RabbitMQ-chenxixi.md)，请复制模板并根据您的任务进行修改，然后 Fork 本项目后提交。  
+本项目中提供一个了交付物模板文档 **[RabbitMQ-chenxixi](/RabbitMQ-chenxixi.md)**，请复制模板并根据您的任务进行修改，然后 Fork 本项目后提交。  
 
 您提交的文档需要注意如下几点：
 
