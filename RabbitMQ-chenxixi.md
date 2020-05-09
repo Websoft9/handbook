@@ -34,6 +34,7 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 
 # 安装
 yum install erlang rabbitmq-server -y
+...
 ```
 
 ### Ubuntu
@@ -46,6 +47,7 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/sc
 # 安装
 sudo apt-get update -y
 apt install erlang rabbitmq-server -y
+...
 ```
 
 ## 配置
@@ -60,6 +62,7 @@ systemctl enable rabbitmq-server
 rabbitmq-plugins enable rabbitmq_management
 rabbitmqctl add_user admin admin
 rabbitmqctl set_user_tags admin administrator
+...
 ```
 
 ### 其他配置
