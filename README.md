@@ -1,3 +1,5 @@
+查看招聘职位：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro)
+
 ![](https://res.infoq.com/articles/continuous-testing-best-practices/en/headerimage/unlocking-continuous-testing-logo-big-1564402385131.jpg)
 
 感谢您参与 [Websoft9](https://www.websoft9.com) 的招聘测试，我司专注于在云计算平台上提供自动化部署解决方案。我们非常看重求职者如下的能力：
