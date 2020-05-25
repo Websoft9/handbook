@@ -10,3 +10,4 @@
 | [GeoServer](http://geoserver.org/) | 采用JAR安装 | CentOS and Ubuntu | 容易 |
 | [InfluxDB](https://www.influxdata.com/) | 采用包管理工具安装 | CentOS and Ubuntu | 容易 |
 | [XWiki](https://www.influxdata.com/) | 采用包管理工具安装 | Ubuntu | 中等 |
+| [Ghost](https://ghost.org/docs/install/ubuntu/) | install Ghost on Ubuntu | Ubuntu | 中等 |
