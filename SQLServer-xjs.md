@@ -110,21 +110,17 @@ sqlcmd -S localhost -U SA -P '1234Qwer'       #显示>1则成功
 * 配置文件路径：/var/opt/mssql/mssql.conf
 
 #### 数据库密码
-
 账户：SA
 密码：1234Qwer
 
 ### 版本号
-
 rpm -qa|grep mssql
 mssql-tools-17.5.2.1-1.x86_64
 mssql-server-15.0.4043.16-4.x86_64
 
 
 ### 端口号
-
 本项目需要开启的端口号：
-
 | item      | port  |
 | --------- | ----- |
 | sqlserver | 1433 |
