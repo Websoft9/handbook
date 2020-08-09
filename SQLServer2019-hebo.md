@@ -1,7 +1,7 @@
 # SQL Server Linux 2019 install note
 
-任务名称：SQLServer2019
-安装配置：<https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15&viewFallbackFrom=sql-server-2016>
+任务名称：SQLServer2019<br/>
+安装配置：<https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15&viewFallbackFrom=sql-server-2016><br/>
 支持平台： ubuntu | Debian家族 | RHEL家族 | Windows | Kubernetes |Docker  
 记录日期：2020-8-9
 
