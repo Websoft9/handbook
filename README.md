@@ -29,6 +29,8 @@
 * 直接发送简历至人事邮箱：hr@websoft9.com
 * 查看我们的招聘职位并投递简历：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro) | [拉勾](https://www.lagou.com/gongsi/216808.html)
 * 通过微信发送简历
+  ![image](https://user-images.githubusercontent.com/16741975/110878016-652e0a00-8315-11eb-9922-9a4c3cefab52.png)
+
 
 #### 是否可以远程办公？
 
