@@ -1,61 +1,35 @@
-查看我们的招聘职位：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro) | [拉勾](https://www.lagou.com/gongsi/216808.html)
+欢迎您来到 [网久软件(Websoft9)](https://www.websoft9.com) 的招聘专项。  
 
-![](https://res.infoq.com/articles/continuous-testing-best-practices/en/headerimage/unlocking-continuous-testing-logo-big-1564402385131.jpg)
+我们是一个知识型组织，我们致力于为全球客户提供最佳的软件生产力工具。在这个愿景驱动下，我们需要产品、开发、电商、法务、客服、设计等各方面的优秀人才，非常期待您的加入
 
-感谢您参与 [Websoft9](https://www.websoft9.com) 的招聘测试，我司专注于在云计算平台上提供自动化部署解决方案。我们非常看重求职者如下的能力：
+## 全职岗位
 
-* 熟练的Linux命令操作以及Shell编程能力
-* 快速阅读并理解开源软件官方文档的能力
-* 解构软件安装过程的能力
-* 文档写作能力
+* [运维开发工程师](/jd/运维开发工程师.md)
+* [运维开发经理](/jd/运维开发经理.md)
+* [产品经理](/jd/产品经理.md)
+* [电商运营](/jd/电商运营.md)
+* [法务专员](/jd/法务专员.md)
+* [销售](/jd/销售.md)
+* [销售总监](/jd/销售总监.md)
 
----
-#### 1. 准备工作
+## 实习生
 
-您可能需要的准备工作如下：
+* [运维实习生](/jd/实习生-运维.md)
+* [运维开发实习生](/jd/实习生-运维开发.md)
+* [数字营销实习生](/jd/实习生-数字营销.md)
+* [法务实习生](/jd/实习生-法务.md)
+* [前端开发实习生](/jd/实习生-前端开发.md)
 
-1. 使用自己安装的虚拟机(建议CentOS或Ubuntu)
-2. 拥有自己的 Github 账号，学会Fork项目，提交分支
-3. 会用Markdown格式写文档（10分钟学会）
+## 常见问题
 
-#### 2. 领取任务
+#### 如何投递简历？
 
-您需要做的任务是：
+我们支持多种投递简历的方式：
 
-1. 在云服务器上成功安装一款指定的开源软件（点击[【任务清单】](/tasks.md)选任务）
-2. 编写可以体现安装过程的安装文档（参考：[模板](/RabbitMQ-cxx.md)）
-3. 将所有安装过程聚集到一个自动化安装脚本(xxx_auto_install.sh) 运行脚本不做任何交互能自动完成安装
+* 直接发送简历至人事邮箱：hr@websoft9.com
+* 查看我们的招聘职位并投递简历：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro) | [拉勾](https://www.lagou.com/gongsi/216808.html)
+* 通过微信发送简历
 
-文档编写是考察您的能力的唯一依据，此处再详细说明一下：  
+#### 是否可以远程办公？
 
-选定任务后，以[模板](/RabbitMQ-cxx.md)为格式，创建你的项目安装文档，并将精准的安装过程信息记录到文档中：
-
-* 采用 **软件名称-您的姓名拼音简写.md**的方式命名，例如：Graylog-cm.md
-* 请保持模板中的格式
-* 可以在模板的基础上增加更多您认为需要说明的内容（多多益善）
-
-#### 3. 提交文档
-
-为了考察您的Github（git）运用能力，请采用如下的方式提交您的文档：
-
-1. Fork [本项目](https://github.com/Websoft9test/recruitment)作为您的账户下的一个分支项目
-2. 在分支中增加交付文档（例如：xxx-xxx.md，auto_install.sh）文件。
-3. 提交分支
-
-> 如果不清楚 Fork 和 Commit，请参考[此处](https://help.github.com/cn/github/getting-started-with-github/fork-a-repo)。如果不便通过Github提交，可以直接发送邮件
-
-#### 4. 后续
-
-一旦您提交了安装文档，我们会2天内对您的文档进行评估，一旦通过我们初步审核，接下来您可以获得：
-
-* 面试机会
-* 网久开源项目贡献者机会
-
----
-
-**联系方式**
-
-有任何问题请与我们联系，我们一定会尽量做到实时回复，如果是休息日，我们努力做到12小时内回复。
-
-* 邮箱 :email: hr@websoft9.com
-* QQ：3446904627（小智）
+针对部分岗位，我们提供了**远程+现场办公**相结合的工作方式
