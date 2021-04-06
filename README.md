@@ -22,6 +22,8 @@
 * [法务实习生](/jd/实习生-法务.md)
 * [前端开发实习生](/jd/实习生-前端开发.md)
 
+欢迎加入岳麓山大科城云计算训练营实习生交流群：709979471
+
 ## 常见问题
 
 #### 如何投递简历？
@@ -30,7 +32,8 @@
 
 * 直接发送简历至人事邮箱：hr@websoft9.com
 * 查看我们的招聘职位并投递简历：[BOSS直聘](https://www.zhipin.com/gongsi/fdd3169b691c05291XB_3tS_Fg~~.html?ka=company-intro) | [拉勾](https://www.lagou.com/gongsi/216808.html)
-* 通过微信发送简历
+* 加 QQ 发送简历（3273485189）
+* 加微信发送简历（扫一扫下面的二维码）
 
 ![image](https://user-images.githubusercontent.com/16741975/110878016-652e0a00-8315-11eb-9922-9a4c3cefab52.png)
 
