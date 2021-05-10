@@ -1,3 +1,6 @@
+
+![logo-cn](https://user-images.githubusercontent.com/16741975/117620996-ad499b80-b1a3-11eb-865f-a633e4b7c725.png)
+
 欢迎您来到 [网久软件(Websoft9)](https://www.websoft9.com) 的招聘专项。  
 
 我们是一家以云计算和开源为基石的软件供应链运营服务商，是云平台、软件供应商、经销商与用户之间的互通桥梁。  
