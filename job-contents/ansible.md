@@ -121,7 +121,7 @@ Nosql数据库
 ### Ansible编码规范
 
 Ansible编码规范会随着产品的增多和底层理解的加深不断丰富。
- > 详细请参照[Ansible导图](https://websoft9.yuque.com/docs/share/37450a02-2317-4af3-8947-e7280e3aca9d?# 《Ansible开发规范（导图）》)
- > [Ansible规范说明](https://websoft9.yuque.com/docs/share/23916957-6088-4c66-b424-6292ca353355?# 《Ansible开发规范说明》)
+ > 详细请参照[Ansible导图](https://websoft9.yuque.com/docs/share/37450a02-2317-4af3-8947-e7280e3aca9d?#《Ansible开发规范（导图）》)
+ > [Ansible规范说明](https://websoft9.yuque.com/docs/share/23916957-6088-4c66-b424-6292ca353355?#《Ansible开发规范说明》)
 
 
