@@ -6,7 +6,7 @@
 
 ---
 
-## 规范
+## 内容和规范
 
 ### 架构要求
 
@@ -121,8 +121,10 @@ Nosql数据库
 ### Ansible编码规范
 
 Ansible编码规范会随着产品的增多和底层理解的加深不断丰富。
- > 详细请参照[Ansible导图](https://websoft9.yuque.com/docs/share/37450a02-2317-4af3-8947-e7280e3aca9d?#《Ansible开发规范（导图）》)、[Ansible规范说明](https://websoft9.yuque.com/docs/share/23916957-6088-4c66-b424-6292ca353355?#《Ansible开发规范说明》) 、[Ansible使用示例](https://support.websoft9.com/docs/ansible/zh/solution-sample.html）
+ > 详细请参照[Ansible导图](https://websoft9.yuque.com/docs/share/37450a02-2317-4af3-8947-e7280e3aca9d?#《Ansible开发规范（导图）》)、[Ansible规范说明](https://websoft9.yuque.com/docs/share/23916957-6088-4c66-b424-6292ca353355?#《Ansible开发规范说明》) 、[Ansible使用示例](https://support.websoft9.com/docs/ansible/zh/solution-sample.html)
 
-### 如何快速开始一个符合开发规范的项目？
+## 如何快速开始一个符合开发规范的项目？
 
+新开发项目时，首先从根据[模板](https://github.com/Websoft9/ansible-template.git)创建一个新的项目，然后根据Ansible开发规范修改后开发。
 
+ > 详细请参照[Ansible化手册](https://websoft9.yuque.com/myproduct/lr2otn/717901)
