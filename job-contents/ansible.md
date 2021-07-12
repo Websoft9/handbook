@@ -1,4 +1,4 @@
-如果您对自动化运维很感兴趣、进行了系统化学习，并具备以下的能力，可以加入websoft9自动化团队，一起推动websoft9开源社区的进步与活跃。  
+如果您对自动化运维很感兴趣、进行了系统化学习，并具备以下几种能力，欢迎加入websoft9自动化团队，一起推动websoft9开源社区的进步发展与活跃。  
 
 * 熟练的Linux命令操作以及Shell编程能力
 * 基于调研文档结果，快速实现安装配置的能力
@@ -8,10 +8,10 @@
 
 ## 规范
 
-### 架构
+### 架构要求
 
-为了保持层次结构的清晰、并增加可重用性，通过roles引用来组织playbook。
-template.yml剧本引入举例：
+为了保持层次结构的清晰、并增加可重用性，通过roles引用来组织playbook，template.yml剧本引入例：
+ > 详细请参照[Ansible模板](https://github.com/Websoft9/ansible-template.git)
 
 ```
   roles:
@@ -109,8 +109,19 @@ Nosql数据库
 
 #### 应用roles
 
+应用roles位于ansible项目的roles下，一般含有如下目录：
 
+  - defaults
+  - files
+  - handles
+  - meta
+  - tasks
+  - template
 
+### Ansible编码规范
+
+Ansible编码规范会随着产品的增多和底层理解的加深不断丰富。
+ > 详细请参照[Ansible导图](https://websoft9.yuque.com/docs/share/37450a02-2317-4af3-8947-e7280e3aca9d?# 《Ansible开发规范（导图）》)和[Ansible规范说明](https://websoft9.yuque.com/docs/share/23916957-6088-4c66-b424-6292ca353355?# 《Ansible开发规范说明》)
 
 ## 准备
 
