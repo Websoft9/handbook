@@ -1,0 +1,147 @@
+如果您对自动化运维很感兴趣、进行了系统化学习，并具备以下的能力，可以加入websoft9自动化团队，一起推动websoft9开源社区的进步与活跃。  
+
+* 熟练的Linux命令操作以及Shell编程能力
+* 基于调研文档结果，快速实现安装配置的能力
+* 团队协作能力
+
+---
+
+## 规范
+
+### 架构
+
+为了保持层次结构的清晰、并增加可重用性，通过roles引用来组织playbook。
+template.yml剧本引入举例：
+
+```
+  roles:
+    - {role: role_common, tags: "role_common"}  
+    - {role: role_cloud, tags: "role_cloud"}  
+    - {role: role_jdk, tags: "role_jdk"}  
+    - {role: rabbitmq, tags: "rabbitmq"}
+    - {role: role_preend, tags: "preend"}
+    - {role: role_end, tags: "role_end"}
+```
+
+#### 共通组件roles
+
+共通组件引入时，都用role_作为前缀，在requirements.yml进行定义，通过Ansible Galaxy进行安装。
+
+```
+- src: http://github.com/websoft9/role_common
+- src: http://github.com/websoft9/role_cloud
+- src: http://github.com/websoft9/role_docker
+- src: http://github.com/websoft9/role_mysql
+- src: http://github.com/websoft9/role_mongodb
+- src: http://github.com/websoft9/role_nginx  
+- src: http://github.com/websoft9/role_init
+- src: http://github.com/websoft9/role_preend
+- src: http://github.com/websoft9/role_end
+```
+
+使用共通组件可极大的增加代码重用率，减少代码错误，增加产品规范性。所以在开发一款新的产品时，必须先寻找共通组件是否存在，避免重复开发。
+到目前为止，共通组件一共有42个，我们把它分成以下几类方便开发者使用：
+
+通用类（所有项目都必须引用）
+  - role_end
+  - role_cloud
+  - role_common
+  - role_preend
+
+密码随机化
+  - role_init
+
+web服务器以及辅助工具
+  - role_apache
+  - role_caddy
+  - role_nginx
+  - role_jetty
+  - role_tomcat
+  - role_uwsgi
+  - role_haproxy
+  - role_varnish
+
+websoft9向导（一般开发环境类项目需要引用）
+  - role_9panel
+
+开发语言以及环境类
+  - role_jdk
+  - role_lamp
+  - role_lnmp
+  - role_php
+  - role_nodejs
+  - role_python
+  - role_ruby
+
+docker工具
+  - role_docker
+
+消息中间件
+  - role_kafka
+  - role_rabbitmq
+
+关系型数据库
+  - role_mysql
+  - role_mariadb
+  - role_postgresql
+  - role_sqlite
+  - role_oracledb
+
+Nosql数据库
+  - role_elasticsearch
+  - role_mongodb
+  - role_rethinkdb
+  - role_neo4j
+
+缓存数据库
+  - role_redis
+  - role_memcached
+
+其他
+  - role_inotify_watch
+  - role_os
+  - role_passenger
+  - role_runtime
+  - role_template
+  - role_tomcat-nginx
+  - role_tools
+  - role_wkhtmltopdf
+
+#### 应用roles
+
+
+
+
+## 准备
+
+您可能需要的准备工作如下：
+
+1. 一台 Linux 虚拟机
+2. 会用 Markdown 格式写文档（10分钟学会）
+
+## 领任务
+
+您需要做的任务是：
+
+1. 在云服务器上成功安装一款指定的开源软件（点击[【任务清单】](tech-test/tasks.md)选任务）
+2. 编写可以体现安装过程的安装文档（参考：[模板](RabbitMQ-cxx.md)），增加更多您认为需要说明的内容（多多益善）
+3. 将所有安装过程编写成自动化安装脚本(xxx_auto_install.sh) 
+
+## 提交物
+
+完成任务后，请向我们提交：
+
+1. 安装文档、自动化安装脚本
+2. 安装结果的演示地址或演示结果截图
+
+> 邮箱：wei.xu@websoft9.com, QQ：3446904627
+
+## 后续
+
+一旦您提交了安装文档，我们会2天内对您的文档进行评估，一旦通过我们初步审核，我们会邀请您：
+
+* 现场面试机会
+* 网久开源项目贡献者机会
+
+
+有任何问题请与我们联系，我们一定会尽量做到实时回复，如果是休息日，我们努力做到12小时内回复。
