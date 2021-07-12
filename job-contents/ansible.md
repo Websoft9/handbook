@@ -127,4 +127,4 @@ Ansible编码规范会随着产品的增多和底层理解的加深不断丰富�
 
 新开发项目时，首先从根据[模板](https://github.com/Websoft9/ansible-template.git)创建一个新的项目，然后根据Ansible开发规范修改后开发。
 
- > 详细请参照[Ansible化手册](https://websoft9.yuque.com/myproduct/lr2otn/717901)
+ > 详细请参照[Ansible化手册](https://websoft9.yuque.com/docs/share/a1638f0d-0d19-4fd2-94dd-2add837e5194?#《网久项目ansible化手册》)
