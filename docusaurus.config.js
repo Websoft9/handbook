@@ -33,12 +33,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Websoft9/handbook/tree/main/',
         },
+        blog: false,   
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -62,7 +64,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: 'https://support.websoft9.com', label: '文档与支持', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
