@@ -3,46 +3,58 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# 关于
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Websoft9 Handbook 是我们运营公司的指导手册。 作为我们开源价值观的一部分，该手册向世界开放，我们欢迎您通过 Issue 反馈。  
 
-## Getting Started
+与 Handbook 配套的还有**内部知识库**，它存储在企业微信的**微盘**中。 
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+本文档是网久软件公司组织和人事的纲领性文件，是工作实践中的组织建设的经验总结。
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+新员工通过阅读此文档，可以快速的了解公司的全貌、历史、组织架构和规则制度，以便更好的融入到团队中来。
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+阅读此文档的同学们，每个人都有义务不断对文档提出具体修改意见。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+本文档不是来源于某个管理者的想象，也不是对知名公司的制度的拷贝，更加不是学院派的纸上谈兵。它是集体智慧在实践上的结晶，是长期努力工作不断总结的结果。
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+本文档的表现形态主要有四种类型：
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+- 最佳实践总结
+- 场景化的工作标准指南
+- 制度与文书索引
+- 工具索引
+
+
+
+显然，此文档需要与时俱进，不可以成为僵硬的教条。
+
+
+
+感谢所有为此文档贡献实践智慧的同学们！
+
+
+
+**FAQ**
+
+
+
+**此文档可以对外分享吗？**
+
+不可以
+
+
+ 
+**我可以删除某个章节吗？**
+
+除了管理员之外，未经授权任何人不得删除本文档的任何章节
