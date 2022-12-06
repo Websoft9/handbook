@@ -98,7 +98,7 @@ const config = {
                 href: 'https://www.websoft9.com/resources',
               },
 
-            ],
+            ], 
           },
           {
             title: '效率工具',
@@ -136,8 +136,13 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      }, 
+ 
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4
       },
-    }),
+    }), 
 };
 
 module.exports = config;
