@@ -1,0 +1,5 @@
+position: 3
+label: "平台维护"
+collapsible: true
+collapsed: true
+className: "red"
