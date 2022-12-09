@@ -157,15 +157,19 @@ Digital Experience Platform for CMS  CMS 不是产品商标，没有意义
 > stack,deployment 等词汇更像是我们提供的技术副产品，platform, system 看起来更像商品原生性
 
 
-### 一句话
+### 极简描述
+
+极简概述通常是不超过 10 个字（单词）的介绍。在 Azure 平台被称之为 **Search results summary**，在 AWS 
 
 ```
 Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
 ```
 
-### 短描述
+### 描述
 
-一句话 + 应用短描述。应用短描述来自官方首页（从首屏区、底部、SEO Description 等获取）
+Azure 被称之为：Long summary。Azure 被称之为：。
+
+一句话 + 应用介绍。应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
 
 ```
 Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure. ERPNext is... 
@@ -254,6 +258,14 @@ SEO 分为关键词和描述两部分内容。目前每个应用都在主数据�
 尽量使用云平台提供的 EULA，目前我们已经使用 Azure, AWS 官方均提供了标准的 EULA。  
 
 平台为提供 EULA 的，使用我们[自己维护的协议](https://drive.weixin.qq.com/s?k=AEYAzAcRAA4tVvlzvP)
+
+### 订阅ID
+
+Azure 独有的指标。用于上架前自测，所以一般填写自身可使用的云资源订阅 ID，它通过【成本管理+计费】中获取
+
+### 隐私条款
+
+直接引用链接：https://support.websoft9.com/docs/legal/privacy.html
 
 ### 文档
 

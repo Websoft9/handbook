@@ -1,0 +1,5 @@
+position: 5
+label: "设计"
+collapsible: true
+collapsed: true
+className: "red"
