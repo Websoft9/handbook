@@ -45,8 +45,6 @@ sidebar_position: 1
 
 ## 多商品多规格
 
-### 如何产生？
-
 一个产品可能由于下面几种情况会产生多商品或多规格：  
 
 * 多发行版（例如：MySQL 社区版 5.7, MySQL 企业版 8.0） 
@@ -59,46 +57,11 @@ sidebar_position: 1
 * 差异较大的场景必须以多商品出现，并采用不同的商品名
 * 在规格支持比较友好的平台上可以多上不同的操作系统
 
-### 规格描述
-
-规格介绍中重点聚焦于组件信息：
-
-**标题**
-```
-WordPress 5.9 (LEMP) on CentOS 7.9
-```
-
-**描述**
-
-```
-WordPress 5.9, Nginx 1.20, PHP 7.4, MySQL 5.7, phpMyAdmin 5.1, Redis 5.0, Docker on CentOS 7.9
-```
-
-## 试用
-
-尽可能给产品提供免费试用的机会，以符合云平台的流量倾向政策。  
-
-* 阿里云：首月 0 元
-* AWS：接受官方的试用策略
-
-## 推荐配置
-
-以最低配置作为首选推荐，然后以此为基础，增加 2-3 款更高配置。
-
-## 发布区域
-
-选择所有机房的地域，确保不放过一个销售机会
-
-## 评价
-
-客户成功团队可以主动邀请客户给与我们好评。
-
-好评的内容可以从模板文件中提取（企业网盘 > 市场与销售 > 工具包），便于客户直接使用。  
-
 
 ## 商品信息范式
 
 下面是商品信息的范式，但商品信息维护在 Contentful 中。
+
 
 ### 标题
 
@@ -157,9 +120,12 @@ Digital Experience Platform for CMS  CMS 不是产品商标，没有意义
 > stack,deployment 等词汇更像是我们提供的技术副产品，platform, system 看起来更像商品原生性
 
 
-### 极简描述
+### 子标题
 
-极简概述通常是不超过 10 个字（单词）的介绍。在 Azure 平台被称之为 **Search results summary**，在 AWS 
+子标题通常是不超过 10 个字（单词）的介绍。
+
+* 在 Azure 平台被称之为 **Search results summary**
+* 在 AWS 被称之为 **Short summary **
 
 ```
 Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
@@ -167,7 +133,7 @@ Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
 
 ### 描述
 
-Azure 被称之为：Long summary。Azure 被称之为：。
+Azure 被称之为：Long summary。
 
 一句话 + 应用介绍。应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
 
@@ -212,7 +178,7 @@ The stack of this offer includes a wide range copies of open source and free sof
 If you are aware of a breach of the any IP in this offer, please don't hesitate to contact us: legal@websoft9.com, we will correct it ASAP.
 ```
 
-### 特征 {#highlights}
+### 特征亮点 {#highlights}
 
 特征在某些平台又被成为产品两点，英文表达为 Highlights。
 
@@ -249,10 +215,6 @@ SEO 分为关键词和描述两部分内容。目前每个应用都在主数据�
 
 提供客户 Logo  墙
 
-### 版本号
-
-以主应用的完整版本号作为商品或SKU的版本号。例如：WordPress 5.2.9
-
 ### EULA
 
 尽量使用云平台提供的 EULA，目前我们已经使用 Azure, AWS 官方均提供了标准的 EULA。  
@@ -270,4 +232,97 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 ### 文档
 
 首先应用文档 URL 作为商品的文档。如果云平台不支持链接，请使用[单页文档链接指引](https://drive.weixin.qq.com/s?k=AEYAzAcRAA4bVAxHKY)
+
+* 文档名称-中文：GitLab 在线文档
+ * 文档名称-英文：Gitlab Administrator Guide
+* 文档链接-中文：https:// support.websoft9.com/docs/gitlab
+* 文档链接-英文：https://support.websoft9.com/en/docs/gitlab
+
+### 商品 ID
+
+直接使用应用的 ID，例如：gitlab。如果应用 ID 被占用，可以使用 w9gitlab 这种格式。
+
+### 商品版本号
+
+以主应用的完整版本号作为商品版本号。例如：WordPress 商品的版本号为 V5.2.9
+
+## SKU 信息范式
+
+### SKU ID
+
+有的云被成为 版本 ID 或 版本号，它一般是不可修改项。
+
+### SKU 标题
+
+突出主应用版本和操作系统版本
+
+```
+HAProxy Community 1.7 on Ubuntu 22.04
+```
+
+### SKU 摘要
+
+突出 SKU 组件的描述。
+
+```
+WordPress 5.9, Nginx 1.20, PHP 7.4, MySQL 5.7, phpMyAdmin 5.1, Redis 5.0, Docker on CentOS 7.9
+```
+
+### SKU 说明
+
+突出 SKU 的价值
+
+```
+This plan integrates HAProxy Community 1.7, and has charges associated with it for VMLab support.
+```
+
+## 技术规格范式
+
+### 操作系统
+
+一般为 Linux 或 Windows
+
+### 操作系统供应商
+
+Ubuntu
+
+### 操作系统名称
+
+Ubuntu Server 22.04 LTS
+
+### 服务器推荐配置
+
+以最低配置作为首选推荐，然后以此为基础，增加 2-3 款更高配置。
+
+### 发布区域
+
+选择所有机房的地域，确保不放过一个销售机会
+
+### 试用
+
+尽可能给产品提供免费试用的机会，以符合云平台的流量倾向政策。  
+
+* 阿里云：首月 0 元
+* AWS：接受官方的试用策略
+
+### 开放端口
+
+80 和 443 是必选项，其他端口参考应用文档
+
+### 磁盘
+
+默认不需要增加数据盘
+
+### 镜像版本号
+
+主应用的真实版本号，例如：3.7.10
+
+### 镜像地址
+
+Azure: SAS URL
+其他云：直接关联镜像 ID
+
+
+
+
 
