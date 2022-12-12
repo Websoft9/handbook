@@ -67,12 +67,12 @@ sidebar_position: 1
 
 商品标题需要考量的因素包括：简洁、重点突出、便于用户检索、易维护、定位客户心智、合规 
 
-中文的标题在合规性上，更为宽松一些。一般采用【产品一句话介绍 + 商标】的模式：
+中文的标题在合规性上，更为宽松一些。一般采用【产品一句话介绍 + 商标 + 发行版】的模式：
 
 ```
 企业级电商系统 Mangeto
 图引擎数据库 Neo4j
-云原生关系型数据库 MySQL
+云原生关系型数据库 MySQL5.6
 ```
 
 英文标题相对于中文需要更为慎重，原因是：
@@ -117,7 +117,7 @@ Digital Experience Platform for CMS  CMS 不是产品商标，没有意义
 * cloud-native
 * box
 
-> stack,deployment 等词汇更像是我们提供的技术副产品，platform, system 看起来更像商品原生性
+> stack,deployment 等词汇更像是我们提供的技术副产品，platform, system 看起来更像商品原生性。
 
 
 ### 子标题
@@ -133,42 +133,133 @@ Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
 
 ### 描述
 
-Azure 被称之为：Long summary。
+此项在不同的云平台的项目名分别为：
 
-一句话 + 应用介绍。应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
+* Azure 被称之为：Long summary
+* 阿里云 被称之为：产品简介
 
-```
-Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure. ERPNext is... 
-```
+中文与 English 的模式化略有差异：
+
+- 中文 = 模式化开头 + 应用介绍 +模式化结尾
+
+   ```
+   本产品是由 Websoft9 出品的 Akeneo 云原生应用，即买即用。Akeneo 是开源的 PIM 系统，可帮助商家和品牌提高产品数据质量并简化产品目录管理。订阅此产品，您可以获得升级、变更、维护、救援等免费的技术支持服务。
+   ```
+
+- English = 模式化子标题 + 应用介绍
+
+   ```
+   Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure. ERPNext is... 
+   ```
+
+> 应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
 
 ### 详情
 
-* AWS 平台中不需要 **Why use Websoft9 Image?** 因为它需 [Highlights](#highlights)
+#### 中文
+
+注意事项：
+
+* 模式化中的 [] 项表示包含链接
+* 链接处理：【立即购买】链接到页内锚点；【在线文档】选择在新窗口中打开；【××云安全组设置】链接到官方文档
+* 嵌入图片：垂直间距10，左对齐
+* 禁止插入联系电话、微信、文档之外的外链；
+* 无授权，不得显示第三方 Logo
+* 定价指南仅免费商品需要
+
+模式化范例：
+
+```
+本产品是由 Websoft9 出品的 Akeneo 云原生应用，即买即用 + 产品官方介绍
+
+# 组件：
+
+Redmine 4.2.8, MySQL 5.7, Nginx 1.22, phpMyAdmin 5.2, Docker 20.10 on Ubuntu 22.04
+
+版权申明
+
+Elastic Stack 中的各个组件遵循 ELv2 协议，此协议允许最终用户免费使用，但不允许云分发。故本镜像仅包含 Elastic Stack 所需的运行环境以及自动化安装脚本以满足合规性，用户可根据文档自行下载后安装使用。
+
+版本约束
+
+Oracle Database XE 对安装主机的规模和 CPU 数量不作限制（每台计算机一个数据库），但 XE 将最多存储 11GB 的用户数据，最多使用 1GB 内存，使用主机上的一个 CPU。
+
+# 最低配置：
+
+1核2G
+
+# 嵌入 1-3 张图片
+
+# 面向对象：
+
+站长，设计，开发者，运维，产品经理，企业...
+
+# 应用场景：
+
+数据分析，自动化，企业内容营销...
+
+# 试用：
+
+要充分试用，请点击[立即购买]（其中云服务器的付费方式选择“按量”），试用完成后释放服务器即停止计费
+
+# 定价指南：
+
+本镜像当前免费，若启用收费我们会提前进行通知，详情参见本商品《云市场商品服务协议》
+
+# 快速指南：
+
+应用安装到云服务器后，本地浏览器访问页面：http://ECS公网IP。
+若无法访问，请检查安全组端口80与9090是否打开，参考：[阿里云安全组设置]
+
+# 在线文档：
+
+[WordPress 云原生在线文档]
+ 
+# 常见问题
+
+1. 已有服务器，怎么使用ERPNext镜像？
+登录云控制台，对服务器进行【切换操作系统】操作，切换过程中在【市场镜像】搜索 erpnext
+2. 服务器购买方式是使用【推荐配置】还是【自定义云主机】？
+推荐配置仅供参考，建议通过【自定义云主机】购买服务器
+```
+
+#### English
+
+注意事项：
+
+* AWS 平台中不需要 **Why use Websoft9 Image?** 因为它有 [Highlights](#highlights)
+* 代理商发布的镜像（例如：VMLAB）时，Why... 描述中需要澄清与 Websoft9 的关系
 
 ```
 This is a Cloud Native deployment solution for ERPNext powered by Websoft9. It always up-to-date, secure, and built to work right out of the box.  
 
 ERPNext is the world's top 100% open source ERP which supports manufacturing, distribution, retail, trading, services, education, non profits and healthcare
 
-Image Components: 
+# Image Components: 
 
 ERPNext 14/13/12, Nginx 1.22, MariaDB 10.6, phpMyAdmin, Docker 20.10
 
-EC2 requirements: 
+# EC2 requirements: 
 
 CPU no less than 2 core, Memory no less than 8G, Disk space no less than 60G 
 
-Applicable Scene: 
+# Applicable Scene: 
 
 CRM/HR/ERP for manufacturing, distribution, retail, trading, services, education, non profits and healthcare
 
-Why use Websoft9 Image?
+# Why use Websoft9 Image?
 
 Websoft9 has a wide range of open source integrated solutions, from infrastructure, Containers, Databases, DevOps, to AI, Website application, and the IoT. 
 
 These images are packaged by Websoft9 using industry best practices .They are opensoure,stable,reliable,easy to use,secure,continually updated. The images are not free, we think you need a partner who can provide a good product and timely support for your business. We can provide both of them for you.
 
-Intellectual Property Statement: 
+# Why use VMLab Image?
+
+VMLab is an authorized reseller of Websoft9 , which has a wide range of open source integrated solutions, from infrastructure, Containers, Databases, DevOps, to AI, Website application, and the IoT.  
+
+These images are packaged by Websoft9 using industry best practices .They are opensoure,stable,reliable,easy to use,secure,continually updated. The images are not free, we think you need a partner who can provide a good product and timely support for your business. We can provide both of them for you.
+
+# Intellectual Property Statement: 
 
 The stack of this offer includes a wide range copies of open source and free software, but the Copyrights, Patents and Trademarks are legal protections for original owner. 
 
@@ -182,11 +273,31 @@ If you are aware of a breach of the any IP in this offer, please don't hesitate 
 
 特征在某些平台又被成为产品两点，英文表达为 Highlights。
 
+模式化的亮点包括：
+
 ``` 
+# 中文
+● 已完成预配置、密码初始化，购买后即可自主使用
+● 基于 Docker 的云原生架构，便于产品升级、版本变更、卸载以及安装更多应用
+● 提供免费的技术支持 
+
+# English
 * Pre-configured, one-click to deploy on AWS EC2
 * Application running on Docker, upgade so easy
 * Paid image, free professional support for your business
 ```
+
+非模式的亮点需增加到模式化亮点的之前：
+```
+● 绿色开源，无任何商用限制
+● Redmine可以方便地在线安装多个插件，比如：图形报表、导出xls、统计分析等
+● 可以灵活的自定义多个信息，包括：自定义字段、邮件通知、Bug管理流程、查询字段、报表字段等
+```
+
+如果平台可以嵌入 HTML 元素，可以适当排版或插入下面的图片
+![](https://libs.websoft9.com/Websoft9/ui/design/service_w800.jpg)
+
+
 
 ### SEO
 
@@ -207,7 +318,7 @@ SEO 分为关键词和描述两部分内容。目前每个应用都在主数据�
 
 自创的视频只需在模板中添加 5-8 个产品截图，不要做其他工作，降低维护难度。  
 
-### 证书
+### 资质证书
 
 对于非开源软件，尽可能附上 **代理证书** 或 **其他知识产权申明文件**
 
@@ -229,28 +340,39 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 
 直接引用链接：https://support.websoft9.com/docs/legal/privacy.html
 
-### 文档
-
-首先应用文档 URL 作为商品的文档。如果云平台不支持链接，请使用[单页文档链接指引](https://drive.weixin.qq.com/s?k=AEYAzAcRAA4bVAxHKY)
-
-* 文档名称-中文：GitLab 在线文档
- * 文档名称-英文：Gitlab Administrator Guide
-* 文档链接-中文：https:// support.websoft9.com/docs/gitlab
-* 文档链接-英文：https://support.websoft9.com/en/docs/gitlab
-
 ### 商品 ID
 
 直接使用应用的 ID，例如：gitlab。如果应用 ID 被占用，可以使用 w9gitlab 这种格式。
 
 ### 商品版本号
 
-以主应用的完整版本号作为商品版本号。例如：WordPress 商品的版本号为 V5.2.9
+仅华为云有此选项。它的值=主应用版本号，例如 MySQL 商品的版本号：5.7.19
+
+### 可视化地址
+
+可视化管理地址的 **URL:Port/page.html**
+
+### 标签
+
+参考 Contentful 并结合平台实际
+
+### 类目
+
+参考 Contentful 并结合平台实际
 
 ## SKU 信息范式
 
-### SKU ID
+### SKU ID （版本号）
 
-有的云被成为 版本 ID 或 版本号，它一般是不可修改项。
+有的云被成为 版本 ID 或 版本号，有的可以修改，有的不可以修改。
+
+以主应用的完整版本号作为商品版本号的起始，以操作系统作为结尾。具体信息亮的多少需要根据云平台可承载而定：
+
+* AWS：Kafka 2.8.1 - Ubuntu 22.04 或 GitLab 8.0 - Jenkins6.0 -Ubuntu22.04
+* Azure：仅供程序使用，一旦设定便不可更改
+* 阿里云：V5.2.9-Ubuntu22.04 （控制台搜索可以显示完整，云市场商品详情页面只显示9个字符）
+* 华为云：
+
 
 ### SKU 标题
 
@@ -260,13 +382,16 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 HAProxy Community 1.7 on Ubuntu 22.04
 ```
 
-### SKU 摘要
+### SKU 摘要（版本简介）
 
 突出 SKU 组件的描述。
 
 ```
 WordPress 5.9, Nginx 1.20, PHP 7.4, MySQL 5.7, phpMyAdmin 5.1, Redis 5.0, Docker on CentOS 7.9
 ```
+
+此项在阿里云中仅内部查看，用户看不到。 
+
 
 ### SKU 说明
 
@@ -321,6 +446,45 @@ Ubuntu Server 22.04 LTS
 
 Azure: SAS URL
 其他云：直接关联镜像 ID
+
+## 售后服务范式
+
+### 在线文档
+
+首先应用文档 URL 作为商品的文档。
+
+* 文档名称-中文：GitLab 在线文档
+ * 文档名称-英文：Gitlab Administrator Guide
+* 文档链接-中文：https:// support.websoft9.com/docs/gitlab
+* 文档链接-英文：https://support.websoft9.com/en/docs/gitlab
+
+### PDF 文档
+
+如果云平台不支持在线文档，请使用[在线文档指引 PDF 单页](https://drive.weixin.qq.com/s?k=AEYAzAcRAA4bVAxHKY)
+
+单页会受到审查：
+
+* 不允许在线文档之外的链接
+* 不允许二维码
+
+### 联系方式
+
+```
+服务时间：7x8小时
+服务热线：0731-89572759  
+手机（微信同号）：13786149601
+手机（微信同号）：13922410386
+服务邮箱：help@websoft9.com
+```
+
+### 售后范围
+
+```
+全方位的技术支持与专业咨询，包括：故障支持、系统异常分析、配置指导、优化建议、备份与升级指南、选型建议等
+```
+
+
+
 
 
 
