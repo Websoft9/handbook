@@ -360,6 +360,13 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 
 参考 Contentful 并结合平台实际
 
+### 开源申明
+
+上传一个 **商品名称-license.doc** 的附件，其中的内容为主要组件的开源 License 链接地址。
+
+> 建议优化成附上 Websoft9 文档中的 Licenses 页面 
+
+
 ## SKU 信息范式
 
 ### SKU ID （版本号）
@@ -376,7 +383,9 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 
 ### SKU 标题
 
-突出主应用版本和操作系统版本
+突出主应用版本和操作系统版本。
+
+* AWS 此项名为 Version Title
 
 ```
 HAProxy Community 1.7 on Ubuntu 22.04
@@ -397,9 +406,37 @@ WordPress 5.9, Nginx 1.20, PHP 7.4, MySQL 5.7, phpMyAdmin 5.1, Redis 5.0, Docker
 
 突出 SKU 的价值
 
+* AWS 此项名为 Release Notes
+
 ```
 This plan integrates HAProxy Community 1.7, and has charges associated with it for VMLab support.
 ```
+
+### SKU 使用指南
+
+AWS 中被称之为 Usage Instructions，它怎么写？
+
+```
+Usage instructions should take a customer from the 1-click launch, all the way through using the product. This includes any configuration or special steps needed to get the application running. For example:
+
+1. Launch the product via 1-click.
+2. Access the application via web browser at https:/Public_DNS/index.html.
+3. Login using the username admin and the EC2 instance ID as the password.
+```
+
+基于上面的模板，我们提供了三种可能的写法：  
+
+```
+无Web界面：
+Launch the product via 1-click, connect EC2 using the username  'ubuntu'. product configuration and administrator refer to: https://support.websoft9.com/docs/kafka
+
+有Web界面：
+Launch the product via 1-click, access the application via  web browser at http://Public_DNS/ and set the administrator password by youself, then login GitLab using the username root and password you set. Product configuration and administrator refer to: https://support.websoft9.com/docs/gitlab
+
+有Web界面+获取密码：
+Launch the product via 1-click, connect EC2 using the username  'ubuntu' and get MySQL's credentials by command 'sudo cat /credentials/password.txt', then access the GUI tool phpMyAdmin via web browser at  http://Public_DNS:9090. Product configuration and administrator refer to: https://support.websoft9.com/docs/mysql
+```
+
 
 ## 技术规格范式
 
@@ -421,7 +458,9 @@ Ubuntu Server 22.04 LTS
 
 ### 发布区域
 
-选择所有机房的地域，确保不放过一个销售机会
+选择所有机房的地域，确保不放过一个销售机会。
+
+AWS 注意：除 us-gov-east-1 GovCloud East 和 us-gov-west-1 GovCloud West 外，全部选择
 
 ### 试用
 
@@ -442,10 +481,14 @@ Ubuntu Server 22.04 LTS
 
 主应用的真实版本号，例如：3.7.10
 
-### 镜像地址
+### 镜像地址(ID)
 
-Azure: SAS URL
-其他云：直接关联镜像 ID
+* Azure: SAS URL
+* 其他云：直接关联镜像 ID
+
+### 安全检查报告
+
+目前仅腾讯云需要此项。检查报告模板已经存储在微信网盘中。 
 
 ## 售后服务范式
 
@@ -470,11 +513,16 @@ Azure: SAS URL
 ### 联系方式
 
 ```
+# 中文
 服务时间：7x8小时
 服务热线：0731-89572759  
 手机（微信同号）：13786149601
 手机（微信同号）：13922410386
 服务邮箱：help@websoft9.com
+
+# English
+Time: 7x9 hours (GMT+8:00)
+Email: help@websoft9.com
 ```
 
 ### 售后范围
@@ -483,6 +531,15 @@ Azure: SAS URL
 全方位的技术支持与专业咨询，包括：故障支持、系统异常分析、配置指导、优化建议、备份与升级指南、选型建议等
 ```
 
+### 退款说明
+
+AWS 需提供 Refund and Cancelation Policy 的文字：  
+
+```
+Annual Subscriptions: Refunds are allowed if you are canceling a subscription to purchase a new subscription from Websoft9 at the same or higher rate.   
+
+Hourly Subscriptions: We do not currently support refunds, but you can cancel at any time.
+```
 
 
 
