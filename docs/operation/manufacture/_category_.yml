@@ -1,5 +1,5 @@
-position: 3
-label: "市场"
+position: 2
+label: "生产" 
 collapsible: true
 collapsed: true
 className: "red"
