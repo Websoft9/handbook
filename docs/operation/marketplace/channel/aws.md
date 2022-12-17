@@ -88,8 +88,8 @@ AMI 不得使用默认密码访问用户界面。我们建议使用随机化处�
 
 AWS Marketplace 有[独立的分销体系](https://aws.amazon.com/marketplace/partners/channel-programs)（区别于APN），它的分销体系包括：
 
-● Consulting Partner Private Offers (CPPO)
-● Solution Provider Private Offers (SPPO)
+* Consulting Partner Private Offers (CPPO)
+* Solution Provider Private Offers (SPPO)
 
 ### 搜索优化
 
