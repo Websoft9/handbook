@@ -456,6 +456,35 @@ Ubuntu Server 22.04 LTS
 
 以最低配置作为首选推荐，然后以此为基础，增加 2-3 款更高配置。
 
+#### Azure
+
+Azure 平台选择机器型号有一定的考究，首先研究官方的文档：[型号大全](https://learn.microsoft.com/zh-cn/azure/virtual-machines/sizes)、[价格](https://azure.microsoft.com/zh-cn/pricing/details/virtual-machines/linux/)
+
+选型原则：内存优先 > 热门 >性价比，从满足运行环境的最小配置服务器起选3个
+
+| **类别** | **机型** | **CUP** | **GB**                 |
+| -------- | -------- | ------- | ---------------------- |
+|          | B1S      | 1       | 1                      |
+|          | DS1_v2   | 1       | 3.5(适用于1核2G最低配) |
+|          | B2s      | 2       | 4                      |
+|          | D2as_v4  | 2       | 8                      |
+|          | E2as_v4  | 2       | 16                     |
+|          | D4s_v3   | 4       | 16                     |
+|          | E4as_v4  | 4       | 32                     |
+|          | D8s_v3   | 8       | 32                     |
+|          | E8as_v4  | 8       | 64                     |
+
+* B1s 1c1g
+* DS1_v2 1c3.5g (适用于1核2G最低配)
+* B2s 2c4g
+* D2as_v4 2c8g
+* E2as_v4 2c16g
+* D4s_v3 4c16g
+* E4as_v4 4c32g
+* D8s_v3 8c32g
+* E8as_v4 8c64g
+
+
 ### 发布区域
 
 选择所有机房的地域，确保不放过一个销售机会。
