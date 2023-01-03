@@ -63,13 +63,12 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            href: 'https://github.com/Websoft9/handbook/issues',
+            label: '提建议',
+            position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Websoft9/handbook',
             label: 'GitHub',
             position: 'right',
           },

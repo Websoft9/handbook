@@ -6,7 +6,7 @@ sidebar_position: 2
 
 善用不同的效率工具提升业务和用户体验，是 Websoft9 成功的关键。
 
-## 数字化系统
+Websoft9 全员使用的系统和工具包括：  
 
 * [CustomerSS](https://weda.websoft9.com/adminportal/#/app/app-xm3atdwd?envType=prod/)：基于微搭的客户成功系统（CRM，在线购买，工单等）
 * [GitHub](https://github.com/websoft9)：产品研发与任务协作
@@ -17,6 +17,8 @@ sidebar_position: 2
 * 云市场控制台：[阿里云](https://msp.aliyun.com).
 * 通讯协作：钉钉虚拟呼叫中心
 * [其他]：[阿里云工单](https://easyticket.aliyun.com/)
+
+另外，还有常用的各种工具和服务，我们以下面的分类做出展示：  
 
 ## 协作
 
