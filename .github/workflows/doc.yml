@@ -1,0 +1,37 @@
+name: Docs Build and Upload to Azure
+
+on: 
+  push:
+    branches: [ main ]
+    paths: 
+      - 'docs/**'
+      - 'i18n/**'
+      - 'src/**'
+      - 'static/**'
+      - '**.js'
+      - '!docs/_list'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+        
+    - name: Docusaurus build
+      run: |
+        yarn install
+        yarn run build
+      env:
+        CI: true
+    
+    #  to azure blob
+    - name: debug
+      run: ls
+
+    - uses: bacongobbler/azure-blob-storage-upload@main
+      with:
+        source_dir: build
+        container_name: $web
+        connection_string: ${{ secrets.Azure_blob }}
+        extra_args: '--destination-path ./handbook'
+        overwrite: true
