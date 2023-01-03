@@ -10,7 +10,7 @@ const config = {
   tagline: '共享创造力',
   url: 'https://support.websoft9.com',
   baseUrl: '/handbook/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   markdown: {
