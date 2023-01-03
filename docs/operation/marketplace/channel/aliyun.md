@@ -29,7 +29,7 @@ sidebar_position: 3
 
 > 发布商品的账号与镜像提供的账号无需一致
 
-### 变更
+### 变更与维护
 
 变更的工作包括：商品或版本的隐藏、下架，下面具体列出操作流程
 
@@ -63,6 +63,9 @@ sidebar_position: 3
 
 目前支持版本下架，但版本一旦下架之后，就无法授权已订阅此版本客户的费用。  
 
+#### 导出商品
+
+阿里云 [API](https://support.websoft9.com/docs/alibabacloud/advanced#apicli) 可以很方便的导出商品
 
 ## 订单促进
 
