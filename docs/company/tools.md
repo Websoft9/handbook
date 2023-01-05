@@ -12,7 +12,7 @@ Websoft9 全员使用的系统和工具包括：
 * [GitHub](https://github.com/websoft9)：产品研发与任务协作
 * [Canva](https://www.canva.cn/)：图库与在线设计
 * [Contentful](https://contentful.com/)：市场营销主数据
-* [企业微信](https://contentful.com/)：客服聊天、网盘存储和企业邮箱
+* [企业微信](https://contentful.com/)：客服聊天、网盘存储和企业邮箱（业务邮箱和多域名）
 * [跳板系统](http://47.75.113.190:9001/#/login)：堡垒机
 * 云市场控制台：[阿里云](https://msp.aliyun.com).
 * 通讯协作：钉钉虚拟呼叫中心
@@ -20,42 +20,88 @@ Websoft9 全员使用的系统和工具包括：
 
 另外，还有常用的各种工具和服务，我们以下面的分类做出展示：  
 
-## 协作
+## 协作与效率
+
+### 沟通
 
 * 免费企业邮箱：[网易](https://ym.163.com/)、[阿里云](https://wanwang.aliyun.com/mail)、[企业微信免费邮箱](https://work.weixin.qq.com/mail/)
+* [Microsoft Team](https://www.microsoft.com/zh-cn/microsoft-teams/log-in)：微软旗下的沟通协作软件，主要以电话会议为主，可免费使用。
+* [腾讯会议](https://meeting.tencent.com/)：免费电话会议平台
+
+### 自动化
+
+* [码栈](https://codestore.taobao.com/index.htm)：阿里旗下的 RPA 工具  
+
+## 企业管理
+
+### IT 工具
+
+* [tinyproxy](https://github.com/Websoft9/docker-library/tree/main/apps/tinyproxy) 代理上网服务
+* [Wostia](https://wistia.com/)：将视频网站的下载到本地
+* [Microsoft Authenticator](https://support.microsoft.com/zh-cn/account-billing/%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85microsoft-authenticator%E5%BA%94%E7%94%A8-351498fc-850a-45da-b7b6-27e523b8702a)：验证码工具
+* DevOps：Github，VScode，DockerHub
+
+
+### 人力促进
+
+* [力扣（LeetCode）](https://leetcode.cn/) 程序员刷题
+
+### 财税政务
+
+* 财税：[诺诺电子发票](https://fp.jss.com.cn/#/)、[电子税务局](https://etax.hunan.chinatax.gov.cn/wsbs/)、电子社保局、[企业信用系统](http://gx.gsxt.gov.cn/)
+* 企业发展：[科技部火炬中心](http://www.chinatorch.gov.cn/)
+* 合规：管局备案、公安备案、星城园丁
+
+### 业务系统（参考）
+
+曾经用过的业务系统，此处仅供参考：  
+
+* CRM：Zoho、Hubspot
+* 主数据系统：Airtable、Akeneo
+
+
+## 综合 
+
+* [运营笔记](https://www.yunyingbiji.cn/)
+
+## 智库
+
+* [CNKI](http://opac.changshalib.cn/opac/reader/login) ：长沙图书馆**电子资源频道**提供的免费 CNKI 服务
+* 四大 IT 咨询公司：[埃森哲](https://www.accenture.com/cn-zh)、[IBM](https://www.ibm.com/cn-zh)、[凯捷](https://www.capgemini.com/cn-zh/)、[德勤](https://www2.deloitte.com/cn/zh.html)
+
 
 ## 设计与创作
 
 * [Captura](https://mathewsachin.github.io/Captura/) 录屏工具
 * [Canva](https://www.canva.cn/)：图库与在线设计
 * [VistaCreate](https://create.vista.com/)：图库与在线设计
-* [创客贴](https://www.chuangkit.com/)：中国版 Canva
-* [Figma](https://www.figma.com/) 原型设计工具
+* [创客贴](https://www.chuangkit.com/)：中国版 Canva + 在线印刷，图库远不及 Canva
+* [Figma](https://www.figma.com/)： 原型设计工具
+* [cloudcraft](https://www.cloudcraft.co/)：创建云计算架构图的工具
+* [Typora](https://typoraio.cn/)：Markdown 编辑器
+* [语雀](https://yuque.com)：知识库创造与协作平台。它太封闭，格式不通用，不合适作为公司级的内容平台。
 
-## 加工剪辑
+### 加工剪辑
 
 * [秀米图文](https://xiumi.us/#/) 微信公众号排版工具
 * [讯飞配音](https://peiyin.xunfei.cn/)
 * [Free Online File Converter](https://www.online-convert.com/)
 * [综合类在线处理工具](https://123apps.com/cn/)
 * [zaps.dev](https://ojoy.zaps.dev/) 图片无损放大工具
+* [腾讯文档之压缩能力](https://docs.qq.com/)：将文档上传到腾讯文档再下载，文档可以被压缩到几M
 
-## 综合 
-
-* [运营笔记](https://www.yunyingbiji.cn/)
-
-## 素材 
+### 素材 
 
 工欲善其事必先利其器，故，不同的设计场景应该采用合适的工作，这样才能事半功倍。
 
 工具集参考：[designtools](https://designtools.cc/), [Prototypr](https://prototypr.io/prototyping/)
 
-### 图片
+#### 图片
 
 - [Unsplash](https://unsplash.com/)
 - [freepik](https://www.freepik.com/)
 
-### 图标
+#### 图标
 
 云计算专业图标  
 
@@ -76,12 +122,12 @@ CSS 图标
 
 - [css.gg](https://css.gg/)
 
-### 插画
+#### 插画
 
 * [blush](https://blush.design/zh-CN/plans) 人物插画
 * [](https://iconscout.com/) 插画
 
-### 交易与外包
+#### 交易与外包
 
 * [envato](https://www.envato.com/)
 * [manypixels](https://www.manypixels.co/) 设计外包平台
