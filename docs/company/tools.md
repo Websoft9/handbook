@@ -25,21 +25,25 @@ Websoft9 全员使用的系统和工具包括：
 ### 沟通
 
 * 免费企业邮箱：[网易](https://ym.163.com/)、[阿里云](https://wanwang.aliyun.com/mail)、[企业微信免费邮箱](https://work.weixin.qq.com/mail/)
-* [Microsoft Team](https://www.microsoft.com/zh-cn/microsoft-teams/log-in)：微软旗下的沟通协作软件，主要以电话会议为主，可免费使用。
-* [腾讯会议](https://meeting.tencent.com/)：免费电话会议平台
+* 免费电话会议：[Microsoft Team](https://www.microsoft.com/zh-cn/microsoft-teams/log-in)、[腾讯会议](https://meeting.tencent.com/)
 
 ### 自动化
 
-* [码栈](https://codestore.taobao.com/index.htm)：阿里旗下的 RPA 工具  
+* RPA 工具：[阿里码栈](https://codestore.taobao.com/index.htm)   
 
 ## 企业管理
 
 ### IT 工具
 
-* [tinyproxy](https://github.com/Websoft9/docker-library/tree/main/apps/tinyproxy) 代理上网服务
+* 代理服务：[tinyproxy](https://github.com/Websoft9/docker-library/tree/main/apps/tinyproxy), [Wireguard+Tunsafe](https://github.com/Websoft9/docker-library/tree/main/apps/wireguard)
 * [Wostia](https://wistia.com/)：将视频网站的下载到本地
-* [Microsoft Authenticator](https://support.microsoft.com/zh-cn/account-billing/%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85microsoft-authenticator%E5%BA%94%E7%94%A8-351498fc-850a-45da-b7b6-27e523b8702a)：验证码工具
-* DevOps：Github，VScode，DockerHub
+* 安全：[Microsoft Authenticator](https://support.microsoft.com/zh-cn/account-billing/%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85microsoft-authenticator%E5%BA%94%E7%94%A8-351498fc-850a-45da-b7b6-27e523b8702a)，
+* DevOps：Github，VScode，DockerHub, [Buildpack](https://github.com/buildpacks)
+* SSH: Xshell, WinSCP+PuTTY
+* 备份：Rclone, restic
+* 静态网站托管：[netlify](https://www.netlify.com)
+* 运维：[systemd 可用性测试](https://systemd-by-example.com/)
+* JSON 工具：[JSON Visualization](https://altearius.github.io/tools/json/index.html)、[JSON viewer](https://jsonhero.io/)、[JSON to excel](https://jsontoexcel.com/)
 
 
 ### 人力促进

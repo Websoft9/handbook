@@ -193,3 +193,4 @@ graph TD;
 * [测试理论基础（思维导图）](https://www.cnblogs.com/dongye95/p/9312027.html)
 * [Unix 哲学基础](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 * [CSE 代码-与工程手册（微软开发手册）](https://microsoft.github.io/code-with-engineering-playbook/)
+* [Kubernetes 中文指南/云原生应用架构实战手册](https://jimmysong.io/kubernetes-handbook/)
