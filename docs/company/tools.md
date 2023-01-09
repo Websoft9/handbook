@@ -73,6 +73,11 @@ Websoft9 全员使用的系统和工具包括：
 * [CNKI](http://opac.changshalib.cn/opac/reader/login) ：长沙图书馆**电子资源频道**提供的免费 CNKI 服务
 * 四大 IT 咨询公司：[埃森哲](https://www.accenture.com/cn-zh)、[IBM](https://www.ibm.com/cn-zh)、[凯捷](https://www.capgemini.com/cn-zh/)、[德勤](https://www2.deloitte.com/cn/zh.html)
 
+## 众包
+
+* [envato](https://www.envato.com/)
+* [manypixels](https://www.manypixels.co/) 设计外包平台
+
 
 ## 设计与创作
 
@@ -130,9 +135,3 @@ CSS 图标
 
 * [blush](https://blush.design/zh-CN/plans) 人物插画
 * [](https://iconscout.com/) 插画
-
-#### 交易与外包
-
-* [envato](https://www.envato.com/)
-* [manypixels](https://www.manypixels.co/) 设计外包平台
-
