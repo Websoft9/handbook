@@ -66,13 +66,77 @@ Websoft9 是一家全球化运作的企业，合规性是企业战略和发展�
 
 1. 研究目标对象 License 和 商标的核心要素，并维护到对应的文档中
 2. [Github](https://github.com/websoft9op/vendor/issues) 上领取或发布联系 Issue
-2. 官网中寻找联系方式（法务、销售、合作伙伴、工单等频道），发送商务邮件（参考范文）
+2. 官网中寻找联系方式（法务、销售、合作伙伴、工单等频道），发送商务邮件（参考下面的范文）
 3. 沟通过程关键事务会诊
 4. 完成  Issue 中要求的归档等其他事务
+
+下面是邮件范文：   
+
+```
+# 标题
+Request permission to use "OpenCV" text Trademark. 
+
+# 正文
+
+Dear Sir or Madam,
+
+This is Evelyn from Websoft9 which is a open source software company focus on DevOps automation.
+
+We're a providing OpenCV automation deployment on GitHub, then we want to publish a paid product based OpenCV on Cloud Platform Marketplace（e.g AWS, Azure）like below
+
+【Product name】：Machine vision runtime based on OpenCV
+【Intellectual Property Statement in Product Overview】：The stack of this offer includes a wide range copies of open source and free software, but the Copyrights, Patents and Trademarks are legal protections for original owner.
+
+● “OpenCV” is a trademark of Open CV and is protected by United States trademark law
+● OpenCV is licensed under the Apache License Version 2.0.
+
+We have read the Open CV's trademark policy and term, we know that in any manner likely to cause confusion among consumers or in any manner that disparages or discredits Open CV are not allowed. 
+
+Websoft9 is a compliance company, we highly respect any of your intellectual property policies. I'd appreciate it if you could give clear reply about whether it's permissible to use your trademark above?  or other manners you think are allowed.
+
+Thanks a lot in advance!
+
+Best regards,
+
+# 未回复邮件提醒
+
+Hi Kenneth,
+How are you? Hope everything is ok with you all along.
+
+It has been a while since we start a consultation on 10, Aug. It is about license and ERPNext trademark use.
+I guess things must have been hectic on your end, so I will just be brief. 
+I'd recap our consultation.
+1) We integrate ERPNext with other software required to run, like Ngnix and MariaDB, and automate the deployment for the integration. This integration solution is available as an open source project on GitHub. 
+2）We also distribute image of the integration on platforms, like AWS, to offer one-click, pre-configured install solution for ERPNext to users. This is offered for a fee.
+3) We use "ERPNext" to describe the solution, and name it as "ERPNext on Ubuntu"
+We would appreciate it if you could give clear reply on whether it is permissible to do that. If what we have done is not in line with GPLv3 license and your trademark policy, do not hesitate to point out. We would correct it asap. 
+More details could be found in the former discussion I added to the end.
+Thanks a lot in advance.
+
+Best regards,
+Evelyn
+```
 
 **被投诉指南**  
 
 一旦被投诉之后，需在 2 小时内给与积极的响应，接下来集体研究投诉的处理办法
+
+下面是被投诉之后的回复邮件范文：  
+
+```
+Hi Dylan
+
+
+Thank you for email, we have read Haproxy trademark policy and we have found that we have an inappropriate use.
+First, we apologize for this matter, we highly respect your IP, we want to correct it until compliance as soon as possible.
+
+We want to change product name to Software Load Balancer  which not include any HAProxy trademark, 
+How do you think about this? or can you give me some suitable suggestion?
+
+Look forward you reply
+
+best regards,
+```
 
 **被侵权指南**  
 
@@ -82,37 +146,121 @@ Websoft9 是一家全球化运作的企业，合规性是企业战略和发展�
 
 ### 商标解读
 
-[商品解读](./_file/商标列表.md) 
+商标的目的是防止创业者或精准对手通过相近或滥用的“搭便车”行为，有其合理性。  
+分析任何一个商标，有两个主要事项：
 
-#### 基本法则
+* 查重：[WIPO Globl Brand Database 全球商标查询数据库](https://www3.wipo.int/branddb/en)  
+* 内部研究归档至：[商品解读清单](https://github.com/Websoft9/handbook/blob/main/docs/finance/_file/商标解读清单.md)  
+
+#### 基本论据
 
 * 商标和公司注册是两条线，相互不冲突
 * 《马德里条约》用于批量向多个国家注册同一个商标（理解为商标（国家）注册团购），而不是商标互信
-* 商标的目的是防止创业者或精准对手通过相近或滥用的“搭便车”行为，有其合理性
-
-#### 查重
-
-[WIPO Globl Brand Database 全球商标查询数据库](https://www3.wipo.int/branddb/en)  
-
-![](./img/trademark-search.png)
-
-> TM是TRADEMARK的缩写，美国的商标通常加注TM，并不一定是指已注册商标。而®是REGISTER的缩写，用在商标上是指已经成功注册商标的意思
+* TM 是TRADEMARK的缩写，并不一定是指已注册商标。而®是REGISTER的缩写，用在商标上是指已经成功注册商标的意思
 
 #### 思维导图
 
+```mermaid
+	graph LR
+	商标解构--> 商标组成
+	商标组成--> 文字
+	商标组成--> 图形
+	商标解构--> 商标版本变更日志
+	商标解构--> 衍生商标规则
+	商标解构--> 商标列表
+	商标解构--> 是否注册
+	是否注册--> 是
+	是否注册--> 否
+	否--> TM
+	否--> SM
+	商标解构--> 条款
+	条款--> 商标符号使用规则--> 作为公司全称或商品名出现时是否应在商标后面使用商标符号
+	条款--> 使用时是否需要添加商标免责声明
+	条款--> 使用是否需要捐赠
+	条款--> 使用是否需要得到商标权利人的授权或许可
+	条款--> 申请授权与许可的材料清单
+	条款--> 是否需要联系商标权利人法务或者品牌总裁
+	条款--> 使用是否需要在脚注或类似位置等合理易读的位置和大小进行商标权利人的说明
+	条款--> 告知可能的侵权
+	条款--> 商标权利人反对任何关于商标的不当使用对应的措施
+	条款--> 商标条款与license中条款匹配或冲突
+	商标解构--> 用途
+	用途--> 域名
+	用途--> 广告
+	用途--> 服务商标
+	用途--> 公司名称
+	用途--> 标题或封面
+	用途--> 会议与活动
+	用途--> 出版物
+	用途--> 商品名称或产品名称
+	用途--> 学术论文或类似非盈利刊物
+	用途--> 网站或其他软材料
+	商标解构--> 允许使用
+	允许使用--> 用作指向
+	允许使用--> 合理使用
+	允许使用--> Power-by
+	允许使用--> 经批准的会议与活动
+	允许使用--> 使用商标显示社区归属
+	允许使用--> 使用商标显示社区归属
+	允许使用--> 仅用于识别商品与服务的
+	允许使用--> 得到授权与许可后进行使用
+	允许使用--> 得到授权与许可后进行使用
+	允许使用--> 非商业性的促进软件的传播与改进
+	允许使用--> 不使用商标无法识别的产品或服务
+	允许使用--> 始终使用商标作为修饰名词的形容词
+	允许使用--> 分发已编译的未修改的源代码或未修改的可执行代码
+	允许使用--> 可在已出版书籍的标题或封面中使用
+	允许使用--> 使用商标时必须始终链接商标权利人域名
+	允许使用--> 使用包括商标注册标志完整商标用于区分商品和服务
+	允许使用--> 第三方提供的产品或服务是产品功能的超集
+	允许使用--> 在商标第一次以文本形式出现时使用与每个商标相关的通用术语
+	允许使用--> 侵权
+	侵权--> 混淆
+	侵权--> 模糊改变
+	侵权--> 商标滥用
+	侵权--> 创造组合标记
+	侵权--> 虚假暗示或误导性陈述
+	侵权--> 广告中使用
+	侵权--> 营销口号或标语中使用
+	侵权--> 促销产品中使用
+	侵权--> 掩盖或隐藏自己的商标
+	侵权--> 产品或服务名称中使用
+	侵权--> 注册相似度极高的商标
+	侵权--> 直观的将商标标识集成到其他商标中
+	侵权--> 在将软件与另一软件程序结合在一起的产物中使用该软件商标
+	侵权--> 以贬低或任何其他侵犯商标权利或违反相关法律的方式使用商标
+	侵权--> 未经授权合并到徽标或产品设计中
+	侵权--> 未经授权的营销环境中使用
+	侵权--> 未经授权的出版物中使用
+	侵权--> 篡改商标
+	篡改商标--> 商标词性
+	篡改商标--> 单复
+	篡改商标--> 所有格
+	篡改商标--> 语言
+	篡改商标--> 缩写
+	篡改商标--> 字体
+	篡改商标--> 字母大小写
+	篡改商标--> 视觉标识符号
+	篡改商标--> 颜色
+	篡改商标--> 尺寸比例
+	篡改商标--> 尺寸比例
+	侵权--> 不得将产品文字标记用作任何软件产品名称或服务名称或公司名称或商标或域名或logo的一部分
+```
+
+
 ### License 解读
 
-全球主流开源许可汇总数据库：https://opensource.org/licenses/alphabetical  
+License 解读过程中，涉及的材料包括：
 
-#### 基本法则
+* 全球主流开源许可汇总数据库：https://opensource.org/licenses/alphabetical  
+* 内部研究归档至：[License 解读清单](https://github.com/Websoft9/handbook/blob/main/docs/finance/_file/License解读清单.md)  
+
+#### 基本论据
 
 快速理解开源软件许可一些关键点：
 
 * 开源许可不是法律规定，而更类似于合同条款，是在公益组织下约定成俗的一些规则
 * 开源许可之间可能有冲突，导致使用多个软件作为组件之后，难以发布自身合规的开源许可
-* 开源许可关键字：
-
-#### 
 
 
 #### 思维导图
