@@ -5,6 +5,7 @@ sidebar_position: 1
 # 如何写作？
 
 管理是组织和指导人类各种实践活动的行为。企业管理者需要广博的知识，能够对战略做出判断，并分解具体的执行任务。同时，企业管理者又需要关注“人”这个最重要的因素，充分用好人、管好人。  
+
 管理者如何让企业行动一致，如何让优秀人才的思想火花充分碰撞？
 
 人类千百年实践证明，对企业**管理哲学**的不断总结和优化才是企业的制胜法宝，是企业的高效率运作的关键。
@@ -111,6 +112,7 @@ I would appreciate if anyone can clear my doubt or suggest proper place to ask t
 
 * 流程图
 
+````
 ```mermaid
 graph LR
     A[Start] --> B{Is it?};
@@ -119,9 +121,11 @@ graph LR
     D --> B;
     B -- No ----> E[End];
 ```
+````
 
 * 思维导图
 
+````
 ```mermaid
 graph LR;
     A-->B;
@@ -131,8 +135,10 @@ graph LR;
     C-->C.1;
     C-->C.2;
 ```
+````
 
 * 饼图
+````
 ```mermaid
 pie
     title 为什么 Websoft9 这么好？
@@ -140,6 +146,7 @@ pie
     "知识库" : 30
     "支持与服务" : 20
 ```
+````
 
 
 ## 请求合并
