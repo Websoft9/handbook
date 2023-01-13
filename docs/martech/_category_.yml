@@ -1,5 +1,5 @@
-position: 2
-label: "组织"
+position: 6
+label: "市场"
 collapsible: true
 collapsed: true
 className: "red"

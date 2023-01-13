@@ -1,5 +1,5 @@
-position: 2
-label: "财务与后勤"
+position: 9
+label: "财务"
 collapsible: true
 collapsed: true
 className: "red"

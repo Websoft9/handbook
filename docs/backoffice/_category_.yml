@@ -1,5 +1,5 @@
-position: 6
-label: "客户成功"
+position: 10
+label: "后勤"
 collapsible: true
 collapsed: true
 className: "red"
