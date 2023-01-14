@@ -126,6 +126,7 @@ Websoft9 全员使用的系统和工具包括：
 - [Iconfront（中文）](https://www.iconfont.cn/)
 - [Font Awesome](https://fontawesome.com/)
 - [icongo](https://icongo.github.io/#/)
+- [iconbolt](https://www.iconbolt.com/)：7万+ SVG 图标
 
 CSS 图标
 
