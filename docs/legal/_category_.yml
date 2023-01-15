@@ -1,0 +1,5 @@
+position: 11
+label: "法务"
+collapsible: true
+collapsed: true
+className: "red"
