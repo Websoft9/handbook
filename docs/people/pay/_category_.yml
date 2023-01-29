@@ -1,5 +1,6 @@
-position: 2
-label: "核心策略"
+position: 8
+
+label: "薪酬福利"
 collapsible: true
 collapsed: true
 className: "red"

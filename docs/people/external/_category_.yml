@@ -1,5 +1,5 @@
-position: 2
-label: "核心策略"
+position: 10
+label: "外部人力"
 collapsible: true
 collapsed: true
 className: "red"
