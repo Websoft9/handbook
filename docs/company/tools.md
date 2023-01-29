@@ -53,8 +53,12 @@ Websoft9 全员使用的系统和工具包括：
 ### 财税政务
 
 * 财税：[诺诺电子发票](https://fp.jss.com.cn/#/)、[电子税务局](https://etax.hunan.chinatax.gov.cn/wsbs/)、电子社保局、[企业信用系统](http://gx.gsxt.gov.cn/)
-* 企业发展：[科技部火炬中心](http://www.chinatorch.gov.cn/)
 * 合规：管局备案、公安备案、星城园丁
+
+### 科技创新
+
+* [科创海](https://kch.boshiyun.com.cn)：博士科技旗下的科创政策与数据 SaaS 平台
+* [科技部火炬中心](http://www.chinatorch.gov.cn/)
 
 ### 业务系统（参考）
 

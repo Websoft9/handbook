@@ -2,7 +2,9 @@
 sidebar_position: 10
 ---
 
-# 行为约束
+# 行为准则
+
+[商业行为准则](https://baike.baidu.com/item/商业行为准则/10325968)，俗称SBC（Standards of Business Conduct）。旨在规范员工遵守职业操守，对员工个人约束、如何维护合作伙伴关系、关联交易、不公平竞争等众多问题都进行了细致的规定。
 
 Websoft9 虽然不对员工做出各种条条框框的限制，但是每个人都仍然需要遵循最基本的商业规则。  
 
