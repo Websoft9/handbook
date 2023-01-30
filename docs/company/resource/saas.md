@@ -2,23 +2,11 @@
 sidebar_position: 2
 ---
  
-# 工具
+# SaaS
 
 善用不同的效率工具提升业务和用户体验，是 Websoft9 成功的关键。
 
-Websoft9 全员使用的系统和工具包括：  
-
-* [CustomerSS](https://weda.websoft9.com/adminportal/#/app/app-xm3atdwd?envType=prod/)：基于微搭的客户成功系统（CRM，在线购买，工单等）
-* [GitHub](https://github.com/websoft9)：产品研发与任务协作
-* [Canva](https://www.canva.cn/)：图库与在线设计
-* [Contentful](https://contentful.com/)：市场营销主数据
-* [企业微信](https://contentful.com/)：客服聊天、网盘存储和付费企业邮箱（业务邮箱和多域名）
-* [跳板系统](http://47.75.113.190:9001/#/login)：堡垒机
-* 云市场控制台：[阿里云](https://msp.aliyun.com).
-* 通讯协作：钉钉虚拟呼叫中心（0731-89572759）、手机固话（0731-82183159，18974968354）
-* [其他]：[阿里云工单](https://easyticket.aliyun.com/)
-
-另外，还有常用的各种工具和服务，我们以下面的分类做出展示：  
+我们以下面的分类做出展示：  
 
 ## 协作与效率
 
@@ -67,20 +55,6 @@ Websoft9 全员使用的系统和工具包括：
 * CRM：Zoho、Hubspot
 * 主数据系统：Airtable、Akeneo
 
-
-## 综合 
-
-* [运营笔记](https://www.yunyingbiji.cn/)
-
-## 智库
-
-* [CNKI](http://opac.changshalib.cn/opac/reader/login) ：长沙图书馆**电子资源频道**提供的免费 CNKI 服务
-* 四大 IT 咨询公司：[埃森哲](https://www.accenture.com/cn-zh)、[IBM](https://www.ibm.com/cn-zh)、[凯捷](https://www.capgemini.com/cn-zh/)、[德勤](https://www2.deloitte.com/cn/zh.html)
-
-## 众包
-
-* [envato](https://www.envato.com/)
-* [manypixels](https://www.manypixels.co/) 设计外包平台
 
 
 ## 设计与创作

@@ -1,0 +1,5 @@
+position: 11
+label: "资源"
+collapsible: true
+collapsed: true
+className: "red"
