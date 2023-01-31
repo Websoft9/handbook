@@ -1,5 +1,5 @@
-position: 10
-label: "企业初心"
+position: 3
+label: "企业宗旨"
 collapsible: true
 collapsed: true
 className: "red"
