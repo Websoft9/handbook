@@ -6,9 +6,9 @@ sidebar_position: 1
 
 ## 是什么？
 
-使命（Mission）是什么？它解决企业从哪里来的问题，即企业存在的**理他**[理由](https://about.gitlab.com/company/purpose/)。
+使命（Mission）是什么？它解决企业从哪里来的问题，即企业存在的[利他理由](https://about.gitlab.com/company/purpose/)。
 
-Websoft9 的使命是：云原生普惠全球。  
+Websoft9 的使命是：**让云原生普惠全球**。  
 
 具体可解释为：  
 
@@ -18,7 +18,7 @@ Websoft9 的使命是：云原生普惠全球。
 
 ## 时间线
 
-我们的使命是30年的节奏。我们的愿景是10年的节奏。我们的战略是3年的节奏。
+我们的使命是30年的节奏。我们的[愿景](./vision)是10年的节奏。我们的[战略](../strategy)是3年的节奏。
 
 ## 怎么做？
 
