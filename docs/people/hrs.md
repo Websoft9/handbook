@@ -39,13 +39,15 @@ sidebar_position: 1
 * [35个最经典的人力资源管理工作评价指标](https://zhuanlan.zhihu.com/p/140812618)
 * [美国劳工部工作分析法的程序](https://wiki.mbalib.com/wiki/美国劳工部工作分析法)  
 
-## 技术分析
-
 ## 关注员工
 
 除工作之外，应该从更多的角度关注员工：  
 
 ### 心理学
+
+[心理测试](https://wiki.mbalib.com/wiki/Category:心理测验)是人力工作中常用的手段，它基于[人格特征理论](https://wiki.mbalib.com/wiki/Category:人格特质理论)对员工工作兴趣进行测试。 
+
+比较经典的模型包括：
 
 * [三重需要理论](https://baike.baidu.com/item/三重需要理论/19134650)
 * [马斯洛需求层次理论](https://baike.baidu.com/item/马斯洛需求层次理论/11036498)

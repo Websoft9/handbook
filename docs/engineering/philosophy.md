@@ -1,33 +1,30 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # 工程哲学
 
 工程哲学适用于软件开发、产品管理、架构设计、用户体验设计等多个工作领域。  
 
+## 软件工程 
 
-## DevOps
-
-### 软件工程 
-
-#### Python 之禅 
+### Python 之禅 
 
 [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
 
-#### 云原生 12 要素
+### 云原生 12 要素
 
 [The Twelve-Factor App](https://12factor.net/zh_cn/)
 
-#### 系统架构演进
+### 系统架构演进
 
 [Scaling webapps for newbs & non-techies](https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/)
 
-#### 面向对象设计原则
+### 面向对象设计原则
 
 [Principles of Object-Oriented Design](http://www.cs.utsa.edu/~cs3443/notes/designPrinciples/designPrinciples.html#:~:text=Principles%20of%20Object-Oriented%20Design%201%20Single%20Responsibility%20Principle,Segregation%20Principle%20%28ISP%29%205%20Dependency%20Inversion%20Principle%20%28DIP%29)
 
-#### 敏捷开发
+### 敏捷开发
 
 ![](img/agile.png)
 
@@ -39,7 +36,7 @@ sidebar_position: 2
 
 多个任务=新版本，若新版本周期比较长，用户可能会焦急等待，这时候就会发布 Millstone 的中间结果。
 
-#### 多元化团队
+### 多元化团队
 
 一个优秀的软件团队，需要各种不同类型的人才：  
 
@@ -51,15 +48,15 @@ sidebar_position: 2
 * 指哪打哪的技术执行者
 * 有耐心的重复任务执行者
 
-#### 看板
+### 看板
 
 看板是一种简单高效的工具，它适用于多人协作的任务视图
 
-#### Issue
+### Issue
 
 将问题分解成可以由个人主导完成的 Issue 是至关重要的工作哲学。
 
-#### 文档
+### 文档
 
 软件工程[文档](https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f)是一个总称，涵盖了涉及软件产品开发和使用的所有书面文档和材料。所有软件开发产品，无论是由小型团队还是大型公司创建，都需要一些相关文档。整个软件开发生命周期（SDLC）会创建不同类型的文档。存在文档来解释产品功能，统一与项目相关的信息，并允许讨论利益相关者和开发人员之间出现的所有重要问题。
 
@@ -74,11 +71,11 @@ sidebar_position: 2
 
 编写需求文档的时候，很多人会不经意陷入技术陷阱：“谈需求的时候，牵扯实现；讲宏观的时候考虑微观”
 
-#### 多路复用
+### 多路复用
 
-#### 线程与进程
+### 线程与进程
 
-#### 开源思维
+### 开源思维
 
 传统的开发（相对于开源来说），受制于封闭的代码和自雇团队的人力模式，导致有局限性。  
 
@@ -152,7 +149,7 @@ graph LR;
 *  维度：函数级测试、最小单元功能级测试、场景级测试
 
 
-### 设计工程
+## 设计工程
 
 设计也是一门技术，而且是对综合知识要求极高的工程技术。 
 

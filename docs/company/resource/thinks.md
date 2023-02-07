@@ -13,6 +13,7 @@ sidebar_position: 4
 ## 综合 
 
 * [运营笔记](https://www.yunyingbiji.cn/)
+* [52本书搭建商业运营知识体系](https://www.yuque.com/yichu/biz/nch79o#ApvG)
 
 ## 智库
 
