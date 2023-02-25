@@ -1,3 +1,6 @@
+
+![logo-cn](https://user-images.githubusercontent.com/16741975/117620996-ad499b80-b1a3-11eb-865f-a633e4b7c725.png)
+
 # Handbook
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
@@ -28,10 +31,5 @@ yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest
 
 ## Markdown
 
-在标准 Markdown 基础上，支持 [Mermaid](https://docusaurus.io/zh-CN/docs/markdown-features/diagrams) 来渲染图表
-
-
-![logo-cn](https://user-images.githubusercontent.com/16741975/117620996-ad499b80-b1a3-11eb-865f-a633e4b7c725.png)
-
-## 其他
-
+* 在标准 Markdown 基础上，支持 [Mermaid](https://docusaurus.io/zh-CN/docs/markdown-features/diagrams) 来渲染图表
+* 部分文档采用 Markdown 富语法（mdx）
