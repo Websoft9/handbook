@@ -14,6 +14,38 @@ Websoft9 所需的产品法则与世界级产品组织所展示的[核心原则]
 2. **以客户的视角看问题**
 ...
 
+## 工作流程
+
+Websoft9 采用敏捷的开发流程，关键要素如下：
+
+### 人员架构
+
+每个产品设一个产品经理，以及配套的其他人员：
+
+* PM（Product Manager）：负责业务与需求分析，以及为产品里程碑负责
+* EM（Engineer Manager）：开发经理，主要负责将需求转换为开发任务，并负责开发团队
+* QA（Quality Manager）：产品质量控制负责人
+* TW（Technology Writer）：产品文档写作
+* Dev（Developer）：前端/后端开发者，汇报给 EM
+
+### 流程
+
+* PM 起草整个产品的需求概要，并交团队讨论
+* PM 将每一个需求进行用户场景化描述以及预期的结果分析，讨论后由 EM 转换为具体的开发 Issues
+* QA 和 TW 根据开发 Issue 分别创建对应的 Issue 或 在 Issue 中增加相应的工作部分
+
+> 开发 Issue 需要尽可能详细地描述要解决的问题或需实现的功能点，以及计划使用的技术方案
+
+### 标签
+
+使用 Github 管理项目中会涉及几个标签：
+
+* Enhancement
+* PRD
+* Dev
+* Documentation
+* QA
+
 
 ## IPD
 
