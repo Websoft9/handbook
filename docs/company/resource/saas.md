@@ -19,6 +19,10 @@ sidebar_position: 2
 
 * RPA 工具：[阿里码栈](https://codestore.taobao.com/index.htm)   
 
+### 人工智能
+
+* [AI 研究所 - 国内外 AI 工具与资讯](https://www.aiyjs.com/)
+
 ## 企业管理
 
 ### IT 工具
