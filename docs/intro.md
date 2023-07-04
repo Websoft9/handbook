@@ -5,7 +5,7 @@ slug: /
 
 # 关于
 
-Websoft9 Handbook 是运营公司的指导手册，也是我们开源价值观的一部分。该手册向外部开放，欢迎您通过 [Issue](https://github.com/Websoft9/handbook/issues) 给我们建议。  
+Websoft9 Handbook 是运营公司的指导手册，也是开源价值观的一部分。该手册向外部开放，欢迎您通过 [Issue](https://github.com/Websoft9/handbook/issues) 给我们建议。  
 
 与 Handbook 配套的还有：
 
