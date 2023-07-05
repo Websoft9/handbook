@@ -7,7 +7,7 @@ slug: /
 
 Websoft9 Handbook 是运营公司的指导手册，也是开源价值观的一部分。该手册向外部开放，欢迎您通过 [Issue](https://github.com/Websoft9/handbook/issues) 给我们建议。  
 
-与 Handbook 配套的还有：
+与 Handbook 配套资源的还有：
 
 - 内部知识库：存储在[企业微信微盘](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome)中
 - **[数字化系统与工具](./engineering/digtal)**：承载核心业务和数据
