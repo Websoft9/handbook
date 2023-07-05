@@ -9,8 +9,8 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 ```
 # Install
-git clone https://github.com/Websoft9/doc.websoft9.com
-cd doc.websoft9.com	
+git clone https://github.com/Websoft9/handbook
+cd handbook	
 yarn install
 
 # Development 
