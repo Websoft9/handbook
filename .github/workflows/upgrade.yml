@@ -12,6 +12,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          yarn install
           yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest
           yarn add @docusaurus/theme-mermaid
           
