@@ -6,6 +6,10 @@ sidebar_position: 4
 
 ## 科技资讯
 
+## 技术基础
+
+- [俄勒冈州立大学开源实验室-DevOps 训练营课程](http://devopsbootcamp.osuosl.org/index.html)
+
 ## 人力资源
 
 * [MBA 百科-人力资源](https://wiki.mbalib.com/wiki/Portal:%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90)
