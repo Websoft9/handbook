@@ -59,8 +59,6 @@ sidebar_position: 2
 * CRM：Zoho、Hubspot
 * 主数据系统：Airtable、Akeneo
 
-
-
 ## 设计与创作
 
 * [Captura](https://mathewsachin.github.io/Captura/) 录屏工具
@@ -80,6 +78,7 @@ sidebar_position: 2
 * [综合类在线处理工具](https://123apps.com/cn/)
 * [zaps.dev](https://ojoy.zaps.dev/) 图片无损放大工具
 * [腾讯文档之压缩能力](https://docs.qq.com/)：将文档上传到腾讯文档再下载，文档可以被压缩到几M
+* [Google PDF 翻译](https://translate.google.com/?hl=en&sl=auto&tl=zh-CN&op=docs): Gooogle 翻译具备将上传的 PDF 翻译成所需的语言后再下载 
 
 ### 素材 
 
