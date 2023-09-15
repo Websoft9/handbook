@@ -8,6 +8,12 @@ sidebar_position: 1
 
 ## 软件工程 
 
+虽然我们在工作中会不断面对新技术、新名词、新实践方法，但就世界运行的底层逻辑来说--一切都是哲学问题。 
+
+### Unix 设计哲学
+
+[17条Unix的设计哲学](https://zhuanlan.zhihu.com/p/97042542), 引用自 《Unix 编程艺术》
+
 ### Python 之禅 
 
 [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
@@ -170,7 +176,12 @@ graph LR;
 
 ## 架构师
 
+
+
 ### 企业架构师
+
+所谓[架构师](https://mp.weixin.qq.com/s/HoFSNCd1U3eoUqYaQiEgwQ?from=industrynews&version=4.1.9.6012&platform=win)，就是掌握大量设计理念和原则、落地到各种语言及附带工具链（生态）下的实践方法、垂直行业模型理解，定制系统模型设计和工程实践规范细则，进而控制30万+行代码项目的开发便利性、可维护性、可测试性、运营质量的资深研发群体。
+
 ### 设计架构师
 
 如果我们准备在设计上提升能力，那么必须有一个设计架构师的角色。  
