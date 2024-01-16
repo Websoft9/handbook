@@ -11,7 +11,6 @@ Websoft9 全员使用的系统和工具包括：
 * [Canva](https://www.canva.cn/)：图库与在线设计
 * [Contentful](https://contentful.com/)：市场营销主数据
 * [企业微信](https://contentful.com/)：客服聊天、网盘存储和付费企业邮箱（业务邮箱和多域名）
-* [跳板系统](http://47.75.113.190:9001/#/login)：堡垒机
-* 云市场控制台：[阿里云](https://msp.aliyun.com).
+* [跳板系统](http://nextterminal.inner.websoft9.cn/)：堡垒机
 * 通讯协作：钉钉虚拟呼叫中心（0731-89572759）、手机固话（0731-82183159，18974968354）
 * [其他]：[阿里云工单](https://easyticket.aliyun.com/)
