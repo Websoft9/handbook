@@ -68,18 +68,21 @@ Websoft9 产品形态包括：
 
 如果所在的云不支持 mcloud，这需要手动创建服务器后运行 [All-in-one Installer](https://github.com/Websoft9/StackHub#all-in-one-installer)
 
-
+下面详细描述制造的过程：
+1. 通过【Next Terminal】进入镜像机
+2. 进入websoft9-mcloud容器，运行 `mcli newbuild` 命令开始生产
+3. 选择云平台，服务器配置以及操作系统
+4. 选择安装应用商店类型（免费版，入门版，标准版）
+5. 选择是否安装应用，如安装并根据生产issue输入对应版本号
+6. 软件安装完成后，查看cockpit面板以及应用url验证画面是否能打开
+7. 选择【确认】，开始生产镜像
 
 #### 质检
 
 质检主要是通过 mcloud 基于镜像创建服务器并获取IP，然后检查：
 
-* 初始化
-* 组件状态
-* 路径
-* 端口
-* 用户密码
-* 数据库密码
+- [软件商店的功能](https://support.websoft9.com/docs/next/starter)
+- [应用自身的功能，以Wordpress为例](https://support.websoft9.com/docs/next/wordpress)
 
 质检前置工作：
 
