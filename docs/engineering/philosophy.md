@@ -10,6 +10,8 @@ sidebar_position: 1
 
 虽然我们在工作中会不断面对新技术、新名词、新实践方法，但就世界运行的底层逻辑来说--一切都是哲学问题。 
 
+[系统设计 101](https://github.com/ByteByteGoHq/system-design-101) 使用视觉效果和简单的术语来解释复杂的系统，帮助我们快速进入架构设计的世界。  
+
 ### Unix 设计哲学
 
 [17条Unix的设计哲学](https://zhuanlan.zhihu.com/p/97042542), 引用自 《Unix 编程艺术》
