@@ -301,7 +301,7 @@ Any IP infringement here, please don't hesitate to contact us: legal@websoft9.co
 适用于云平台用户的快速指引，但平台没有 **Usage** 承载标签页时，需插入到详情页
 
 ```
-Once the instance is running, enter the public DNS:9000 provided by Amazon into your browser. You will then see the Websoft9 Console.   
+Once the instance is running, enter the public DNS:9000 provided by AWS into your browser. You will then see the Websoft9 Console.   
 
 And refer to the following steps to get started:
 
@@ -309,7 +309,8 @@ And refer to the following steps to get started:
 2. Use your EC2 username 'ubuntu' and password to log in Websoft9 Console. 
 3. Go to the "App Store" in the Websoft9 Console and install InfluxDB with a one-click.
 4. Once installation is complete, go to "My Apps" to get the port, access url and credentials of InfluxDB
-5. For configuration and administration see: https://support.websoft9.com/en/docs/next/influxdb
+
+For configuration and administration see: https://support.websoft9.com/en/docs/next/influxdb
 ```
 
 ### SEO
