@@ -78,7 +78,7 @@ sidebar_position: 1
 英文标题相对于中文需要更为慎重，原因是：
 
 * **语法**：on, for 等介词的运用，以及词语的先后顺序会导致含义不同
-* **合规**：英文标题中一般不允许出现其他公司的商标，及时使用也非常有讲究
+* **合规**：英文标题中一般不允许出现其他公司的商标，即使使用也非常有讲究
 
 ```
 # 未包含商标的名称
@@ -86,6 +86,14 @@ Free and Open Source Cloud ERP
 
 
 # For 一般用适用于：组件 for 产品商标，类别(带有特征) for 产品商标。这种方式下产品商标是形容词。
+Websoft9 Applications Hosting Platform for InfluxDB® 
+Websoft9 Self-Hosting PaaS for InfluxDB
+Websoft9 Self-Hosting Platform for InfluxDB
+Websoft9 Applications Hosting Platform for InfluxDB
+Websoft9 Self-Hosting PaaS for Web Runtime 
+Websoft9 Self-Hosting PaaS for Web Runtime 
+
+
 Web APPS runtime for PHP
 Visual Machine Learning Stack for TensorFlow
 Cloud Native Database for MySQL
@@ -128,7 +136,7 @@ Digital Experience Platform for CMS  CMS 不是产品商标，没有意义
 * 在 AWS 被称之为 **Short summary **
 
 ```
-Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
+Pre-configured, Web-based, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
 ```
 
 ### 描述
@@ -149,7 +157,7 @@ Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
 - English = 模式化子标题 + 应用介绍
 
    ```
-   Pre-configured, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure. ERPNext is... 
+   Pre-configured, Web-based, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure. ERPNext is... 
    ```
 
 > 应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
@@ -231,42 +239,31 @@ Oracle Database XE 对安装主机的规模和 CPU 数量不作限制（每台�
 * 代理商发布的镜像（例如：VMLAB）时，Why... 描述中需要澄清与 Websoft9 的关系
 
 ```
-This is a Cloud Native deployment solution for ERPNext powered by Websoft9. It always up-to-date, secure, and built to work right out of the box.  
 
-ERPNext is the world's top 100% open source ERP which supports manufacturing, distribution, retail, trading, services, education, non profits and healthcare
+This is a cloud-native InfluxDB® Open Source Edition runtime on the Websoft9 Applications Hosting Platform. It is always up-to-date, secure, and ready to use right out of the box with business support from Websoft9.
 
-# Image Components: 
+InfluxDB® is the most popular open source database for developers managing time series data. Unlock real-time insights from time series data at any scale in any environment – in the cloud, on-prem, or at the edge.
 
-ERPNext 14/13/12, Nginx 1.22, MariaDB 10.6, phpMyAdmin, Docker 20.10
+Websoft9 is a lightweight, self-hosting PaaS that allows you to deploy multiple applications on your own cloud infrastructure. It employs a GitOps approach and includes an integrated app store that supports one-click deployment of over 200 template applications, as well as the ability to deploy custom applications. Users have complete autonomy, ensuring that applications can be easily configured and continuously deployed even after they are live. Additionally, the web-based interface allows users to effortlessly perform tasks such as domain binding, HTTPS setup, access control, and status monitoring.
 
-# EC2 requirements: 
+# Image Components:
+InfluxDB® 2.7/latest Open Source, Docker, Websoft9 Apps Hosting Platform 2.1.5
 
-CPU no less than 2 core, Memory no less than 8G, Disk space no less than 60G 
+# EC2 requirements:
+CPU no less than 2 core, Memory no less than 4G.
 
-# Applicable Scene: 
+# Use Cases: 
 
-CRM/HR/ERP for manufacturing, distribution, retail, trading, services, education, non profits and healthcare
-
-# Why use Websoft9 Image?
-
-Websoft9 has a wide range of open source integrated solutions, from infrastructure, Containers, Databases, DevOps, to AI, Website application, and the IoT. 
-
-These images are packaged by Websoft9 using industry best practices .They are opensoure,stable,reliable,easy to use,secure,continually updated. The images are not free, we think you need a partner who can provide a good product and timely support for your business. We can provide both of them for you.
-
-# Why use VMLab Image?
-
-VMLab is an authorized reseller of Websoft9 , which has a wide range of open source integrated solutions, from infrastructure, Containers, Databases, DevOps, to AI, Website application, and the IoT.  
-
-These images are packaged by Websoft9 using industry best practices .They are opensoure,stable,reliable,easy to use,secure,continually updated. The images are not free, we think you need a partner who can provide a good product and timely support for your business. We can provide both of them for you.
+Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Operational Monitoring, Application Performance Monitoring (APM)
 
 # Intellectual Property Statement: 
 
-The stack of this offer includes a wide range copies of open source and free software, but the Copyrights, Patents and Trademarks are legal protections for original owner. 
+This offering includes a wide range of open source and free software, but the copyrights, licenses, and trademarks remain the legal protections of their original owners.
 
-- The brand name ERPNext and the logo are trademarks of Frappe Technologies Pvt. Ltd..
-- The ERPNext code is licensed as GNU General Public License (v3) and the 
+- InfluxDB® is a trademark registered by InfluxData®
+- InfluxDB® is licensed under the permissive MIT and Apache 2.0 licenses
 
-If you are aware of a breach of the any IP in this offer, please don't hesitate to contact us: legal@websoft9.com, we will correct it ASAP.
+Any IP infringement here, please don't hesitate to contact us: legal@websoft9.com, we will correct it as soon as possible.
 ```
 
 ### 特征亮点 {#highlights}
@@ -277,14 +274,16 @@ If you are aware of a breach of the any IP in this offer, please don't hesitate 
 
 ``` 
 # 中文
+
 ● 已完成预配置、密码初始化，购买后即可自主使用
 ● 基于 Docker 的云原生架构，便于产品升级、版本变更、卸载以及安装更多应用
 ● 提供免费的技术支持 
 
 # English
-* Pre-configured, one-click to deploy on AWS EC2
-* Application running on Docker, upgade so easy
-* Paid image, free professional support for your business
+
+* Docker-based, one-click to deploy and upgrade
+* Web console for managing multiple applications on a single instance
+* Paid offering with free professional support for your business
 ```
 
 非模式的亮点需增加到模式化亮点的之前：
@@ -297,7 +296,21 @@ If you are aware of a breach of the any IP in this offer, please don't hesitate 
 如果平台可以嵌入 HTML 元素，可以适当排版或插入下面的图片
 ![](https://libs.websoft9.com/Websoft9/ui/design/service_w800.jpg)
 
+### Usage Instructions
 
+适用于云平台用户的快速指引，但平台没有 **Usage** 承载标签页时，需插入到详情页
+
+```
+Once the instance is running, enter the public DNS:9000 provided by Amazon into your browser. You will then see the Websoft9 Console.   
+
+And refer to the following steps to get started:
+
+1. Connect your EC2 and set password by command `sudo passwd` for your user
+2. Use your EC2 username 'ubuntu' and password to log in Websoft9 Console. 
+3. Go to the "App Store" in the Websoft9 Console and install InfluxDB with a one-click.
+4. Once installation is complete, go to "My Apps" to get the port, access url and credentials of InfluxDB
+5. For configuration and administration see: https://support.websoft9.com/en/docs/next/influxdb
+```
 
 ### SEO
 
@@ -351,8 +364,6 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 上传一个 **商品名称-license.doc** 的附件，其中的内容为主要组件的开源 License 链接地址。
 
 > 建议优化成附上 Websoft9 文档中的 Licenses 页面 
-
-
 
 ## Media 设计范式
 
