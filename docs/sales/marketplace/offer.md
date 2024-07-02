@@ -136,7 +136,7 @@ Digital Experience Platform for CMS  CMS 不是产品商标，没有意义
 * 在 AWS 被称之为 **Short summary **
 
 ```
-Pre-configured, Web-based, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure.
+Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB with Websoft9 Applications Hosting Platform on AWS.
 ```
 
 ### 描述
@@ -157,7 +157,7 @@ Pre-configured, Web-based, Cloud-native, secure, one-click to deploy ERPNext on 
 - English = 模式化子标题 + 应用介绍
 
    ```
-   Pre-configured, Web-based, Cloud-native, secure, one-click to deploy ERPNext on AWS/Azure. ERPNext is... 
+   Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB with Websoft9 Applications Hosting Platform on AWS. InfluxDB is... 
    ```
 
 > 应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
