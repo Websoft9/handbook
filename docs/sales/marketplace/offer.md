@@ -258,6 +258,11 @@ CPU no less than 2 core, Memory no less than 4G.
 # Use Cases: 
 
 Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Operational Monitoring, Application Performance Monitoring (APM)
+
+# Ready-to-use related applications
+
+This product enables users to deploy additional applications related to InfluxDB® with a one-click, including Grafana, Prometheus, Elasticsearch, Kibana, Apache Kafka. Zabbix, Node-RED, and others you may need.
+
 ```
 
 ### 特征亮点 {#highlights}
@@ -275,9 +280,9 @@ Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Ope
 
 # English
 
-* Docker-based, one-click to deploy and upgrade
-* Web console for managing multiple applications on a single instance
-* Paid offering with free professional support for your business
+* Docker-based, easy to deploy and upgrade
+* Console panel for installing and managing multiple applications on a single instance
+* One-click deployment of over 200 template applications from the console
 ```
 
 非模式的亮点需增加到模式化亮点的之前：
