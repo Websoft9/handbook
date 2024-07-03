@@ -244,10 +244,13 @@ This is a cloud-native InfluxDB® Open Source Edition runtime on the Websoft9 Ap
 
 InfluxDB® is the most popular open source database for developers managing time series data. Unlock real-time insights from time series data at any scale in any environment – in the cloud, on-prem, or at the edge.
 
+- InfluxDB® is a trademark registered by InfluxData®
+- InfluxDB® is licensed under the permissive MIT and Apache 2.0 licenses
+
 Websoft9 is a lightweight, self-hosting PaaS that allows you to deploy multiple applications on your own cloud infrastructure. It employs a GitOps approach and includes an integrated app store that supports one-click deployment of over 200 template applications, as well as the ability to deploy custom applications. Users have complete autonomy, ensuring that applications can be easily configured and continuously deployed even after they are live. Additionally, the web-based interface allows users to effortlessly perform tasks such as domain binding, HTTPS setup, access control, and status monitoring.
 
-# Image Components:
-InfluxDB® 2.7/latest Open Source, Docker, Websoft9 Apps Hosting Platform 2.1.5
+# Included Components:
+InfluxDB® Open Source Edition 2.7/latest, Docker, Websoft9 v2.1.5
 
 # EC2 requirements:
 CPU no less than 2 core, Memory no less than 4G.
@@ -255,15 +258,6 @@ CPU no less than 2 core, Memory no less than 4G.
 # Use Cases: 
 
 Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Operational Monitoring, Application Performance Monitoring (APM)
-
-# Intellectual Property Statement: 
-
-This offering includes a wide range of open source and free software, but the copyrights, licenses, and trademarks remain the legal protections of their original owners.
-
-- InfluxDB® is a trademark registered by InfluxData®
-- InfluxDB® is licensed under the permissive MIT and Apache 2.0 licenses
-
-Any IP infringement here, please don't hesitate to contact us: legal@websoft9.com, we will correct it as soon as possible.
 ```
 
 ### 特征亮点 {#highlights}
