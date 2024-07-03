@@ -305,7 +305,7 @@ Once the instance is running, enter the public DNS:9000 provided by AWS into you
 
 And refer to the following steps to get started:
 
-1. Connect your EC2 and set password by command `sudo passwd` for your user
+1. Connect your EC2 and set password by command 'sudo passwd' for your user
 2. Use your EC2 username 'ubuntu' and password to log in Websoft9 Console. 
 3. Go to the "App Store" in the Websoft9 Console and install InfluxDB with a one-click.
 4. Once installation is complete, go to "My Apps" to get the port, access url and credentials of InfluxDB
