@@ -154,10 +154,10 @@ Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB wi
    本产品是由 Websoft9 出品的 Akeneo 云原生应用，即买即用。Akeneo 是开源的 PIM 系统，可帮助商家和品牌提高产品数据质量并简化产品目录管理。订阅此产品，您可以获得升级、变更、维护、救援等免费的技术支持服务。
    ```
 
-- English = 模式化子标题 + 应用介绍
+- English = 模式化子标题 + 应用介绍 + 已包含支持费用
 
    ```
-   Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB with Websoft9 Applications Hosting Platform on AWS. InfluxDB is... 
+   Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB with Websoft9 Applications Hosting Platform on AWS. InfluxDB is... The price of this product includes charges for Websoft9 support.
    ```
 
 > 应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
@@ -246,14 +246,15 @@ InfluxDB® is the most popular open source database for developers managing time
 
 Websoft9 is a lightweight, self-hosting PaaS that allows you to deploy multiple applications on your own cloud infrastructure. It employs a GitOps approach and includes an integrated app store that supports one-click deployment of over 200 template applications, as well as the ability to deploy custom applications. Users have complete autonomy, ensuring that applications can be easily configured and continuously deployed even after they are live. Additionally, the web-based interface allows users to effortlessly perform tasks such as domain binding, HTTPS setup, access control, and status monitoring.
 
-# Included Components:
+# Included Components
+
 InfluxDB® Open Source Edition 2.7/latest, Docker, Websoft9 v2.1.5
 
 # Trademark Statement
 
-- InfluxDB® is a trademark registered by InfluxData,which is not affiliated with, and does not endorse, this product
+InfluxDB® is a trademark registered by InfluxData,which is not affiliated with, and does not endorse, this product
 
-# Use Cases: 
+# Use Cases
 
 Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Operational Monitoring, Application Performance Monitoring (APM)
 
