@@ -310,8 +310,6 @@ And refer to the following steps to get started:
 2. Use your EC2 username 'ubuntu' and password to log in Websoft9 Console. 
 3. Go to the "App Store" in the Websoft9 Console and install InfluxDB with a one-click.
 4. Once installation is complete, go to "My Apps" to get the port, access url and credentials of InfluxDB
-
-For configuration and administration see: https://support.websoft9.com/en/docs/next/influxdb
 ```
 
 ### SEO
@@ -600,8 +598,12 @@ Annual Subscriptions: Refunds are allowed if you are canceling a subscription to
 Hourly Subscriptions: We do not currently support refunds, but you can cancel at any time.
 ```
 
+## 其他
 
-
+### AWS arn
+```
+arn:aws:iam::797851739507:role/Marketplace_ingest
+```
 
 
 
