@@ -246,23 +246,23 @@ InfluxDB® is the most popular open source database for developers managing time
 
 Websoft9 is a lightweight, self-hosting PaaS that allows you to deploy multiple applications on your own cloud infrastructure. It employs a GitOps approach and includes an integrated app store that supports one-click deployment of over 200 template applications, as well as the ability to deploy custom applications. Users have complete autonomy, ensuring that applications can be easily configured and continuously deployed even after they are live. Additionally, the web-based interface allows users to effortlessly perform tasks such as domain binding, HTTPS setup, access control, and status monitoring.
 
-# Included Components
+**Included Components**  
 
 InfluxDB® Open Source Edition 2.7/latest, Docker, Websoft9 v2.1.5
 
-# Trademark Statement
+**Trademark Statement**  
 
 InfluxDB® is a trademark registered by InfluxData,which is not affiliated with, and does not endorse, this product
 
-# Use Cases
+**Use Cases**  
 
 Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Operational Monitoring, Application Performance Monitoring (APM)
 
-# Ready-to-use related applications
+**Ready-to-use related applications**  
 
 This product enables users to deploy additional applications related to InfluxDB® with a one-click, including Grafana, Prometheus, Elasticsearch, Kibana, Apache Kafka. Zabbix, Node-RED, and others you may need.
 
-# EC2 requirements:
+**EC2 requirements**  
 CPU no less than 2 core, Memory no less than 4G.
 
 ```
