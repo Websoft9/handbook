@@ -283,7 +283,7 @@ CPU no less than 2 core, Memory no less than 4G.
 # English
 
 * Docker-based, easy to deploy and upgrade
-* Console panel for installing and managing multiple applications on a single instance
+* Control panel for installing and managing multiple applications on a single instance
 * One-click deployment of over 200 template applications from the console
 ```
 
