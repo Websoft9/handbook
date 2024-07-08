@@ -21,4 +21,5 @@
 
 ## 关键词推荐
 
-- [Google/Bing/YouTube/Amazon 关键词推荐](https://ahrefs.com/keyword-generator/)
+- [Google/Bing/YouTube/Amazon 搜索引擎指数以及关键词推荐](https://ahrefs.com/keyword-generator/)
+- [Visualization of Google's autocomplete](https://anvaka.github.io/vs/?query=odoo)
