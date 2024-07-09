@@ -9,13 +9,17 @@ sidebar_position: 1
 * 从公司全局角度看：提高订单量，提高订单单价，降低客户错误购买率
 * 从运营管理角度看：提高商品被发现几率，提高用户阅读量，提高用户点击订阅意愿
 
-## 术语
+## 通用原则
+
+如下的通用原则至关重要：
+
+### 术语
 
 * 商品：云市场中具有单独页面产品信息体，有的云称之为 Offer
 * 规格：又被称之为 SKU 或 发行版，它是商品为满足用户不同用户的需求而派生的子集，例如：MySQL 5.6
 * 版本：它是开发者的角度考虑，与 SKU 不是一个概念，例如： MySQL 5.6.20
 
-## 合规性
+### 合规要求
 
 在国际云市场上，合规性是首要准则，不可以出现任何与合规性冲突的内容。合规性主要包括：
 
@@ -26,14 +30,14 @@ sidebar_position: 1
 - 用户许可协议
 - 特殊禁令（例如：美国的实体清单）
 
-## 易维护
+### 易维护
 
 易维护可以降低成本，也可以减少错误。这个方面的考量有：
 
 * 不可修改的**固定字段**要慎重，尽快保证它可以适应各种变化
 * 商品详情中组件的版本号要精简，保证在更新 SKU 时它不需更改
 
-## 平台搜索考量
+### 平台内搜索
 
 平台内的客户会通过搜索找到我们的产品，因此如何可以被搜索到是非常重要的考量因素。  
 
@@ -43,7 +47,7 @@ sidebar_position: 1
 * Azure 和 华为云 SKU 可以被单独检索，故 SKU 名称和描述需要纳入考虑
 * 阿里云将商品外部流量作为检索推荐的指标，即强者愈强
 
-## 多商品多规格
+### 多商品多规格
 
 一个产品可能由于下面几种情况会产生多商品或多规格：  
 
@@ -81,52 +85,18 @@ sidebar_position: 1
 * **合规**：英文标题中一般不允许出现其他公司的商标，即使使用也非常有讲究
 
 ```
-# 未包含商标的名称
-Free and Open Source Cloud ERP
+# Only Websoft9
+Websoft9 Applications Hosting Platform
 
+# Websoft9 + 单一应用
+Websoft9 Applications Hosting Platform for InfluxDB®
 
-# For 一般用适用于：组件 for 产品商标，类别(带有特征) for 产品商标。这种方式下产品商标是形容词。
-Websoft9 Applications Hosting Platform for InfluxDB® 
-Websoft9 Self-Hosting PaaS for InfluxDB
-Websoft9 Self-Hosting Platform for InfluxDB
-Websoft9 Applications Hosting Platform for InfluxDB
-Websoft9 Self-Hosting PaaS for Web Runtime 
-Websoft9 Self-Hosting PaaS for Web Runtime 
+# Websoft9 + 单一环境
+Websoft9 Web Runtime Hosting Platform for PHP
 
-
-Web APPS runtime for PHP
-Visual Machine Learning Stack for TensorFlow
-Cloud Native Database for MySQL
-Cloud Native MQ for Kafka
-Cloud Database for MySQL
-Log plugins for MySQL
-Open Source GUI project for Ansible
-
-# 错误的表达
-Database for MySQL   有类别但没有特征
-Digital Experience Platform for CMS  CMS 不是产品商标，没有意义
+# Websoft9 + 品类
+Websoft9 Websites Hosting Platform
 ```
-
-英文标题常见的词汇：
-
-* stack
-* deployment
-* plugin/theme/extension
-* runtime
-* toolkit
-* vm
-* image
-* 1-click package
-* platform
-* framework
-* tool
-* software
-* system
-* cloud-native
-* box
-
-> stack,deployment 等词汇更像是我们提供的技术副产品，platform, system 看起来更像商品原生性。
-
 
 ### 子标题
 
