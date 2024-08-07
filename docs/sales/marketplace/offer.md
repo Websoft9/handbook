@@ -94,8 +94,15 @@ Websoft9 Applications Hosting Platform for InfluxDB®
 # Websoft9 + 单一环境
 Websoft9 Web Runtime Hosting Platform for PHP
 
+# Websoft9 + 单一数据库
+Websoft9 Cloud Database Service for RethinkDB
+
+# Websoft9 + 单一数据库工具
+Websoft9 Cloud Database Service for phpMyAdmin
+
 # Websoft9 + 品类
 Websoft9 Websites Hosting Platform
+Websoft9 DevOps All-in-one Hosting Platform
 ```
 
 ### 子标题
