@@ -44,6 +44,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [saasworthy](https://www.saasworthy.com/): Track 75,000+ software across 600 categories
 - [SaaSHub](https://www.saashub.com/): 194,114 products and growing
 - [SaasGenius ](https://www.saasgenius.com/): Discover the Best Value SaaS Software
+- [MONTCLARE SAAS 250](http://montclare.com/saas-250/)
 - [Expert Insights](https://expertinsights.com/): 提供每个类别下的 Top10 产品分析，专业性强
 - [AIMultiple](https://aimultiple.com/): AIMultiple has published more than a thousand research articles and hundreds of data-driven lists of software and services.
 - [stackshare](https://stackshare.io/)：开源软件对比、替代品分析以及企业使用情况
@@ -53,6 +54,10 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [sourceforge](https://sourceforge.net/): 全球最大的软件分发平台之一
 - [BuiltWith](https://builtwith.com/): Find out what websites are Built With
 - [CabinetM ](https://www.cabinetm.com/): Your Technology Management Platform
+- [FinancesOnline](https://financesonline.com/): B2B solutions & get market insights
+- [99firms](https://99firms.com/): Agencies & Software You Can Trust
+- [peerspot](https://www.peerspot.com/): Join 796,000 enterprise tech professionals sharing advice with peers
+- [Clutch](https://clutch.co/): 浏览全球 350,000 家经过审查的企业
 - Github的热度分析
 
 ### 求职分析
@@ -84,6 +89,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [Datanyze](https://www.datanyze.com/): 全球顶级公司名录
 - [GoodFirms ](https://www.goodfirms.co/): 60,000+ verified client reviews
 - [skillsoft](https://www.skillsoft.com/explore): 商业学习网站，包含大量 IT 技术学习
+- [metabaseapp](https://redpoint.metabaseapp.com/public/dashboard/5e802588-cc2c-489c-a2f3-283d6c3cd298?category=&repo=&series=&license=): 数据分析工具排名
 
 ### Marketplace 与 SaaS 集成
 
@@ -96,7 +102,6 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [Linode Marketplace](https://www.linode.com/marketplace/apps/)
 - [DigitalOcean Marketplace](https://marketplace.digitalocean.com/category/all)
 - [Heroku Add-ons](https://elements.heroku.com/addons)
-- 
 
 ### 搜索引擎
 
