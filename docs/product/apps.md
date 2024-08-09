@@ -58,7 +58,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [99firms](https://99firms.com/): Agencies & Software You Can Trust
 - [peerspot](https://www.peerspot.com/): Join 796,000 enterprise tech professionals sharing advice with peers
 - [Clutch](https://clutch.co/): 浏览全球 350,000 家经过审查的企业
-- Github的热度分析
+- [crunchbase](https://www.crunchbase.com/): 科技创投平台
 
 ### 求职分析
 
@@ -73,6 +73,8 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 
 通过细分领域网站，搜索产品的排名与应用情况
 
+- [Geekflare](https://geekflare.com/): 软件测评博客
+- [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)：Github 热门项目周刊
 - [359 个低代码产品](https://airtable.com/appgtkCKwkLEgMyTo/shr78BZzqhqxYdqRa/tblNb6MHPMpAYKkt6)
 - [Awesome Open Source](https://awesomeopensource.com/): 7,000 Expert Curated Categories, 1,500,000 projects
 - [Containerize](https://products.containerize.com/): Provides insight into the top enterprise open source software
@@ -119,5 +121,6 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [Hacker News](https://news.ycombinator.com/)
 - [stackoverflow](https://stackoverflow.com/)
 - [reddit](https://www.reddit.com/)
+- [dev](https://dev.to/)
 
 

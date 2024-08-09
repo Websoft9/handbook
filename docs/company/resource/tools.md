@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
  
-# SaaS
+# Tools
 
 善用不同的效率工具提升业务和用户体验，是 Websoft9 成功的关键。
 
@@ -21,7 +21,10 @@ sidebar_position: 2
 
 ### 人工智能
 
-* [AI 研究所 - 国内外 AI 工具与资讯](https://www.aiyjs.com/)
+- [豆包](https://www.doubao.com/chat/)
+- [文言一心](https://yiyan.baidu.com/)
+- [AI 研究所 - 国内外 AI 工具与资讯](https://www.aiyjs.com/)
+- [600+ AI Tools by AI Daddy](https://docs.google.com/spreadsheets/d/1jmcdUFzwuZs3JnFQuoP9SfB3kGKm5HB-5TG8RIOVKYM)
 
 ## 企业管理
 
@@ -46,6 +49,7 @@ sidebar_position: 2
 
 * 财税：[诺诺电子发票](https://fp.jss.com.cn/#/)、[电子税务局](https://etax.hunan.chinatax.gov.cn/wsbs/)、电子社保局、[企业信用系统](http://gx.gsxt.gov.cn/)
 * 合规：管局备案、公安备案、星城园丁
+* 企业信息：[opencorporates](https://opencorporates.com/companies/us_co/20181765483)
 
 ### 科技创新
 
