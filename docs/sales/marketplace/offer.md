@@ -457,6 +457,12 @@ Ubuntu
 
 Ubuntu Server 22.04 LTS
 
+### AWS arn
+
+```
+arn:aws:iam::797851739507:role/Marketplace_ingest
+```
+
 ### 服务器推荐配置
 
 以最低配置作为首选推荐，然后以此为基础，增加 2-3 款更高配置。
@@ -501,11 +507,11 @@ AWS 注意：除 us-gov-east-1 GovCloud East 和 us-gov-west-1 GovCloud West 外
 尽可能给产品提供免费试用的机会，以符合云平台的流量倾向政策。  
 
 * 阿里云：首月 0 元
-* AWS：接受官方的试用策略
+* AWS：接受官方的试用策略（5天）
 
 ### 开放端口
 
-80 和 443 是必选项，其他端口参考应用文档
+80, 443, 9000 是必选项，其他端口参考应用文档
 
 ### 磁盘
 
@@ -575,12 +581,20 @@ Annual Subscriptions: Refunds are allowed if you are canceling a subscription to
 Hourly Subscriptions: We do not currently support refunds, but you can cancel at any time.
 ```
 
-## 其他
+## 附加
 
-### AWS arn
-```
-arn:aws:iam::797851739507:role/Marketplace_ingest
-```
+### 知识产权限制
+
+部分开源软件对商标和 License 使用非常严格，发布商品时需特别注意：
+
+- Moodle，对商标使用非常严格
+- MongoDB, 对商标使用非常严格
+- Elastic，对商品和产品分发使用非常严格
+- n8n 不允许分发
+- arangodb 似乎不允许分发
+
+
+
 
 
 
