@@ -592,6 +592,8 @@ Hourly Subscriptions: We do not currently support refunds, but you can cancel at
 - Elastic，对商品和产品分发使用非常严格
 - n8n 不允许分发
 - arangodb 似乎不允许分发
+- Zabbix，对商标使用非常严格
+- Alfresco，对商标和软件归属使用非常严格
 
 
 
