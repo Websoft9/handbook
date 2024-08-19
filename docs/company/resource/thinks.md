@@ -101,12 +101,12 @@ sidebar_position: 4
 * [52本书搭建商业运营知识体系](https://www.yuque.com/yichu/biz/nch79o#ApvG)
 * [MBA 百科-人力资源](https://wiki.mbalib.com/wiki/Portal:%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90)
 
-## 基础知识
+### 基础知识
 
 - [可汗学院](https://zh.khanacademy.org/)
 - [Coursera](https://www.coursera.org/)
 
-## 技术架构
+### 技术架构
 
 - [Roadmaps](https://roadmap.sh/)
 - [俄勒冈州立大学开源实验室-DevOps 训练营课程](http://devopsbootcamp.osuosl.org/index.html)
