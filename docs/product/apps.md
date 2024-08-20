@@ -27,7 +27,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 
 以第三方提供的数据作为参考指标：
 
-#### 软件测评
+### 软件测评
 
 通过专业的软件测评工具，直观的获取软件的使用情况：
 
@@ -92,6 +92,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [GoodFirms ](https://www.goodfirms.co/): 60,000+ verified client reviews
 - [skillsoft](https://www.skillsoft.com/explore): 商业学习网站，包含大量 IT 技术学习
 - [metabaseapp](https://redpoint.metabaseapp.com/public/dashboard/5e802588-cc2c-489c-a2f3-283d6c3cd298?category=&repo=&series=&license=): 数据分析工具排名
+- [ComponentSource](https://www.componentsource.com/) 致力于向软件开发人员提供目前国际上可供应的最好软件开发产品。
 
 ### Marketplace 与 SaaS 集成
 
