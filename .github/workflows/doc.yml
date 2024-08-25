@@ -25,7 +25,7 @@ jobs:
       env:
         CI: true
     
-    #  to azure blob
+
     - name: debug
       run: ls
 
