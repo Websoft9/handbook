@@ -98,7 +98,10 @@ Websoft9 Web Runtime Hosting Platform for PHP
 Websoft9 Cloud Database Service for RethinkDB
 
 # Websoft9 + 单一数据库工具
-Websoft9 Cloud Database Service for phpMyAdmin
+Websoft9 Cloud Database Tool for phpMyAdmin
+
+# Websoft9 + 单一 DevOps 工具
+Websoft9 DevOps Platform for GitLab
 
 # Websoft9 + 品类
 Websoft9 Websites Hosting Platform
