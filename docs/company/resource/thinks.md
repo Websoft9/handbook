@@ -68,6 +68,7 @@ sidebar_position: 4
 - [techstartups](https://techstartups.com/): 科技创业资讯
 - [infoworld](https://www.infoworld.com/)
 - [投资界](https://www.pedaily.cn/)
+- [The Register](https://www.theregister.com/)
 
 
 ## 自媒体
