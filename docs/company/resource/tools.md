@@ -30,6 +30,7 @@ sidebar_position: 2
 
 ### IT 工具
 
+* 免费 SaaS for 开发者：[free-for.dev](https://github.com/ripienaar/free-for-dev)
 * 代理服务：[tinyproxy](https://github.com/Websoft9/docker-library/tree/main/apps/tinyproxy), [Wireguard+Tunsafe](https://github.com/Websoft9/docker-library/tree/main/apps/wireguard)
 * [Wostia](https://wistia.com/)：将视频网站的下载到本地
 * 安全：[Microsoft Authenticator](https://support.microsoft.com/zh-cn/account-billing/%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85microsoft-authenticator%E5%BA%94%E7%94%A8-351498fc-850a-45da-b7b6-27e523b8702a)，
