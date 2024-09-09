@@ -285,14 +285,14 @@ CPU no less than 2 core, Memory no less than 4G.
 适用于云平台用户的快速指引，但平台没有 **Usage** 承载标签页时，需插入到详情页
 
 ```
-Once the instance is running, enter the public DNS:9000 provided by AWS into your browser. You will then see the Websoft9 Console.   
+Once the instance is running, enter the http://public DNS:9000 provided by AWS into your browser. You will then see the Websoft9 Console.   
 
 And refer to the following steps to get started:
 
-1. Connect your EC2 and set password by command 'sudo passwd' for your user
-2. Use your EC2 username 'ubuntu' and password to log in Websoft9 Console. 
-3. Go to the "App Store" in the Websoft9 Console and install InfluxDB with a one-click.
-4. Once installation is complete, go to "My Apps" to get the port, access url and credentials of InfluxDB
+1. Run command 'sudo usermod -aG docker ubuntu && sudo passwd ubuntu' to set password and permisson when connected your EC2
+3. Use your EC2 username 'ubuntu' and password to log in Websoft9 Console. 
+4. Go to the "App Store" in the Websoft9 Console and install InfluxDB with a one-click.
+5. Once installation is complete, go to "My Apps" to get the port, access url and credentials of InfluxDB
 ```
 
 ### SEO
