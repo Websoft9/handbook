@@ -41,6 +41,7 @@ sidebar_position: 4
 - [Thoughtworks](https://www.thoughtworks.com/)
 - [Analysys Mason](https://www.analysysmason.com/)
 - [前瞻研究院](https://bg.qianzhan.com/)
+- [OpenLogic by Perforce](https://www.openlogic.com): 提供 400+开源软件技术支持，并提供开源智库
 
 ## 科技资讯
 
