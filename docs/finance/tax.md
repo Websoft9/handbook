@@ -19,10 +19,23 @@ sidebar_position: 1
 中国税务业务种类繁多，监管严格，涉及知识点如下：  
 
 * 税种：营业税、企业所得税、个人所得税、房产税
-* 税收优惠：高企税收优惠、研发加计扣除优惠、[跨境应税行为免税备案](http://www.chinatax.gov.cn/chinatax/n359/c2857149/content.html)
+* 税收优惠：[《我国支持科技创新主要税费优惠政策指引》](https://www.most.gov.cn/kjbgz/202403/t20240313_189961.html)
 * 备案：银行账号备案、跨境业务合同备案
 * 人员认证：企业的工作人员到税务局办理涉税事物，必须先对人员的身份进行备案。员工离职，公司需要把员工从办税员中删除。两种情况均需要到**桔洲税务分局大厅**办理变更。
 * 报税任务：请见 [Company 项目 Issue](https://github.com/websoft9op/company)
+
+#### 进口
+
+下面将软件进口的相关条例与法规进行解读：
+
+- [《中华人民共和国增值税暂行条例》](https://www.gov.cn/zhengce/zhengceku/2008-11/14/content_1798.htm)中有数条关于进出口的增值税规定
+- [财政部 海关总署 税务总局关于支持集成电路产业和软件产业发展进口税收政策的通知](https://m.mofcom.gov.cn/article/cwgongzuo/huiybz/202104/20210403056259.shtml) 中有明确的重点软件产品类型免税的规定
+
+#### 出口
+
+下面将软件或咨询服务出口的相关条例与法规进行解读：
+
+- [跨境应税行为免税备案](http://www.chinatax.gov.cn/chinatax/n359/c2857149/content.html)
 
 #### 美国
 
