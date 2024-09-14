@@ -27,7 +27,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 
 以第三方提供的数据作为参考指标：
 
-### 软件测评
+### 软件测评{#review}
 
 通过专业的软件测评工具，直观的获取软件的使用情况：
 
@@ -60,7 +60,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [Clutch](https://clutch.co/): 浏览全球 350,000 家经过审查的企业
 - [crunchbase](https://www.crunchbase.com/): 科技创投平台
 
-### 求职分析
+### 求职分析{#job}
 
 通过招聘网站的职位关键词，分析产品在企业中的真实使用
 
@@ -69,7 +69,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [Monster 招聘](https://www.monster.com)
 - [careerbuilder](https://www.careerbuilder.com/)
 
-### 分类搜寻
+### 分类搜寻{#catalog}
 
 通过细分领域网站，搜索产品的排名与应用情况
 
@@ -117,7 +117,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 
 参考：[搜索引擎关键词热度](./martech/keywords)
 
-## 论坛讨论
+## 论坛讨论{#community}
 
 - [Hacker News](https://news.ycombinator.com/)
 - [stackoverflow](https://stackoverflow.com/)
