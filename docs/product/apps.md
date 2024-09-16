@@ -93,6 +93,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 - [skillsoft](https://www.skillsoft.com/explore): 商业学习网站，包含大量 IT 技术学习
 - [metabaseapp](https://redpoint.metabaseapp.com/public/dashboard/5e802588-cc2c-489c-a2f3-283d6c3cd298?category=&repo=&series=&license=): 数据分析工具排名
 - [ComponentSource](https://www.componentsource.com/) 致力于向软件开发人员提供目前国际上可供应的最好软件开发产品。
+- [FINOS Foundation](https://www.finos.org/) 金融行业开源组织
 
 ### Marketplace 与 SaaS 集成
 
