@@ -1,0 +1,5 @@
+position: 1.2
+label: "活动"
+collapsible: true
+collapsed: true
+className: "red"

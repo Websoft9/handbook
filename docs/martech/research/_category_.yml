@@ -1,0 +1,5 @@
+position: 3
+label: "洞察与分析"
+collapsible: true
+collapsed: true
+className: "red"
