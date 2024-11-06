@@ -121,3 +121,11 @@ Azure 上有几种客户来源：
 
 
 ## 常见问题
+
+#### Azure 有哪些 Linux 发行版？
+
+与 Azure [官方合作](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/endorsed-distros#platform-image-partners)的发行版包括：
+
+- 开源：Ubuntu, Debian, AlmaLinux, Oracle Linux
+- 付费：Red Hat, SUSE, Ubuntu Pro
+
