@@ -383,72 +383,46 @@ Azure 独有的指标。用于上架前自测，所以一般填写自身可使�
 
 ### SKU ID （版本号）
 
-有的云被成为 版本 ID 或 版本号，有的可以修改，有的不可以修改。
+- 有的云被成为 **版本 ID** 或 **版本号** 或 **Plan ID**
+- 有的可以修改，有的不可以修改
 
-以主应用的完整版本号作为商品版本号的起始，以操作系统作为结尾。具体信息亮的多少需要根据云平台可承载而定：
+根据平台的特征进行个性化表示：
 
-* AWS：Kafka 2.8.1 - Ubuntu 22.04 或 GitLab 8.0 - Jenkins6.0 -Ubuntu22.04
-* Azure：仅供程序使用，一旦设定便不可更改
-* 阿里云：V5.2.9-Ubuntu22.04 （控制台搜索可以显示完整，云市场商品详情页面只显示9个字符）
-* 华为云：
+* AWS：SKU ID 会在搜索列表页呈现，且后续不可被替换，故需要有营销和版本识别效果。范例：`GitLab 8.0-Ubuntu22.04` or `MySQL5.6/8.0 on Ubuntu22.04`
+* Azure：SKU ID 不会显示给用户，且后续可以被替换，故可以抽象描述。范例：`wordpress-websoft9-ubuntu`
+* 阿里云：SKU ID 会在搜索列表页呈现，且后续不可被替换，故需要有营销和版本识别效果。范例：`GitLab 8.0-Ubuntu22.04`
 
 
 ### SKU 标题
 
 突出主应用版本和操作系统版本。
 
-* AWS 此项名为 Version Title
-
-```
-HAProxy Community 1.7 on Ubuntu 22.04
-```
+* AWS 对应的是 Version Title, Azure 对应的是 Plan Name。统一表示为：
+  
+   ```
+   WordPress 6.6/latest with Websoft9 Hosting Platform on Debian12
+   ```
 
 ### SKU 摘要（版本简介）
 
-突出 SKU 组件的描述。
+AWS, Azure Plan summary 突出 SKU 组件的描述。统一表示为：
 
 ```
-WordPress 5.9, Nginx 1.20, PHP 7.4, MySQL 5.7, phpMyAdmin 5.1, Redis 5.0, Docker on CentOS 7.9
+WordPress 6.6/latest, MySQL/MariaDB/PostgreSQL, phpMyAdmin, Websoft9 2.1.15 on Debian12
 ```
 
-此项在阿里云中仅内部查看，用户看不到。 
+> 此项在阿里云中仅内部查看，用户看不到。 
 
 
 ### SKU 说明
 
 突出 SKU 的价值
 
-* AWS 此项名为 Release Notes
+* AWS 此项名为 Release Notes, Azure 为 Plan description
 
 ```
-This plan integrates HAProxy Community 1.7, and has charges associated with it for VMLab support.
+One-click deployment of WordPress 6.6/latest with Websoft9 Applications Hosting Platform which provide console for application management, OS is Debian12 and has charges associated with it for Websoft9 support.
 ```
-
-### SKU 使用指南
-
-AWS 中被称之为 Usage Instructions，它怎么写？
-
-```
-Usage instructions should take a customer from the 1-click launch, all the way through using the product. This includes any configuration or special steps needed to get the application running. For example:
-
-1. Launch the product via 1-click.
-2. Access the application via web browser at https:/Public_DNS/index.html.
-3. Login using the username admin and the EC2 instance ID as the password.
-```
-
-基于上面的模板，我们提供了三种可能的写法：  
-
-```
-无Web界面：
-Launch the product via 1-click, connect EC2 using the username  'ubuntu'. product configuration and administrator refer to: https://support.websoft9.com/docs/kafka
-
-有Web界面：
-Launch the product via 1-click, access the application via  web browser at http://Public_DNS/ and set the administrator password by youself, then login GitLab using the username root and password you set. Product configuration and administrator refer to: https://support.websoft9.com/docs/gitlab
-
-有Web界面+获取密码：
-Launch the product via 1-click, connect EC2 using the username  'ubuntu' and get MySQL's credentials by command 'sudo cat /credentials/password.txt', then access the GUI tool phpMyAdmin via web browser at  http://Public_DNS:9090. Product configuration and administrator refer to: https://support.websoft9.com/docs/mysql
-```
-
 
 ## 技术规格范式
 
@@ -518,7 +492,11 @@ AWS 注意：除 us-gov-east-1 GovCloud East 和 us-gov-west-1 GovCloud West 外
 
 ### 开放端口
 
-80, 443, 9000 是必选项，其他端口参考应用文档
+- **HTTP port**: 90
+- **HTTPS port**: 443
+- **Websoft9 Console**: 9000
+- **Application Ports**: 9001-9010
+- 特殊应用的其他端口
 
 ### 磁盘
 
@@ -601,10 +579,3 @@ Hourly Subscriptions: We do not currently support refunds, but you can cancel at
 - arangodb 似乎不允许分发
 - Zabbix，对商标使用非常严格
 - Alfresco，对商标和软件归属使用非常严格
-
-
-
-
-
-
-
