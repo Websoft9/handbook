@@ -86,7 +86,9 @@ sidebar_position: 1
 
 ```
 # Only Websoft9
+# Have two options, the short one is for Azure
 Websoft9 Applications Hosting Platform
+Websoft9 App Platform
 
 # Websoft9 + 单一应用
 Websoft9 Applications Hosting Platform for InfluxDB®
