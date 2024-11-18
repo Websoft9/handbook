@@ -72,7 +72,7 @@ sidebar_position: 4
 - [The Register](https://www.theregister.com/)
 
 
-## 自媒体
+## Martech 洞察
 
 - [Matt Turck](https://mattturck.com/): FirstMark的风险投资人博客，高质量的软件行业洞察文章
 - [Stratechery](https://stratechery.com/): 科技博客
@@ -88,6 +88,7 @@ sidebar_position: 4
 - [chiefmartec](https://chiefmartec.com/)
 - [similarweb.com](https://www.similarweb.com/blog/zh/): 关键词
 - 技术实践高手王垠的文章：[备忘录](https://yinwang1.substack.com/archive?sort=top), [博客](https://www.yinwang.org/), [Github 存档](https://github.com/AlexiaChen/YinWangBak)
+- [niche pursuits](https://www.nichepursuits.com/): 教会您做利基市场的内容网站
 
 ## 创意资讯
 
