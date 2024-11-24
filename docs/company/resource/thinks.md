@@ -43,7 +43,7 @@ sidebar_position: 4
 - [前瞻研究院](https://bg.qianzhan.com/)
 - [OpenLogic by Perforce](https://www.openlogic.com): 提供 400+开源软件技术支持，并提供开源智库
 
-## 科技资讯
+## 商业科技分析
 
 - [FT 中文网](https://www.ftchinese.com/)
 - [TechCrunch](https://techcrunch.com/)
@@ -70,6 +70,7 @@ sidebar_position: 4
 - [infoworld](https://www.infoworld.com/)
 - [投资界](https://www.pedaily.cn/)
 - [The Register](https://www.theregister.com/)
+- [Stratechery](https://stratechery.com/): 对科技公司（如苹果、谷歌、亚马逊等）的深刻见解而闻名，他的分析常常结合商业模式、市场竞争和用户体验等多个维度
 
 
 ## Martech 洞察
