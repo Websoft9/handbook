@@ -14,6 +14,7 @@ sidebar_position: 4
 - [智库导航](https://www.cciee.org.cn/zkdh.aspx?clmId=68)
 - [CNKI](http://opac.changshalib.cn/opac/reader/login) ：长沙图书馆**电子资源频道**提供的免费 CNKI 服务
 - [Wolfram Alpha](https://www.wolframalpha.com/): 科学问答系统
+- [Awesome lists](https://github.com/sindresorhus/awesome): 各种 Awesome 汇总
 
 ### 组织
 
