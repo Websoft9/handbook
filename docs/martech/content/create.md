@@ -16,3 +16,4 @@
 ### 学习参考
 
 - [PPT排版的四大法则: 对齐、对比、亲密、重复](https://www.bilibili.com/video/BV1sK4y1E7jB/)
+- [数据可视化工具目录](https://datavizcatalogue.com/index.html): 让 PPT 更直观 
