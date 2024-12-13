@@ -116,3 +116,4 @@ sidebar_position: 4
 - [Roadmaps](https://roadmap.sh/)
 - [俄勒冈州立大学开源实验室-DevOps 训练营课程](http://devopsbootcamp.osuosl.org/index.html)
 - [云原生 Wiki](https://www.aquasec.com/cloud-native-academy/): 由 Aqua Security Software 维护
+- [深入架构原理与实践](https://www.thebyte.com.cn/)
