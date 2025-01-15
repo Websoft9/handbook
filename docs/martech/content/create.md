@@ -24,7 +24,7 @@ PPT 的结构等同于建筑学中的框架，框架会让事物看起来非常�
 - [数据可视化领域指南：定义、示例和学习资源-tableau](https://www.tableau.com/zh-cn/learn/articles/data-visualization)
 - [12 本数据可视化的书籍](https://www.tableau.com/zh-cn/learn/articles/books-about-data-visualization)
 - [PPT排版的四大法则: 对齐、对比、亲密、重复-视频](https://www.bilibili.com/video/BV1sK4y1E7jB/)
-- [数据可视化工具目录网站](https://datavizcatalogue.com/index.html
+- [数据可视化工具目录网站](https://datavizcatalogue.com/index.html)
 
 也就是说创造 PPT 的核心要点就是：**让一切内容先数据化，然后以可视化的规则呈现。**  
 
