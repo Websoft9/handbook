@@ -94,3 +94,18 @@ Websoft9 产品形态包括：
 
 进入[发布商品](deliver#pulish)的流程
 
+## 特殊流程
+
+#### 如何预装应用到镜像？
+
+**需求**：用户开机即可通过 Websoft9 我的应用中直接使用应用  
+**步骤**：
+1. delete step1 and step2 of init.sh
+2. Disk expansion if need (Cloud console not support spot instance)
+3. Create new os account from Cloud console or Websoft9 terminal(need login before role_end)
+4. Install target application from AppStore
+5. Edit docker-compose.yml of app
+       - add user credential
+       - modify W9_URL to "0.0.0.0"
+       - rebuild application
+
