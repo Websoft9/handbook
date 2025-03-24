@@ -530,12 +530,19 @@ AWS 注意：除 us-gov-east-1 GovCloud East 和 us-gov-west-1 GovCloud West 外
 
 ### PDF 文档
 
-如果云平台不支持在线文档，请使用[在线文档指引 PDF 单页](https://drive.weixin.qq.com/s?k=AEYAzAcRAA4bVAxHKY)
-
-单页会受到审查：
+部分云平台需要提供 PDF 附件的文档，且其中的内容单页会受到审查：
 
 * 不允许在线文档之外的链接
 * 不允许二维码
+
+拷贝下面的 Markdown 源码到 **Typora**，导出 PDF 文件。  
+
+```
+|                        文档版本：v2.0                        |
+| :----------------------------------------------------------: |
+| <br /><br /><br /><br /><br /><br /><br /><br /><br />![Websoft9 多应用托管平台](C:\Users\cdl\AppData\Roaming\Typora\typora-user-images\image-20250324174841757.png)<br /><br />  开源软件自托管平台，提升团队90%生产力<br /><br /><br /><br /><br /><br />**在线文档**：https://support.websoft9.com/docs/<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> |
+
+```
 
 ### 联系方式
 
