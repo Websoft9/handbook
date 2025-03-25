@@ -540,7 +540,7 @@ AWS 注意：除 us-gov-east-1 GovCloud East 和 us-gov-west-1 GovCloud West 外
 ```
 |                        文档版本：v2.0                        |
 | :----------------------------------------------------------: |
-| <br /><br /><br /><br /><br /><br /><br /><br /><br />![Websoft9 多应用托管平台](https://websoft9.github.io/handbook/sales/images/websoft9-svg.png)<br /><br />  开源软件自托管平台，提升团队90%生产力<br /><br /><br /><br /><br /><br />**在线文档**：https://support.websoft9.com/docs/<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> |
+| <br /><br /><br /><br /><br /><br /><br /><br /><br />![Websoft9 多应用托管平台](https://websoft9.github.io/handbook/sales/images/websoft9-logo.svg)<br /><br />  开源软件自托管平台，提升团队90%生产力<br /><br /><br /><br /><br /><br />**在线文档**：https://support.websoft9.com/docs/<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> |
 
 ```
 
