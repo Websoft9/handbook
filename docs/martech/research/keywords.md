@@ -18,6 +18,7 @@
 
 - [Google Trends](https://trends.google.com)
 - [百度指数](https://index.baidu.com)
+- [Bing 关键词研究 (官方工具，需登录)](https://www.bing.com/webmasters/keywordresearch)
 
 ## 关键词推荐
 
