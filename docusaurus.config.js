@@ -23,6 +23,27 @@ const config = {
   organizationName: 'Websoft9', // Usually your GitHub org/user name.
   projectName: 'handbook', // Usually your repo name.
 
+  plugins: [
+  function customWebpackConfigPlugin() {
+    return {
+      name: 'custom-webpack-config',
+      configureWebpack() {
+        return {
+          resolve: {
+            alias: {
+              'cytoscape/dist/cytoscape.umd.js': require.resolve('cytoscape/dist/cytoscape.cjs.js'),
+              'cytoscape/dist/cytoscape.cjs.js': require.resolve('cytoscape/dist/cytoscape.cjs.js'),
+            },
+            fallback: {
+              'cytoscape': require.resolve('cytoscape'),
+            }
+          },
+        };
+      },
+    };
+  },
+],
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
