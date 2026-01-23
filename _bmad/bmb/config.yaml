@@ -9,4 +9,4 @@ bmb_creations_output_folder: "{project-root}/docs/bmb-creations"
 user_name: Websoft9
 communication_language: Chinese
 document_output_language: English
-output_folder: "{project-root}/docs"
+output_folder: "{project-root}/specs"

@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Websoft9 Handbook',
   tagline: '共享创造力',
-  url: 'https://support.websoft9.com',
+  url: 'https://handbook.websoft9.com',
   baseUrl: '/',
   onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
