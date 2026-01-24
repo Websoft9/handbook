@@ -40,7 +40,7 @@ story_location: "{project-root}/specs/implementation-artifacts"
 development_status:
   epic-0: in-progress
   0-1-update-docusaurus: review
-  0-2-local-search: ready-for-dev
+  0-2-local-search: done
   0-3-i18n-setup: ready-for-dev
   0-4-markdown-validation: ready-for-dev
   0-5-makefile-automation: ready-for-dev

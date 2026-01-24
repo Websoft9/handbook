@@ -11,13 +11,49 @@ const config = {
   url: 'https://handbook.websoft9.com',
   baseUrl: '/',
   onBrokenLinks: 'warn', 
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // 启用哈希缓存以支持长期缓存
+        hashed: true,
+        
+        // 中英文双语支持（针对中文内容优化）
+        language: ["en", "zh"],
+        
+        // 索引配置
+        indexDocs: true,      // 索引所有文档
+        indexBlog: false,     // 不索引博客（项目无博客）
+        indexPages: false,    // 不索引独立页面
+        
+        // Docs-only 模式配置
+        docsRouteBasePath: "/",  // 与 preset-classic 的 docs.routeBasePath 保持一致
+        
+        // 搜索结果配置
+        searchResultLimits: 8,                    // 限制搜索结果数量
+        searchResultContextMaxLength: 100,         // 增加上下文长度以更好显示中文
+        
+        // 高亮配置
+        highlightSearchTermsOnTargetPage: true,   // 在目标页面高亮搜索词
+        
+        // 键盘快捷键（保持默认 Cmd/Ctrl+K）
+        searchBarShortcut: true,
+        
+        // 搜索栏位置
+        searchBarPosition: "right",  // 与 GitHub 按钮保持一致
+      }),
+    ],
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -50,7 +86,23 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh'],
+    locales: ['zh', 'en'],
+    localeConfigs: {
+      zh: {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+        calendar: 'gregory',
+        path: 'zh',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+    },
   },
 
   presets: [
@@ -92,6 +144,10 @@ const config = {
           {
             href: 'https://github.com/Websoft9/handbook',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
