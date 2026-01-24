@@ -13,6 +13,7 @@ const config = {
   onBrokenLinks: 'warn', 
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
   markdown: {
     mermaid: true,
   },
