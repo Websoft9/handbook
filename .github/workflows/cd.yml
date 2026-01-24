@@ -16,8 +16,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: actions/setup-node@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
         node-version: 20
         cache: 'yarn'
@@ -32,19 +35,25 @@ jobs:
       env:
         CI: true
     
-
-    - name: debug
-      run: ls
+    - name: Verify build output
+      run: |
+        if [ ! -d "build" ]; then
+          echo "Error: build directory not found"
+          exit 1
+        fi
+        if [ ! -f "build/index.html" ]; then
+          echo "Error: build/index.html not found"
+          exit 1
+        fi
+        echo "Build verification passed"
 
     - name: Publish to Cloudflare Pages
+      if: success()
       uses: cloudflare/pages-action@v1
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: eb79f13320db531d8cf1f3720966b695
         projectName: handbook
         directory: build
-        # Optional: Enable this if you want to have GitHub Deployments triggered
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-        # Optional: Switch what branch you are publishing to.
-        # By default this will be the branch which triggered this workflow
         branch: main
