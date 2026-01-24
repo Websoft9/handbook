@@ -38,11 +38,11 @@ tracking_system: file-system
 story_location: "{project-root}/specs/implementation-artifacts"
 
 development_status:
-  epic-0: in-progress
-  0-1-update-docusaurus: review
+  epic-0: done
+  0-1-update-docusaurus: done
   0-2-local-search: done
-  0-3-i18n-setup: ready-for-dev
-  0-4-markdown-validation: ready-for-dev
-  0-5-makefile-automation: ready-for-dev
-  0-6-ci-cd-pipeline: review
+  0-3-i18n-setup: done
+  0-4-markdown-validation: done
+  0-5-makefile-automation: done
+  0-6-ci-cd-pipeline: done
   epic-0-retrospective: optional
