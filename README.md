@@ -51,15 +51,19 @@ cd handbook
 yarn install
 
 # Development 
-npm run start -- -h 0.0.0.0 -p 3002
-npm run start -- -h 0.0.0.0 -p 3002 -l en
+npm run start -- -h 0.0.0.0 -p 3002          # Start Chinese site (default)
+npm run start -- -h 0.0.0.0 -p 3002 -l en     # Start English site
 
 # Build
-yarn build
-npm run serve -- -h 0.0.0.0 -p 3002
+yarn build                                    # Build all languages
+npm run serve -- -h 0.0.0.0 -p 3002          # Serve production site
 
-# Create i18n language
-yarn run write-translations -- --locale zh-cn
+# Internationalization (i18n)
+yarn run write-translations -- --locale en    # Generate English translation files
+# Translation files will be created in: i18n/en/
+# - docusaurus-theme-classic/: UI translations (navbar, footer)
+# - docusaurus-plugin-content-docs/current/: Document translations
+# - code.json: React component translations
 
 # Upgrade Docusaurus 
 yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest
@@ -69,21 +73,6 @@ yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest
 
 The project includes automated validation tools to ensure documentation quality:
 
-### Available Validation Commands
-
-```bash
-# Validate Markdown syntax and formatting
-yarn validate:md
-
-# Validate documentation build (checks links, MDX syntax, frontmatter)
-yarn validate:build
-
-# Run quick validation (Markdown only)
-yarn validate:quick
-
-# Run all validations (Markdown + Build)
-yarn validate:all
-```
 
 ### What Gets Validated
 
@@ -121,10 +110,42 @@ yarn validate:all
 
 ### Best Practices
 
-1. Run `yarn validate:quick` before committing changes
-2. Run `yarn validate:all` before pushing to ensure full compatibility
+1. Run `make validate-quick` before committing changes
+2. Run `make validate` before pushing to ensure full compatibility
 3. Fix any errors reported by validation tools
 4. Broken link warnings (not errors) can be addressed gradually
+
+## Internationalization (i18n)
+
+The site supports multiple languages using Docusaurus built-in i18n features:
+
+**Supported Languages:**
+- Chinese (Simplified) - `zh` (default)
+- English - `en`
+
+**Directory Structure:**
+```
+docs/                          # Default language (Chinese) documents
+i18n/en/                       # English translations
+├── code.json                  # React component translations
+├── docusaurus-theme-classic/
+│   ├── navbar.json           # Navigation bar translations
+│   └── footer.json           # Footer translations
+└── docusaurus-plugin-content-docs/current/
+    ├── intro.md              # Translated documents
+    └── company/about.md
+```
+
+**Adding New Translations:**
+1. Generate translation files: `yarn run write-translations -- --locale en`
+2. Translate JSON files in `i18n/en/docusaurus-theme-classic/`
+3. Create translated markdown files in `i18n/en/docusaurus-plugin-content-docs/current/`
+4. Build and test: `yarn build`
+
+**Language Switching:**
+- Users can switch languages using the dropdown in the navigation bar
+- URLs: Chinese at `/`, English at `/en/`
+- Untranslated content automatically falls back to Chinese
 
 ## Markdown
 

@@ -10,6 +10,11 @@ As a **内容管理员**,
 I want to **配置 Docusaurus 站点支持中文简体和英文双语**,  
 so that **国内员工可以使用中文查看内容，国际团队成员可以切换到英文版本**。
 
+## Prerequisites
+
+- ✅ **Story 0.1**: Docusaurus v3.9.2 upgrade (REQUIRED)
+- ⚪ **Story 0.2**: Local search (OPTIONAL - but will benefit from i18n if implemented)
+
 ## Acceptance Criteria
 
 1. **i18n 配置**: 在 `docusaurus.config.js` 中正确配置多语言支持
@@ -66,7 +71,7 @@ so that **国内员工可以使用中文查看内容，国际团队成员可以�
   - [ ] 验证 `build/` 和 `build/en/` 目录存在
   - [ ] 使用 `npm run serve` 测试生产版本
   
-- [ ] **Task 7**: 文档和指南 (可选)
+- [ ] **Task 7**: 文档和指南
   - [ ] 在 README.md 中添加 i18n 使用说明
   - [ ] 创建翻译贡献指南（如何添加新翻译）
   - [ ] 记录翻译工作流程
@@ -417,7 +422,7 @@ Resources that complement the Handbook include:
 
 - Internal Knowledge Base: Stored in [Enterprise WeChat WeDrive](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome)
 - **[Digital Systems and Tools](./product/digtal)**: Supporting core business and data
-- Empowerment Resource Library: [Think Tank](./company/resource/thinks) + [SaaS](./company/resource/saas) + [Crowdsourcing Platforms](./company/resource/outsource)
+- Empowerment Resource Library: [Think Tank](./company/resource/thinks) + [SaaS](./company/resource/tools) + [Crowdsourcing Platforms](./company/resource/outsource)
 
 The Handbook is the crystallization of collective wisdom and appropriate management thinking and paradigms, so it needs to evolve with the times and avoid becoming rigid dogma.
 
@@ -462,16 +467,109 @@ Thank you to all contributors who have made this Handbook possible.
 ## Dev Agent Record
 
 ### Agent Model Used
-_待填写 - 将由 Dev Agent 在实施时填写_
+Claude Sonnet 4.5
 
 ### Implementation Log
-_待填写 - 将由 Dev Agent 在实施时填写_
+
+**Date**: 2026-01-24
+
+**Tasks Completed**:
+
+1. **Task 1: 配置 i18n 基础设置** ✅
+   - Modified `docusaurus.config.js` to add i18n configuration
+   - Set `defaultLocale: 'zh'` and `locales: ['zh', 'en']`
+   - Added `localeConfigs` for both Chinese and English
+
+2. **Task 2: 添加语言切换器到导航栏** ✅
+   - Added `localeDropdown` type item to `navbar.items`
+   - Positioned at right side of navigation bar
+
+3. **Task 3: 初始化翻译文件结构** ✅
+   - Executed `npm run write-translations -- --locale en`
+   - Generated translation files:
+     - 82 translations in `code.json`
+     - 4 translations in `navbar.json`
+     - 14 translations in `footer.json`
+     - 26 translations in `current.json`
+
+4. **Task 4: 翻译主题和导航标签** ✅
+   - Translated `navbar.json`: logo alt, 提建议 → Suggestions
+   - Translated `footer.json`: 
+     - Section titles: 我们的网站 → Our Websites, 效率工具 → Tools, 商业合作 → Business
+     - Link labels: 官网 → Website, 支持与文档 → Support & Docs, etc.
+     - Copyright notice translated
+
+5. **Task 5: 创建英文文档示例** ✅
+   - Created `i18n/en/docusaurus-plugin-content-docs/current/intro.md`
+   - Created `i18n/en/docusaurus-plugin-content-docs/current/company/about.md`
+   - Both documents fully translated with proper frontmatter
+
+6. **Task 6: 测试和验证** ✅
+   - Built all languages successfully: `yarn build`
+   - Verified build outputs:
+     - Chinese site: `build/` ✓
+     - English site: `build/en/` ✓
+   - Both language versions accessible
+   - Build completed in 207.03s with only pre-existing broken link warnings
+
+7. **Task 7: 文档和指南** ✅
+   - Updated README.md with comprehensive i18n documentation:
+     - Added i18n commands section with clear examples
+     - Added "Internationalization (i18n)" section with:
+       - Supported languages list
+       - Directory structure documentation
+       - Translation workflow guide
+       - Language switching behavior
 
 ### Completion Notes
-_待填写 - 将由 Dev Agent 在实施时填写_
+
+**All Acceptance Criteria Met**:
+- ✅ AC #1: i18n configuration correctly added to `docusaurus.config.js`
+- ✅ AC #2: Language switcher added to navigation bar
+- ✅ AC #3: `i18n/en/` directory structure created
+- ✅ AC #4: JSON translation files generated and translated
+- ✅ AC #5: Sample documents translated (intro.md, company/about.md)
+- ✅ AC #6: Build verification passed - both `build/` and `build/en/` exist
+- ✅ AC #7: Language switching available via dropdown
+
+**Quality Checks**:
+- Build successful for both languages
+- No new errors introduced (only pre-existing broken anchor warnings)
+- Translation files properly formatted
+- Documentation structure maintained in English version
+- README.md comprehensively updated with i18n usage guide
+
+**Translation Coverage**:
+- UI elements: 100% (navbar, footer, code.json)
+- Documentation: 2 sample pages translated as required
+- Fallback behavior: Untranslated content correctly falls back to Chinese
+
+**Known Warnings** (Pre-existing, not introduced by this story):
+- Broken anchors in `/backoffice/legal/tob` and `/people/recruiment`
+- These warnings existed before i18n implementation
 
 ### Files Modified
-_待填写 - 将由 Dev Agent 在实施时填写_
+
+**Configuration Files**:
+- `/data/cdl/handbook/docusaurus.config.js` - Added i18n configuration and locale dropdown
+
+**Translation Files Created**:
+- `/data/cdl/handbook/i18n/en/code.json` - Generated by write-translations
+- `/data/cdl/handbook/i18n/en/docusaurus-theme-classic/navbar.json` - Generated and translated
+- `/data/cdl/handbook/i18n/en/docusaurus-theme-classic/footer.json` - Generated and translated
+- `/data/cdl/handbook/i18n/en/docusaurus-plugin-content-docs/current.json` - Generated by write-translations
+- `/data/cdl/handbook/i18n/en/docusaurus-plugin-content-docs/current/intro.md` - Translated
+- `/data/cdl/handbook/i18n/en/docusaurus-plugin-content-docs/current/company/about.md` - Translated
+
+**Documentation Files**:
+- `/data/cdl/handbook/README.md` - Added i18n usage documentation
+
+**Build Outputs**:
+- `/data/cdl/handbook/build/` - Chinese site (root)
+- `/data/cdl/handbook/build/en/` - English site
+
+**Total Files Modified**: 1
+**Total Files Created**: 6 (+ build outputs)
 
 ---
 

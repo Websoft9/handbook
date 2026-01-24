@@ -1,0 +1,58 @@
+{
+  "link.title.我们的网站": {
+    "message": "Our Websites",
+    "description": "The title of the footer links column with title=我们的网站 in the footer"
+  },
+  "link.title.效率工具": {
+    "message": "Tools",
+    "description": "The title of the footer links column with title=效率工具 in the footer"
+  },
+  "link.title.商业合作": {
+    "message": "Business",
+    "description": "The title of the footer links column with title=商业合作 in the footer"
+  },
+  "link.item.label.官网": {
+    "message": "Website",
+    "description": "The label of footer link with label=官网 linking to https://www.websoft9.com"
+  },
+  "link.item.label.支持与文档": {
+    "message": "Support & Docs",
+    "description": "The label of footer link with label=支持与文档 linking to https://support.websoft9.com"
+  },
+  "link.item.label.云市场": {
+    "message": "Cloud Marketplace",
+    "description": "The label of footer link with label=云市场 linking to https://support.websoft9.com/docs/install/cloud"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://https://github.com/Websoft9"
+  },
+  "link.item.label.博客与资源": {
+    "message": "Blog & Resources",
+    "description": "The label of footer link with label=博客与资源 linking to https://www.websoft9.com/resources"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/docusaurus"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/docusaurus"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/docusaurus"
+  },
+  "link.item.label.软件分发": {
+    "message": "Software Distribution",
+    "description": "The label of footer link with label=软件分发 linking to https://www.websoft9.com/services/business-process-outsourcing/cloud-distribution-for-isv"
+  },
+  "link.item.label.部署应用": {
+    "message": "Deploy Apps",
+    "description": "The label of footer link with label=部署应用 linking to https://www.websoft9.com/apps"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Websoft9. License: Hunan ICP 16009117",
+    "description": "The footer copyright"
+  }
+}

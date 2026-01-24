@@ -1,0 +1,106 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.公司": {
+    "message": "公司",
+    "description": "The label for category '公司' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.企业宗旨": {
+    "message": "企业宗旨",
+    "description": "The label for category '企业宗旨' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.资源": {
+    "message": "资源",
+    "description": "The label for category '资源' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.社会责任": {
+    "message": "社会责任",
+    "description": "The label for category '社会责任' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.人事": {
+    "message": "人事",
+    "description": "The label for category '人事' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.核心策略": {
+    "message": "核心策略",
+    "description": "The label for category '核心策略' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.招聘": {
+    "message": "招聘",
+    "description": "The label for category '招聘' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.薪酬福利": {
+    "message": "薪酬福利",
+    "description": "The label for category '薪酬福利' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.激励": {
+    "message": "激励",
+    "description": "The label for category '激励' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.外部人力": {
+    "message": "外部人力",
+    "description": "The label for category '外部人力' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.规则": {
+    "message": "规则",
+    "description": "The label for category '规则' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.供应链": {
+    "message": "供应链",
+    "description": "The label for category '供应链' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.产品与工程": {
+    "message": "产品与工程",
+    "description": "The label for category '产品与工程' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.销售与客户成功": {
+    "message": "销售与客户成功",
+    "description": "The label for category '销售与客户成功' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.云市场": {
+    "message": "云市场",
+    "description": "The label for category '云市场' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.平台运营": {
+    "message": "平台运营",
+    "description": "The label for category '平台运营' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.市场营销": {
+    "message": "市场营销",
+    "description": "The label for category '市场营销' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.内容生产": {
+    "message": "内容生产",
+    "description": "The label for category '内容生产' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.分发传播": {
+    "message": "分发传播",
+    "description": "The label for category '分发传播' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.SEO": {
+    "message": "SEO",
+    "description": "The label for category 'SEO' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.resouces": {
+    "message": "resouces",
+    "description": "The label for category 'resouces' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.story": {
+    "message": "story",
+    "description": "The label for category 'story' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.财税后勤": {
+    "message": "财税后勤",
+    "description": "The label for category '财税后勤' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.财务": {
+    "message": "财务",
+    "description": "The label for category '财务' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.法务": {
+    "message": "法务",
+    "description": "The label for category '法务' in sidebar 'tutorialSidebar'"
+  }
+}

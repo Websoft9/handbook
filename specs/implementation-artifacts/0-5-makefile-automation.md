@@ -30,6 +30,9 @@ so that **team members can easily execute tasks without memorizing complex npm/y
    - `make check` - Run comprehensive health check (dependencies, build test, validations)
    - `make help` - Display all available commands with descriptions
    - `make version` - Display project and framework versions
+   - `make proxy` - Set HTTP/HTTPS proxy for current shell session
+   - `make unproxy` - Unset HTTP/HTTPS proxy for current shell session
+   - `make kill-port` - Kill process using specified port (supports direct port number: `make kill-port 3003`, default: 3002)
 
 4. **Documentation**: Clear makefile with comments and help system
    - Each target has a comment describing its purpose
@@ -80,6 +83,9 @@ so that **team members can easily execute tasks without memorizing complex npm/y
   - [x] Implement help text parsing from inline comments
   - [x] Create `check` target (comprehensive health check)
   - [x] Create `version` target (display Node, Yarn, Docusaurus versions)
+  - [x] Create `proxy` target (set HTTP/HTTPS proxy for shell)
+  - [x] Create `unproxy` target (unset HTTP/HTTPS proxy for shell)
+  - [x] Create `kill-port` target (kill process on specified port using lsof)
   - [x] Add `.DEFAULT_GOAL = help` to show help by default
 
 - [x] **Task 6: Testing and Documentation** (AC: #4, #5)
@@ -329,6 +335,8 @@ Claude Sonnet 4.5 (via GitHub Copilot)
    - `make check-versions` - Platform and version checks
    - `make check` - Comprehensive health check
    - `make version` - Display all version information
+   - `make proxy` - Set HTTP/HTTPS proxy for shell (with PROXY_URL parameter)
+   - `make unproxy` - Unset HTTP/HTTPS proxy for shell
    - `.DEFAULT_GOAL = help` for automatic help display
 
 6. ✅ **Testing & Documentation**
@@ -340,7 +348,7 @@ Claude Sonnet 4.5 (via GitHub Copilot)
 
 ### Files Created
 
-- `/data/cdl/handbook/Makefile` - Main automation file (164 lines)
+- `/data/cdl/handbook/Makefile` - Main automation file (178 lines)
 
 ### Files Modified
 
@@ -364,11 +372,14 @@ make validate-md     # Markdown linting only
 make validate-build  # Build validation
 make validate-quick  # Fast quiet validation
 
-# Utilities (6)
+# Utilities (8)
 make help            # Display help (default)
 make check-versions  # Verify system requirements
 make check           # Comprehensive health check
 make version         # Show version info
+make proxy           # Set HTTP/HTTPS proxy (use: eval $(make proxy))
+make unproxy         # Unset HTTP/HTTPS proxy (use: eval $(make unproxy))
+make kill-port       # Kill process on port (use: make kill-port 3003)
 ```
 
 **Configuration Variables**:
@@ -376,6 +387,7 @@ make version         # Show version info
 PORT ?= 3002         # Development server port
 HOST ?= 0.0.0.0      # Development server host
 LOCALE ?= zh         # Default locale
+PROXY_URL ?= http://127.0.0.1:7890  # Default proxy URL
 ```
 
 **Color-Coded Output**:
@@ -388,10 +400,11 @@ LOCALE ?= zh         # Default locale
 
 ✅ **All Core Commands**: install, start, build, serve, clean - Working
 ✅ **All Validation Commands**: validate, validate-md, validate-build, validate-quick - Working
-✅ **All Utility Commands**: help, check, check-versions, version - Working
-✅ **Parameter Passing**: PORT and LOCALE variables tested
+✅ **All Utility Commands**: help, check, check-versions, version, proxy, unproxy - Working
+✅ **Parameter Passing**: PORT, LOCALE, and PROXY_URL variables tested
 ✅ **Error Handling**: serve without build properly fails with clear message
 ✅ **Platform Check**: Linux validated, proper error for non-Linux/macOS
+✅ **Proxy Commands**: eval $(make proxy) and eval $(make unproxy) verified working
 
 ### Example Outputs
 
@@ -416,11 +429,18 @@ Utilities:
   help                 Display this help message
   check                Run comprehensive health check
   version              Display project and framework versions
+  proxy                Set HTTP/HTTPS proxy for current shell
+  unproxy              Unset HTTP/HTTPS proxy for current shell
+  kill-port            Kill process using specified port
 
 Examples:
   make start PORT=3003 LOCALE=en
   make validate-quick
   make build && make serve
+  make kill-port 3003
+  eval $(make proxy)
+  eval $(make unproxy)
+  eval $(make proxy PROXY_URL=http://your-proxy:8080)
 ```
 
 **make check-versions**:
@@ -448,7 +468,7 @@ Version Information:
 |------|----------|--------|----------|
 | AC1 | Core Development Commands | ✅ PASS | 5 commands implemented (install, start, build, serve, clean) |
 | AC2 | Validation Commands | ✅ PASS | 4 commands integrated from Story 0.4 |
-| AC3 | Utility Commands | ✅ PASS | check-versions, check, help, version implemented |
+| AC3 | Utility Commands | ✅ PASS | check-versions, check, help, version, kill-port implemented |
 | AC4 | Documentation | ✅ PASS | Self-documenting help + README update |
 | AC5 | Platform Compatibility | ✅ PASS | Linux tested, macOS support via POSIX, Windows error |
 
@@ -472,12 +492,25 @@ Version Information:
 
 6. **Parameter Flexibility**: Used `?=` for variables so they can be overridden: `make start PORT=3003`
 
+7. **Proxy Management**: Added `proxy` and `unproxy` targets for temporary HTTP/HTTPS proxy configuration
+   - Uses `eval $(make proxy)` pattern to set environment variables in current shell
+   - Supports custom proxy URL via `PROXY_URL` parameter
+   - Default proxy: `http://127.0.0.1:7890`
+
+8. **Port Management**: Added `kill-port` target to forcefully terminate processes occupying specified ports
+   - Supports direct port number argument: `make kill-port 3003`
+   - Falls back to PORT variable if no argument provided (default: 3002)
+   - Uses `lsof -ti :PORT` to find process ID
+   - Provides clear feedback when no process found or kill succeeds/fails
+   - Useful when dev server doesn't stop cleanly
+
 ### Recommendations
 
 1. **CI/CD Integration**: Use `make check && make build` in GitHub Actions
 2. **Developer Workflow**: Encourage `make validate-quick` before commits
 3. **macOS Testing**: Have macOS user verify all commands work (Linux tested only)
-4. **Future Enhancements**: Consider adding `make deploy`, `make translate` targets
+4. **Proxy Usage**: Use `eval $(make proxy)` before operations requiring network access through proxy (e.g., git, npm, yarn)
+5. **Future Enhancements**: Consider adding `make deploy`, `make translate` targets
 
 ### Story Status Update
 

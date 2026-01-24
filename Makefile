@@ -2,7 +2,7 @@
 # Provides standardized commands for development, build, and validation tasks
 # Platform Support: Linux and macOS only (use WSL2 on Windows)
 
-.PHONY: help install start build serve clean validate validate-md validate-build validate-quick check check-versions version
+.PHONY: help install start build serve clean validate validate-md validate-build validate-quick check check-versions version proxy unproxy kill-port
 
 # Default target
 .DEFAULT_GOAL := help
@@ -11,6 +11,7 @@
 PORT ?= 3002
 HOST ?= 0.0.0.0
 LOCALE ?= zh
+PROXY_URL ?= socks5h://127.0.0.1:1088
 
 # Color codes for output
 CYAN := \033[0;36m
@@ -38,7 +39,7 @@ help: ## Display this help message
 	@echo ""
 	@echo "$(GREEN)Utilities:$(RESET)"
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
-		grep -E '^(check|version|help):' | \
+		grep -E '^(check|version|proxy|unproxy|kill-port|help):' | \
 		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)%-20s$(RESET) %s\n", $$1, $$2}'
 	@echo ""
 	@echo "$(YELLOW)Examples:$(RESET)"
@@ -165,3 +166,31 @@ version: ## Display project and framework versions
 		echo "  Docusaurus: $(shell node -p "require('./package.json').dependencies['@docusaurus/core']")"; \
 	fi
 	@echo "  Platform: $(shell uname -s) $(shell uname -m)"
+
+proxy: ## Set HTTP/HTTPS proxy for current shell (use: eval $(make proxy))
+	@echo "export http_proxy=$(PROXY_URL);"
+	@echo "export https_proxy=$(PROXY_URL);"
+	@echo "echo '$(GREEN)✓ Proxy set to $(PROXY_URL)$(RESET)';"
+
+unproxy: ## Unset HTTP/HTTPS proxy for current shell (use: eval $(make unproxy))
+	@echo "unset http_proxy;"
+	@echo "unset https_proxy;"
+	@echo "echo '$(GREEN)✓ Proxy unset$(RESET)';"
+
+kill-port: ## Kill process using specified port (use: make kill-port 3002)
+	@TARGET_PORT=$$(echo "$(filter-out $@,$(MAKECMDGOALS))" | awk '{print $$1}'); \
+	if [ -z "$$TARGET_PORT" ]; then \
+		TARGET_PORT=$(PORT); \
+	fi; \
+	echo "$(CYAN)Killing process on port $$TARGET_PORT...$(RESET)"; \
+	PID=$$(lsof -ti :$$TARGET_PORT 2>/dev/null); \
+	if [ -z "$$PID" ]; then \
+		echo "$(YELLOW)No process found on port $$TARGET_PORT$(RESET)"; \
+	else \
+		kill -9 $$PID && echo "$(GREEN)✓ Process $$PID killed on port $$TARGET_PORT$(RESET)" || \
+		echo "$(RED)✗ Failed to kill process $$PID$(RESET)"; \
+	fi
+
+# Prevent make from treating port numbers as targets
+%:
+	@:
