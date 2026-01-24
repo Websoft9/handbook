@@ -1,0 +1,37 @@
+name: CI - Documentation Validation
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+      - 'src/**'
+      - 'static/**'
+      - '**.js'
+      - '**.json'
+      - 'Makefile'
+      - '.github/workflows/ci.yml'
+
+jobs:
+  validate:
+    name: Validate Documentation
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+      
+      - name: Install dependencies
+        run: make install
+      
+      - name: Run validation
+        run: make validate

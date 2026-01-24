@@ -1,0 +1,48 @@
+# generated: 2026-01-24
+# project: handbook
+# tracking_system: file-system
+# story_location: {project-root}/docs/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-01-24
+project: handbook
+tracking_system: file-system
+story_location: "{project-root}/specs/implementation-artifacts"
+
+development_status:
+  epic-0: in-progress
+  0-1-update-docusaurus: review
+  0-2-local-search: ready-for-dev
+  0-3-i18n-setup: ready-for-dev
+  0-4-markdown-validation: ready-for-dev
+  0-5-makefile-automation: ready-for-dev
+  0-6-ci-cd-pipeline: review
+  epic-0-retrospective: optional

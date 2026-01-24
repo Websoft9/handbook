@@ -116,7 +116,7 @@ Websoft9 作为自托管平台，需要让客户快速部署软件。故，软�
 
 ## 热度分析
 
-参考：[搜索引擎关键词热度](./martech/keywords)
+参考：[搜索引擎关键词热度](../martech/seo/keywords)
 
 ## 论坛讨论{#community}
 

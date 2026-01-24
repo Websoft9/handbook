@@ -20,10 +20,15 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: 20
-    - name: Docusaurus build
-      run: |
-        yarn install
-        yarn run build
+        cache: 'yarn'
+        
+    - name: Install dependencies
+      run: make install
+      env:
+        CI: true
+        
+    - name: Build documentation
+      run: make build
       env:
         CI: true
     
