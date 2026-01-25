@@ -1,0 +1,255 @@
+/**
+ * Carbon Design System Integration for Websoft9 Handbook
+ * 
+ * This file integrates IBM's Carbon Design System with Docusaurus.
+ * It imports Carbon styles and maps Carbon design tokens to Docusaurus CSS variables.
+ * 
+ * Reference: https://carbondesignsystem.com/
+ */
+
+/* Import Carbon base styles */
+@import '@carbon/styles/css/styles.css';
+
+/* Carbon Theme Configuration */
+:root {
+  /* Map Carbon color tokens to Docusaurus variables */
+  /* Using Carbon Blue theme for enterprise B2B feel */
+  
+  /* Primary colors - Carbon Blue */
+  --ifm-color-primary: #0f62fe; /* Carbon blue-60 */
+  --ifm-color-primary-dark: #0353e9; /* Carbon blue-70 */
+  --ifm-color-primary-darker: #0043ce;
+  --ifm-color-primary-darkest: #002d9c;
+  --ifm-color-primary-light: #4589ff; /* Carbon blue-50 */
+  --ifm-color-primary-lighter: #78a9ff;
+  --ifm-color-primary-lightest: #a6c8ff;
+
+  /* Typography - Using Carbon type tokens */
+  --ifm-font-family-base: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', 'Courier New', monospace;
+  
+  /* Spacing - Carbon uses 4px base unit (rem-based) */
+  --ifm-spacing-horizontal: 1rem; /* 16px, Carbon spacing-05 */
+  --ifm-spacing-vertical: 1rem;
+  
+  /* Code font size */
+  --ifm-code-font-size: 87.5%; /* 14px at base 16px, Carbon type scale */
+  
+  /* Background colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f4f4f4; /* Carbon gray-10 */
+  
+  /* Text colors */
+  --ifm-font-color-base: #161616; /* Carbon gray-100 */
+  --ifm-font-color-secondary: #525252; /* Carbon gray-70 */
+  
+  /* Border colors */
+  --ifm-color-emphasis-300: #e0e0e0; /* Carbon gray-20 */
+  
+  /* Highlighted code line background */
+  --docusaurus-highlighted-code-line-bg: rgba(15, 98, 254, 0.1);
+}
+
+/* Dark mode - Carbon Gray 100 theme */
+[data-theme='dark'] {
+  /* Primary colors remain consistent but adjusted for dark backgrounds */
+  --ifm-color-primary: #78a9ff; /* Carbon blue-40 - lighter for dark mode */
+  --ifm-color-primary-dark: #4589ff; /* Carbon blue-50 */
+  --ifm-color-primary-darker: #0f62fe;
+  --ifm-color-primary-darkest: #0353e9;
+  --ifm-color-primary-light: #a6c8ff; /* Carbon blue-30 */
+  --ifm-color-primary-lighter: #d0e2ff;
+  --ifm-color-primary-lightest: #edf5ff;
+  
+  /* Dark mode backgrounds */
+  --ifm-background-color: #161616; /* Carbon gray-100 */
+  --ifm-background-surface-color: #262626; /* Carbon gray-90 */
+  
+  /* Dark mode text colors */
+  --ifm-font-color-base: #f4f4f4; /* Carbon gray-10 */
+  --ifm-font-color-secondary: #c6c6c6; /* Carbon gray-30 */
+  
+  /* Dark mode borders */
+  --ifm-color-emphasis-300: #393939; /* Carbon gray-80 */
+  
+  /* Highlighted code line background */
+  --docusaurus-highlighted-code-line-bg: rgba(120, 169, 255, 0.2);
+}
+
+/* Carbon component overrides for better Docusaurus integration */
+
+/* Ensure Carbon typography scales properly */
+html {
+  font-size: 16px; /* Carbon base font size */
+}
+
+/* Adjust Carbon components to work with Docusaurus layout */
+.cds--header {
+  z-index: 100; /* Ensure header is above other Docusaurus elements */
+}
+
+/* Carbon button styles in Docusaurus context */
+.button--primary,
+.cds--btn--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover,
+.cds--btn--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Accessibility - maintain Carbon's focus indicators */
+*:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Ensure smooth transitions between themes */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Swizzled component Carbon integration styles */
+
+/* Navbar with Carbon styling */
+.carbon-navbar-container {
+  /* Apply Carbon elevation and spacing */
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.carbon-navbar-container .navbar {
+  background-color: var(--ifm-background-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .carbon-navbar-container .navbar {
+  background-color: var(--ifm-background-color);
+  border-bottom-color: var(--ifm-color-emphasis-300);
+}
+
+/* Footer with Carbon styling */
+.carbon-footer-container {
+  /* Carbon footer uses gray-90 in light mode, gray-100 in dark mode */
+  background-color: #262626;
+}
+
+.carbon-footer-container .footer {
+  background-color: inherit;
+}
+
+[data-theme='dark'] .carbon-footer-container {
+  background-color: var(--ifm-background-color);
+}
+
+/* Carbon-inspired link styles */
+.carbon-navbar-container a,
+.carbon-footer-container a {
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.carbon-navbar-container a:hover,
+.carbon-footer-container a:hover {
+  color: var(--ifm-color-primary-light);
+  text-decoration: underline;
+}
+
+/* TOC with Carbon styling */
+.carbon-toc-container {
+  /* Apply Carbon typography and spacing */
+  font-family: var(--ifm-font-family-base);
+}
+
+.carbon-toc-container .table-of-contents {
+  border-left: 2px solid var(--ifm-color-emphasis-300);
+  padding-left: 0.75rem;
+}
+
+.carbon-toc-container .table-of-contents__link {
+  color: var(--ifm-font-color-secondary);
+  transition: color 0.15s ease;
+}
+
+.carbon-toc-container .table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.carbon-toc-container .table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .carbon-toc-container .table-of-contents {
+  border-left-color: var(--ifm-color-emphasis-300);
+}
+
+/* Fix markdown lists - Carbon CSS resets list-style to none globally */
+.theme-doc-markdown.markdown ul,
+.theme-doc-markdown.markdown ol {
+  list-style: revert !important;
+  padding-left: 1.5rem !important;
+}
+
+.theme-doc-markdown.markdown ul {
+  list-style-type: disc !important;
+}
+
+.theme-doc-markdown.markdown ol {
+  list-style-type: decimal !important;
+}
+
+.theme-doc-markdown.markdown ul ul {
+  list-style-type: circle !important;
+}
+
+.theme-doc-markdown.markdown ul ul ul {
+  list-style-type: square !important;
+}
+
+/* Increase spacing between list items for better readability */
+.theme-doc-markdown.markdown li {
+  margin-bottom: 0.3rem !important;
+  line-height: 1.2 !important;
+}
+
+.theme-doc-markdown.markdown li:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Add spacing between lists and following content */
+.theme-doc-markdown.markdown ul,
+.theme-doc-markdown.markdown ol {
+  margin-bottom: 1.5rem !important;
+}
+
+/* Add spacing for paragraphs within list items */
+.theme-doc-markdown.markdown li p {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Fix DocCard description text line height and remove truncation */
+.card p {
+  line-height: 1.8 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Increase spacing between card title and description */
+.card h2,
+.cardTitle_rnsV {
+  margin-bottom: 1rem !important;
+}
+
+/* Override text truncation for card descriptions */
+.card p.text--truncate,
+.cardDescription_PWke {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  line-height: 1.8 !important;
+}
+

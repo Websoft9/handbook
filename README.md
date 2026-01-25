@@ -149,5 +149,4 @@ i18n/en/                       # English translations
 
 ## Markdown
 
-* 在标准 Markdown 基础上，支持 [Mermaid](https://docusaurus.io/zh-CN/docs/markdown-features/diagrams) 来渲染图表
-* 部分文档采用 Markdown 富语法（mdx）
+* Use [Mermaid](https://docusaurus.io/zh-CN/docs/markdown-features/diagrams) for digram and some MDX

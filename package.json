@@ -18,6 +18,9 @@
     "validate:quick": "markdownlint 'docs/**/*.{md,mdx}' --config .markdownlint.json --quiet"
   },
   "dependencies": {
+    "@carbon/icons-react": "11.50.0",
+    "@carbon/react": "1.99.0",
+    "@carbon/styles": "1.65.0",
     "@docusaurus/core": "3.9.2",
     "@docusaurus/preset-classic": "3.9.2",
     "@docusaurus/theme-mermaid": "3.9.2",
