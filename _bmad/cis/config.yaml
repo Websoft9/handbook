@@ -8,4 +8,4 @@
 user_name: Websoft9
 communication_language: Chinese
 document_output_language: English
-output_folder: "{project-root}/specs"
+output_folder: "{project-root}/specs/output"

@@ -1,0 +1,19 @@
+node:internal/modules/cjs/loader:686
+      throw e;
+      ^
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/pdf-parse.js' is not defined by "exports" in /data/cdl/handbook/node_modules/pdf-parse/package.json
+    at exportsNotFound (node:internal/modules/esm/resolve:313:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:661:9)
+    at resolveExports (node:internal/modules/cjs/loader:679:36)
+    at Module._findPath (node:internal/modules/cjs/loader:746:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1406:27)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) {
+  code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+}
+
+Node.js v24.11.1

@@ -3,7 +3,7 @@
 # Version: 6.0.0-alpha.23
 # Date: 2026-01-22T07:30:20.773Z
 
-bmb_creations_output_folder: "{project-root}/docs/bmb-creations"
+bmb_creations_output_folder: "{project-root}/specs/bmb-creations"
 
 # Core Configuration Values
 user_name: Websoft9
