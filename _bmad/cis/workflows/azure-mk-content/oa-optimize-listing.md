@@ -5,7 +5,7 @@ description: Review and optimize existing Azure Marketplace listing descriptions
 
 # OA Workflow: Optimize Existing Listing
 
-**Goal:** Analyze existing listing content and rewrite with "Software Supermarket" principles, safe claims, and Partner Center compliance.
+**Goal:** Analyze existing listing content and rewrite with "Growth Infrastructure Platform" principles, safe claims, and Partner Center compliance.
 
 ---
 
@@ -19,9 +19,29 @@ Ask user to paste existing description text.
 
 Analyze the description for common issues:
 
+### Check for "Growth Infrastructure" vs "Tool Catalog" positioning:
+- ❌ **Tool Catalog:** Lists tools as features without business context
+- ✅ **Growth Infrastructure:** Frames content around business timelines and expansion scenarios
+
+### Check for business timeline structure:
+- ❌ **Missing:** No scenario showing when/why user would add apps over time
+- ✅ **Present:** Clear timeline narrative (e.g., "Q1 WordPress, Q2 Moodle, Q3 Magento")
+
+### Check for "3-Second User Confirmation Test":
+- ❌ **Fails:** User can't answer "What do I get today?" and "What flexibility tomorrow?"
+- ✅ **Passes:** Title + Summary clearly communicate starting app + expansion capability
+
+### Check for "Single-App vs Multi-App Platform" comparison:
+- ❌ **Missing:** No explicit section comparing single-app offers to platform approach
+- ✅ **Present:** Clear comparison showing re-deployment pain vs expansion flexibility
+
+### Check for "Suite" confusion:
+- ❌ **Confusing:** Uses "Suite" implying bundle pricing or forced multi-app purchase
+- ✅ **Clear:** Uses "Starting Point + Expansion" model, emphasizes per-app billing
+
 ### Check for "Manager-first" vs "Tool-first" positioning:
 - ❌ **Manager-first:** "Websoft9 provides [tools]..." 
-- ✅ **Tool-first:** "[Tools] powered by Websoft9..."
+- ✅ **Tool-first:** "[Primary App] powered by Websoft9..." or "[App] Hosting with Multi-App Platform"
 
 ### Check for Plan Menu visibility:
 - ❌ **Missing:** No explicit list of available Plans
@@ -49,9 +69,32 @@ Analyze the description for common issues:
 
 Apply optimizations:
 
+### Apply "Growth Infrastructure Platform" positioning:
+- Convert tool-listing patterns to business-evolution scenarios
+- Lead with primary app in Title (SEO anchor for specific search traffic)
+- Add timeline narrative: When user would add each app (Q1/Q2/Q3 or use case triggers)
+- Include "growth insurance" framing: Small premium today eliminates re-deployment later
+
+### Add "Single-App Solutions vs Multi-App Platform" comparison:
+- Create explicit section comparing single-app offers to platform approach
+- Address user's mental model: "Why choose this over [competitor]'s single-app offer?"
+- Highlight re-deployment pain: "Avoid 2-week setup when adding new applications"
+
+### Rename "Available Plans" section:
+- ❌ "Available Plans" or "Select Your Tools"
+- ✅ "Choose Your Starting Point, Expand When Ready"
+- Each plan description must show expansion path
+- Example: "Start with WordPress, add Drupal for multilingual, expand to Magento for online store"
+
+### Eliminate "Suite" confusion:
+- Replace "Suite" terminology with "Starting Point + Expansion" model
+- Emphasize per-app billing clarity: "Deploy [App], with ability to add others anytime"
+- Clarify: User is not buying bundle, they're buying platform with first app included
+
 ### Make it "Tool-first" (Value > Enabler):
-- Lead with tool names and benefits
-- Mention Websoft9 as enabler, not primary focus
+- Lead with primary tool name and benefits
+- Mention Websoft9 as enabler in supporting role
+- Title format: "[Primary App] Hosting with Multi-App [Category] Platform"
 
 ### Explicitly list the Plans:
 - Add "Available Plans" section if missing
@@ -98,4 +141,4 @@ Confirm file saved location to user.
 
 ## Output
 
-Rewritten listing description with "Software Supermarket" positioning, safe claims, HTML compliance, and character limit validation.
+Rewritten listing description with "Growth Infrastructure Platform" positioning, business timeline scenarios, single-app vs multi-app comparison, safe claims, HTML compliance, and character limit validation.

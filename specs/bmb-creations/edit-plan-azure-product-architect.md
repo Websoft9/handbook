@@ -3,9 +3,9 @@ mode: edit
 originalAgent: '_bmad/cis/agents/custom/azure-product-architect.md'
 agentName: 'azure-product-architect'
 agentType: 'module'
-editSessionDate: '2026-01-28'
+editSessionDate: '2026-01-29'
 editCompleted: true
-editCompletedTime: '2026-01-28'
+editCompletedTime: '2026-01-29 (All edits applied)'
 stepsCompleted:
   - e-01-load-existing.md
   - e-02-discover-edits.md
@@ -13,7 +13,7 @@ stepsCompleted:
   - e-05-persona.md
   - e-06-commands-menu.md
   - e-07-activation.md
-  - e-08c-edit-module.md
+  - e-08c-edit-module.md (COMPLETE - Agent YAML + All Resources Updated)
 ---
 
 # Edit Plan: azure-product-architect
@@ -74,7 +74,120 @@ stepsCompleted:
 
 ## Edits Planned
 
-### 🆕 NEW EDITS - Session 2 (2026-01-28 继续)
+### � NEW EDITS - Session 3 (2026-01-29): Strategic Repositioning
+
+**Strategic Change:** From "Software Supermarket" to "Growth Infrastructure Platform"
+
+#### Persona Edits
+
+**1. Update Role Statement**
+- [x] APPLIED - Changed from: "Expert in 'Software Supermarket' strategy (Category Suites + App SKUs)"
+- [x] APPLIED - Changed to: "Expert in 'Growth Infrastructure Platform' strategy (enabling business evolution through scalable multi-app deployment)"
+
+**2. Rewrite Principle 3: Core Strategy**
+- [x] APPLIED - Renamed from: "Software Supermarket Strategy"
+- [x] APPLIED - Renamed to: "Growth Infrastructure Platform Strategy"
+- [x] APPLIED - Complete rewrite emphasizing business timelines, re-deployment pain, growth insurance
+- [x] APPLIED - New principle text (518 words) successfully integrated
+
+**Other Persona Fields:**
+- [x] CONFIRMED - Identity: No changes (accurate as-is)
+- [x] CONFIRMED - Communication_style: No changes (appropriate for new positioning)
+- [x] CONFIRMED - Other 9 principles: No changes
+
+#### Metadata Edits
+
+**3. Update Version Number**
+- [x] APPLIED - Changed from: "1.1.0"
+- [x] APPLIED - Changed to: "1.2.0"
+- [x] APPLIED - Rationale: Strategic repositioning from Software Supermarket to Growth Infrastructure Platform
+
+#### Command Edits
+
+**4. Update [OA] Command Description**
+- [x] APPLIED - Changed from: "Review an existing listing description and optimize it with 'Software Supermarket' principles"
+- [x] APPLIED - Changed to: "Review an existing listing description and optimize it with 'Growth Infrastructure Platform' principles"
+- [x] CONFIRMED - All other commands remain unchanged (NP, NS, KW, LP, TP, PK, FC, EA)
+
+#### Workflow Edits
+
+**4. Update Workflow Files**
+- [x] APPLIED - File: `_bmad/cis/workflows/azure-mk-content/oa-optimize-listing.md`
+  - Updated strategy references from "Software Supermarket" to "Growth Infrastructure Platform"
+  - Added guidance: Look for tool-listing patterns, convert to business-evolution scenarios
+  - Added guidance: Check for "Suite" confusion, replace with "Starting Point + Expansion" model
+  - Added guidance: Include single-app vs multi-app platform comparison section
+  - Added guidance: Validate "3-Second User Confirmation Test"
+  - Added guidance: Check for business timeline structure
+
+#### Template Edits
+
+**5. Update Offer Templates**
+- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/category-suite-offer-template.md`
+  - Updated Title format: From tool listing → "[Primary App] Hosting with Multi-App [Category] Platform"
+  - Updated Summary: Emphasize "Start → Scale" narrative
+  - Updated Short Description: Business evolution framing
+  - Added mandatory section: "Single-App Solutions vs Multi-App Platform" comparison
+  - Renamed "Available Plans" → "Choose Your Starting Point, Expand When Ready"
+  - Updated plan descriptions: Added expansion paths with business triggers
+  - Updated terminology: Eliminated "Suite" confusion, emphasized per-app billing
+  - Added business timeline scenario as opening hook
+
+- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/html-description-category-suite-2800.html`
+  - Updated opening section: Business timeline scenario (Q1/Q2/Q3) replaces target audience + benefit list
+  - Added mandatory table: "Single-App Solutions vs Multi-App Platform" comparison
+  - Renamed section: "Available Plans" → "Choose Your Starting Point, Expand When Ready"
+  - Updated plan listings: Each shows starting point + expansion paths
+  - Added "Growth Insurance" messaging to benefits section
+  - Emphasized per-app billing clarity throughout
+
+**6. Update Plan Templates**
+- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/category-suite-plan-template.md`
+  - Updated strategy description: "Starting Point + Expansion Path"
+  - Updated Plan Name format: Removed "Suite" terminology
+  - Updated Plan Summary: Include expansion messaging
+  - Restructured Plan Description:
+    - Lead with "For [persona] who will need [growth scenario]"
+    - Added "Natural Next Steps" section with business triggers
+    - Added billing clarity section: "Billed per-app. This plan includes [App], add others anytime"
+    - Emphasized: "Deploy [App] today, expand when ready"
+
+- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/html-plan-category-suite-app.html`
+  - Updated structure: Target persona + growth scenario opening
+  - Added "Natural Next Steps" section with 3 expansion examples
+  - Added explicit billing clarity paragraph
+  - Emphasized deployment speed: "10 minutes initial, 5 minutes expansion"
+  - Removed "catalog access" language, replaced with expansion path focus
+
+- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/html-plan-category-suite-full-catalog.html`
+  - Updated positioning: Evaluation/multi-tool scenarios vs breadth
+  - Added use case examples: "compare [App1] vs [App2] for your use case"
+  - Emphasized concurrent app deployment capability
+  - Clarified "Ideal for" with specific personas (solution architects, agencies)
+
+#### Data Resource Edits
+
+**7. Update Best Practice Guide**
+- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/azure-best-practice-guide.md`
+  - Added comprehensive new section: "Growth Infrastructure Platform Positioning Strategy"
+    - When to use this strategy (and when NOT to use)
+    - Core messaging framework: Business timeline scenarios over feature lists
+    - Re-deployment pain emphasis and "growth insurance" framing
+    - Title structure for SEO + positioning
+    - Mandatory comparison section structure
+    - Available Plans section rename guidance
+    - User Confirmation Test (3-second quality gate)
+    - Competitive positioning framework
+  - Added section: "Multi-Offer Strategy for Maximum Traffic Coverage"
+    - Explained the SEO problem: Single Title can't capture all app searches
+    - Multi-offer solution: Create WordPress-focused, Moodle-focused, Magento-focused separate offers
+    - Implementation rules: Cross-referencing, SEO optimization per offer
+    - When to use vs not use multi-offer approach
+    - Tracking & optimization guidance
+
+---
+
+### �🆕 NEW EDITS - Session 2 (2026-01-28 继续)
 
 #### Workflow Edits - [NP] Generate New Offer Enhancement
 
