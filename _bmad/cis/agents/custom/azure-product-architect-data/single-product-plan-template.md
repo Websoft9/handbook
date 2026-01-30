@@ -1,54 +1,47 @@
 # Single Product Plan Template
 
-For pricing tiers within a single-product offering.
+**Purpose:** Placeholder structure for generating 3+1 Plan architecture.
 
-**Strategy:** Each Plan = One Resource Tier (Starter/Business/Enterprise). Focus on resource specs and use case fit.
-
----
-
-## PLAN NAME (3-4 words)
-
-**Format:** `[Software] [Tier Name] Plan`
-
-**Hierarchy:** Starter < Business < Enterprise
+**Refer to Principle 8:** Complete Plan Structure Compliance with scene-based naming and differentiation dimensions.
 
 ---
 
-## PLAN SUMMARY (60-100 chars)
+## REQUIRED: 3+1 PLAN ARCHITECTURE
 
-**Format:** `[Tier description] - [Resource highlight] - Ideal for [target scale]`
+### Plans 1-3: Product Configurations
+
+**PLAN NAME FORMAT:** `[App Name] for [Scenario]`
+- Plan 1: [App] for Startups
+- Plan 2: [App] for Growing Teams ⭐ (mark as Recommended)
+- Plan 3: [App] for Enterprises
+
+**PLAN SUMMARY (50-80 chars, plain text):**
+`For [X users]. [modules] + [support level] + [SLA].`
+
+**PLAN DESCRIPTION (HTML required):**
+Use `html-plan-single-product-tier.html` template
+
+### Plan 4: Category Selection
+
+**PLAN NAME:** `[Category] Selection Suite`
+
+**PLAN SUMMARY (50-80 chars):**
+`Not sure which [category] fits? Deploy [options] for evaluation.`
+
+**PLAN DESCRIPTION (HTML required):**
+Use selection-focused structure per Principle 8
 
 ---
 
-## PLAN DESCRIPTION
+## DIFFERENTIATION DIMENSIONS (Plans 1-3)
 
-**Note:** Use `html-plan-single-product-tier.html` (for strategies 1-4) or `html-plan-single-product-os-based.html` (for strategy 5).
-
-### Structure (Tier-based):
-1. **Target Use Case:** For [specific use case] with [resource spec]
-2. **What You Get:** 5 standard features
-3. **Resource Specs:** vCPU, RAM, Storage, Bandwidth, Capacity
-4. **Ideal For:** 3 use cases with traffic levels
-5. **Value Statement:** Tier-specific benefit
-
-### Structure (OS-based):
-1. **Base OS:** OS name and version with key benefit
-2. **What You Get:** 5 standard features (emphasize Docker portability)
-3. **Ideal For:** OS-specific use cases
-4. **Note:** Application functionality identical across all OS variants
-
----
-
-## TIER DIFFERENTIATION
-
-**Starter:** Individuals, small biz, dev/test | Up to 10K visitors | 2 vCPU, 4-8GB RAM | Email support | Daily backup, 7-day retention
-
-**Business:** Growing businesses, e-commerce, agencies | 10K-100K visitors | 4 vCPU, 16GB RAM | Priority email+chat | Daily backup, 30-day retention
-
-**Enterprise:** High-traffic, mission-critical | 100K+ visitors | 8+ vCPU, 32+GB RAM | Phone+email+chat, 1hr SLA | Hourly backup, 90-day retention
+**User Capacity:** 10-50 / 50-200 / 200+  
+**Support Levels:** Community / Email+AM / 24/7 Priority  
+**SLA Commitments:** 99.5% / 99.9% / 99.95%
 
 ---
 
 ## REFERENCE
 
-**Actual generation uses:** `html-plan-single-product-tier.html` or `html-plan-single-product-os-based.html` (800/700 char strict templates)
+**HTML Template:** `html-plan-single-product-tier.html`  
+**Full Specification:** Agent Principle 8 (Plan Structure Compliance)

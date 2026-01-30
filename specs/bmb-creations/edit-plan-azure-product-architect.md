@@ -3,17 +3,21 @@ mode: edit
 originalAgent: '_bmad/cis/agents/custom/azure-product-architect.md'
 agentName: 'azure-product-architect'
 agentType: 'module'
-editSessionDate: '2026-01-29'
+editSessionDate: '2026-01-30'
 editCompleted: true
-editCompletedTime: '2026-01-29 (All edits applied)'
+editCompletedTime: '2026-01-30 (Session 4 completed - Agent + Workflows + Templates fully updated)'
 stepsCompleted:
   - e-01-load-existing.md
-  - e-02-discover-edits.md
-  - e-04-type-metadata.md
-  - e-05-persona.md
-  - e-06-commands-menu.md
-  - e-07-activation.md
-  - e-08c-edit-module.md (COMPLETE - Agent YAML + All Resources Updated)
+  - e-02-discover-edits.md (Sessions 3 & 4)
+  - e-04-type-metadata.md (Sessions 3 & 4)
+  - e-05-persona.md (Sessions 3 & 4)
+  - e-06-commands-menu.md (Sessions 3 & 4)
+  - e-07-activation.md (Sessions 3 & 4)
+  - e-08c-edit-module.md (Sessions 3 & 4 - All edits applied)
+  - Workflow cleanup (Session 4 - 5 obsolete files deleted)
+  - Template cleanup (Session 4 - 5 category-suite files deleted)
+  - Template simplification (Session 4 - 4 single-product templates simplified)
+  - Data file simplification (Session 4 - plan-naming-guidelines.md simplified)
 ---
 
 # Edit Plan: azure-product-architect
@@ -74,7 +78,114 @@ stepsCompleted:
 
 ## Edits Planned
 
-### � NEW EDITS - Session 3 (2026-01-29): Strategic Repositioning
+### 🆕 NEW EDITS - Session 4 (2026-01-30): Hosting Value Repositioning
+
+**Strategic Change:** From "Growth Infrastructure Platform" to "Hosting Value Proposition Framework"
+
+**Rationale:** Multi-app capability is a nice-to-have feature, not the core value proposition. Analysis of leading hosting platforms (hosting.com, Hostinger, Heliconia) reveals that successful hosting messaging focuses on: Performance, Reliability, Ease of Use, Day-2 Operations, Support, Cost Transparency, and Scalability. Multi-app flexibility should be positioned as value-add, not primary selling point.
+
+#### Metadata Edits
+
+**1. Normalize Metadata Fields**
+- [x] COMPLETE - Changed `name` from "azure-product-architect" to "Azure Architect"
+- [x] COMPLETE - Added `title` field: "Azure Marketplace Growth Architect"
+- [x] COMPLETE - Removed `description` field
+- [x] COMPLETE - Updated `version` from "1.2.0" to "1.3.0"
+- [x] COMPLETE - Kept `icon: "🏗️"` unchanged
+- [x] COMPLETE - Kept `module: "cis"` unchanged
+- [x] COMPLETE - Kept `hasSidecar: false` unchanged
+
+#### Persona Edits
+
+**1. Update Principle 2: Platform Technical Constraints (CRITICAL)**
+- [x] COMPLETE - Clarified HTML format scope: ONLY for Offer Description and Plan Description
+- [x] COMPLETE - Added detailed character limits table for all fields
+- [x] COMPLETE - Added Title Pattern Framework with 3 standardized options (A/B/C)
+- [x] COMPLETE - Clarified validation rules for plain text vs HTML fields
+
+**2. Rewrite Principle 3: Core Value Framework**
+- [x] COMPLETE - Renamed to: "Hosting Value Proposition Framework"
+- [x] COMPLETE - Complete rewrite based on hosting industry research
+- [x] COMPLETE - Structured around: Performance → Reliability → Ease of Use → Day-2 Ops → Support → Cost → Scalability
+- [x] COMPLETE - Multi-app capability repositioned as value-add, not primary value
+
+**3. Revise Principle 4: Websoft9 as Hosting Enabler**
+- [x] COMPLETE - Repositioned as hosting enabler removing self-hosting pain
+- [x] COMPLETE - Added structure: One-Click → Day-2 Ops → Control → Multi-App → Time Savings
+- [x] COMPLETE - Added cPanel analogy
+- [x] COMPLETE - Added contrast framework: SaaS vs DIY vs Websoft9
+
+**4. Delete Principle 10 and Consolidate Content**
+- [x] COMPLETE - Removed Principle 10 entirely
+- [x] COMPLETE - Moved trademark compliance to Principle 9
+- [x] COMPLETE - Result: 9 principles instead of 10
+
+**5. Update Principle 9: Enterprise Trust Signals & Co-sell Readiness**
+- [x] COMPLETE - Added trademark compliance section
+
+**6. Enhance Principle 8: Plan Structure Compliance**
+- [x] COMPLETE - Added 3+1 Plan architecture (3 product configs + 1 category selection)
+- [x] COMPLETE - Added scenario-based naming pattern "[App] for [Scenario]"
+- [x] COMPLETE - Added differentiation dimensions (User capacity, Support, SLA)
+- [x] COMPLETE - Simplified Plan Description structure
+- [ ] PENDING - Add Plan 4 specific structure (selection/evaluation focus):
+  - "Not Sure Which [Category] Fits?"
+  - Available Options (list alternatives with one-line descriptions)
+  - Evaluation period, concurrent deployments, selection consulting
+- [ ] PENDING - Add technical version guidance: Place in Offer Description (not individual Plans)
+  - Software version, OS, database, web server, container platform
+- [ ] PENDING - Add Plan Summary character limits and format (50-80 chars)
+
+**7. Reorder Principles for Clarity**
+- [ ] PENDING - Principle 4 (Websoft9) moved from position 8 to position 4
+- [ ] PENDING - Principle 7 (SEO) moved from position 9 to position 7
+- [ ] PENDING - Principle 10 deleted, total principles reduced to 9
+- [ ] PENDING - Creates 4-tier hierarchy: Strategic → Tactical → Execution → Operational
+
+---
+
+#### Command/Menu Edits
+
+**1. Update [NP] Command - Simplify to Single Product Only**
+- [ ] PENDING - Remove Category Suite option
+- [ ] PENDING - Support Single Product offers only
+- [ ] PENDING - Add requirement: user must provide related app information
+- [ ] PENDING - Update command description: "Generate a new Azure Marketplace Offer (Single Product)"
+- [ ] PENDING - Update data parameter to remove category-suite-offer-template.md reference
+- [ ] PENDING - New data: only single-product-offer-template.md
+
+**2. Update [NS] Command - Keep Current Functionality**
+- [ ] PENDING - No changes to description
+- [ ] PENDING - Update data parameter to remove category-suite-plan-template.md reference
+- [ ] PENDING - New data: only single-product-plan-template.md
+
+**3. Update [OA] Command - Refocus on Comprehensive Review**
+- [ ] PENDING - Change from: "Review an existing listing description and optimize it with 'Growth Infrastructure Platform' principles"
+- [ ] PENDING - Change to: "Review an existing offer listing and plans based on all principles"
+- [ ] PENDING - Expand scope: not just description, but entire offer + all plans
+
+**4. Delete Marketing Commands [LP], [TP], [PK], [FC], [EA]**
+- [ ] PENDING - Remove [LP] Generate high-conversion landing page content
+- [ ] PENDING - Remove [TP] Design trial program strategy
+- [ ] PENDING - Remove [PK] Design pricing packages with conversion optimization
+- [ ] PENDING - Remove [FC] Map content strategy across conversion funnel
+- [ ] PENDING - Remove [EA] Generate trial nurture email sequence (7-step)
+- [ ] PENDING - Remove corresponding menu handlers for LP, TP, PK, FC, EA
+
+**5. Final Command Structure (7 commands total)**
+- [ ] PENDING - Reduced from 12 commands to 7 commands
+- [ ] PENDING - New structure:
+  1. [MH] Redisplay Menu Help
+  2. [CH] Chat with the Agent about anything
+  3. [NP] Generate a new Azure Marketplace Offer (Single Product)
+  4. [NS] Generate distinct Plan specifications for apps within an Offer
+  5. [OA] Review an existing offer listing and plans based on principles
+  6. [KW] Conduct SEO keyword research and placement strategy
+  7. [DA] Dismiss Agent
+
+---
+
+### ✅ PREVIOUS EDITS - Session 3 (2026-01-29): Strategic Repositioning
 
 **Strategic Change:** From "Software Supermarket" to "Growth Infrastructure Platform"
 
@@ -86,106 +197,76 @@ stepsCompleted:
 
 **2. Rewrite Principle 3: Core Strategy**
 - [x] APPLIED - Renamed from: "Software Supermarket Strategy"
-- [x] APPLIED - Renamed to: "Growth Infrastructure Platform Strategy"
-- [x] APPLIED - Complete rewrite emphasizing business timelines, re-deployment pain, growth insurance
-- [x] APPLIED - New principle text (518 words) successfully integrated
-
-**Other Persona Fields:**
-- [x] CONFIRMED - Identity: No changes (accurate as-is)
-- [x] CONFIRMED - Communication_style: No changes (appropriate for new positioning)
-- [x] CONFIRMED - Other 9 principles: No changes
-
-#### Metadata Edits
-
-**3. Update Version Number**
-- [x] APPLIED - Changed from: "1.1.0"
-- [x] APPLIED - Changed to: "1.2.0"
-- [x] APPLIED - Rationale: Strategic repositioning from Software Supermarket to Growth Infrastructure Platform
-
 #### Command Edits
 
-**4. Update [OA] Command Description**
-- [x] APPLIED - Changed from: "Review an existing listing description and optimize it with 'Software Supermarket' principles"
-- [x] APPLIED - Changed to: "Review an existing listing description and optimize it with 'Growth Infrastructure Platform' principles"
-- [x] CONFIRMED - All other commands remain unchanged (NP, NS, KW, LP, TP, PK, FC, EA)
+**Commands Update (12 → 7)**
+- [x] COMPLETE - Simplified [NP] to Single Product only
+- [x] COMPLETE - Updated [OA] to review entire offer + plans
+- [x] COMPLETE - Deleted [LP] Landing page command
+- [x] COMPLETE - Deleted [TP] Trial program command
+- [x] COMPLETE - Deleted [PK] Pricing package command
+- [x] COMPLETE - Deleted [FC] Funnel content command
+- [x] COMPLETE - Deleted [EA] Email nurture command
+- [x] COMPLETE - Removed 5 menu handlers from activation
+- [x] COMPLETE - Result: 7 commands (MH, CH, NP, NS, OA, KW, DA)
 
-#### Workflow Edits
+#### Workflow Cleanup (Session 4)
 
-**4. Update Workflow Files**
-- [x] APPLIED - File: `_bmad/cis/workflows/azure-mk-content/oa-optimize-listing.md`
-  - Updated strategy references from "Software Supermarket" to "Growth Infrastructure Platform"
-  - Added guidance: Look for tool-listing patterns, convert to business-evolution scenarios
-  - Added guidance: Check for "Suite" confusion, replace with "Starting Point + Expansion" model
-  - Added guidance: Include single-app vs multi-app platform comparison section
-  - Added guidance: Validate "3-Second User Confirmation Test"
-  - Added guidance: Check for business timeline structure
+**Deleted Obsolete Workflow Files:**
+- [x] COMPLETE - Deleted: `lp-landing-page.md`
+- [x] COMPLETE - Deleted: `tp-trial-plan.md`
+- [x] COMPLETE - Deleted: `pk-pricing-package.md`
+- [x] COMPLETE - Deleted: `fc-funnel-content.md`
+- [x] COMPLETE - Deleted: `ea-email-nurture.md`
+- [x] COMPLETE - Result: 4 workflows remaining (np, ns, oa, kw)
 
-#### Template Edits
+#### Template Cleanup (Session 4)
 
-**5. Update Offer Templates**
-- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/category-suite-offer-template.md`
-  - Updated Title format: From tool listing → "[Primary App] Hosting with Multi-App [Category] Platform"
-  - Updated Summary: Emphasize "Start → Scale" narrative
-  - Updated Short Description: Business evolution framing
-  - Added mandatory section: "Single-App Solutions vs Multi-App Platform" comparison
-  - Renamed "Available Plans" → "Choose Your Starting Point, Expand When Ready"
-  - Updated plan descriptions: Added expansion paths with business triggers
-  - Updated terminology: Eliminated "Suite" confusion, emphasized per-app billing
-  - Added business timeline scenario as opening hook
+**Deleted Category-Suite Templates:**
+- [x] COMPLETE - Deleted: `category-suite-offer-template.md`
+- [x] COMPLETE - Deleted: `category-suite-plan-template.md`
+- [x] COMPLETE - Deleted: `html-description-category-suite-2800.html`
+- [x] COMPLETE - Deleted: `html-plan-category-suite-app.html`
+- [x] COMPLETE - Deleted: `html-plan-category-suite-full-catalog.html`
 
-- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/html-description-category-suite-2800.html`
-  - Updated opening section: Business timeline scenario (Q1/Q2/Q3) replaces target audience + benefit list
-  - Added mandatory table: "Single-App Solutions vs Multi-App Platform" comparison
-  - Renamed section: "Available Plans" → "Choose Your Starting Point, Expand When Ready"
-  - Updated plan listings: Each shows starting point + expansion paths
-  - Added "Growth Insurance" messaging to benefits section
-  - Emphasized per-app billing clarity throughout
+**Simplified Single-Product Templates:**
+- [x] COMPLETE - Simplified: `single-product-offer-template.md` → placeholder structure
+- [x] COMPLETE - Simplified: `single-product-plan-template.md` → 3+1 architecture focus
+- [x] COMPLETE - Simplified: `html-description-single-product-2800.html` → hosting value framework
+- [x] COMPLETE - Simplified: `html-plan-single-product-tier.html` → minimal structure
 
-**6. Update Plan Templates**
-- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/category-suite-plan-template.md`
-  - Updated strategy description: "Starting Point + Expansion Path"
-  - Updated Plan Name format: Removed "Suite" terminology
-  - Updated Plan Summary: Include expansion messaging
-  - Restructured Plan Description:
-    - Lead with "For [persona] who will need [growth scenario]"
-    - Added "Natural Next Steps" section with business triggers
-    - Added billing clarity section: "Billed per-app. This plan includes [App], add others anytime"
-    - Emphasized: "Deploy [App] today, expand when ready"
+#### Data Resource Simplification (Session 4)
 
-- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/html-plan-category-suite-app.html`
-  - Updated structure: Target persona + growth scenario opening
-  - Added "Natural Next Steps" section with 3 expansion examples
-  - Added explicit billing clarity paragraph
-  - Emphasized deployment speed: "10 minutes initial, 5 minutes expansion"
-  - Removed "catalog access" language, replaced with expansion path focus
-
-- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/html-plan-category-suite-full-catalog.html`
-  - Updated positioning: Evaluation/multi-tool scenarios vs breadth
-  - Added use case examples: "compare [App1] vs [App2] for your use case"
-  - Emphasized concurrent app deployment capability
-  - Clarified "Ideal for" with specific personas (solution architects, agencies)
-
-#### Data Resource Edits
-
-**7. Update Best Practice Guide**
-- [x] APPLIED - File: `_bmad/cis/agents/custom/azure-product-architect-data/azure-best-practice-guide.md`
-  - Added comprehensive new section: "Growth Infrastructure Platform Positioning Strategy"
-    - When to use this strategy (and when NOT to use)
-    - Core messaging framework: Business timeline scenarios over feature lists
-    - Re-deployment pain emphasis and "growth insurance" framing
-    - Title structure for SEO + positioning
-    - Mandatory comparison section structure
-    - Available Plans section rename guidance
-    - User Confirmation Test (3-second quality gate)
-    - Competitive positioning framework
-  - Added section: "Multi-Offer Strategy for Maximum Traffic Coverage"
-    - Explained the SEO problem: Single Title can't capture all app searches
-    - Multi-offer solution: Create WordPress-focused, Moodle-focused, Magento-focused separate offers
-    - Implementation rules: Cross-referencing, SEO optimization per offer
-    - When to use vs not use multi-offer approach
-    - Tracking & optimization guidance
+**Updated Knowledge Base Files:**
+- [x] COMPLETE - Simplified: `plan-naming-guidelines.md` → 3+1 architecture quick reference
+- [x] PRESERVED - Kept: `azure-best-practice-guide.md` → comprehensive reference (no changes needed)
 
 ---
+
+## Session 4 Summary
+
+**Strategic Repositioning:** From "Growth Infrastructure Platform" → "Hosting Value Proposition Framework"
+
+**Major Changes:**
+1. **Agent Principles:** 10 → 9 principles, 4 major rewrites (Principles 2, 3, 4, 8, 9)
+2. **Commands:** 12 → 7 commands (removed marketing extensions)
+3. **Workflows:** 9 → 4 workflows (deleted 5 obsolete files)
+4. **Templates:** 9 → 4 templates (deleted 5 category-suite files, simplified 4 single-product files)
+5. **Data Resources:** Simplified plan-naming-guidelines.md, preserved azure-best-practice-guide.md
+
+**Key Architectural Changes:**
+- 3+1 Plan naming: "[App] for Startups/Growing Teams/Enterprises" + "[Category] Selection Suite"
+- Hosting value hierarchy: Performance → Reliability → Ease of Use → Day-2 Ops → Support → Cost → Scalability
+- Websoft9 repositioned as "hosting enabler" (cPanel analogy)
+- Multi-app flexibility = value-add, not primary value
+
+**Completion Status:** ✅ All Session 4 edits applied successfully
+
+---
+
+## Session 3 Edits (Historical Record)
+
+#### Persona Edits (Session 3)
 
 ### �🆕 NEW EDITS - Session 2 (2026-01-28 继续)
 

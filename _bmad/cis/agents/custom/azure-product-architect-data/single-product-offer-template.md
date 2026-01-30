@@ -1,65 +1,42 @@
 # Single Product Offer Template
 
-For single-software self-hosted solutions (e.g., "WordPress on Websoft9").
+**Purpose:** Placeholder structure for generating Azure Marketplace Offer listings.
 
-**Strategy:** Self-hosting benefits, managed service, data sovereignty, turnkey solution. Different tiers (Starter/Business/Enterprise).
-
----
-
-## TITLE
-
-**Format:** `[Software] on Websoft9 - Managed Self-Hosting on Azure`
+**Refer to Principles:** Apply Principle 2 (Technical Constraints), Principle 3 (Hosting Value Proposition Framework), and Principle 4 (Websoft9 Value Articulation).
 
 ---
 
-## SUMMARY (150-200 chars)
+## TITLE (≤200 chars, plain text)
 
-**Format:** `Self-host [Software] with full control + expert support. One-click deployment, automated backups, 24/7 managed service. [Primary benefit].`
-
-**Key:** "Full control + expert support" = unique value
-
----
-
-## SHORT DESCRIPTION (200-250 chars)
-
-**Format:** `Turnkey [Software] self-hosting on Azure. Pre-configured [Software] with Websoft9 control panel, automated backups, security updates, and 24/7 support. Full control without the hassle.`
+**Generate 3 options using Principle 2 Title Patterns:**
+- Pattern A: [App Name] + Hosting + with Websoft9 + on Azure
+- Pattern B: [App Name] - Self-Hosted + with Websoft9 + on Azure  
+- Pattern C: [App Name] + [Key Benefit] + with Websoft9 + on Azure
 
 ---
 
-## DESCRIPTION
+## SUMMARY (≤150 chars, plain text)
 
-**Note:** Use `html-description-single-product-2800.html` for actual generation.
+[One-sentence value proposition following Principle 3 hierarchy]
 
-### Section 1: Target Audience + Value
-`<h3>For [Target Industry/Role]</h3>`
-`<p><b>[Primary quantified benefit]</b> with self-hosted [Software] on Azure...</p>`
+---
 
-### Section 2: Why Self-Hosting?
-`<h3>Why Self-Host [Software] Instead of SaaS?</h3>`
-5 benefits: Full control, data sovereignty, no vendor lock-in, unlimited customization, performance optimization
+## DESCRIPTION (≤3000 chars, HTML required)
 
-### Section 3: Self-Hosting Challenges
-`<h3>Self-Hosting Challenges We Solve</h3>`
-4 pain points about complexity, maintenance, support, scaling
+**Use:** `html-description-single-product-2800.html` template
 
-### Section 4: Why Websoft9 Managed Self-Hosting?
-`<h3>Websoft9 Managed Self-Hosting: Best of Both Worlds</h3>`
-5 benefits: One-click deployment, automated operations, expert support, unified control panel, uptime SLA
-
-### Section 5: Available Plans
-`<h3>Choose Your Plan</h3>`
-All plans include standard features
-
-### Section 6: What's Next?
-4-step getting started
-
-### Section 7: Trademark Statement
-Standard disclaimer
+**Structure per Principle 3:**
+1. Performance → Reliability → Ease of Use → Day-2 Operations → Support → Cost → Scalability
+2. Websoft9 hosting enabler value (Principle 4)
+3. Technical specifications section (Principle 2)
+4. Available Plans preview (Principle 8)
+5. Trademark compliance (Principle 9)
 
 ---
 
 ## REFERENCE
 
-**Actual generation uses:** `html-description-single-product-2800.html` (2800 char strict template)
+**HTML Template:** `html-description-single-product-2800.html`  
+**Validation:** Character limits (Principle 2), Hosting value framework (Principle 3)
 
 
