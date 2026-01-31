@@ -21,15 +21,15 @@
 **PLAN DESCRIPTION (HTML required):**
 Use `html-plan-single-product-tier.html` template
 
-### Plan 4: Category Selection
+### Plan 4: Multi-Category Suite
 
-**PLAN NAME:** `[Category] Selection Suite`
+**PLAN NAME:** `Multi-[Category] Self-Hosted Suite`
 
 **PLAN SUMMARY (50-80 chars):**
-`Not sure which [category] fits? Deploy [options] for evaluation.`
+`Deploy multiple [category] apps simultaneously on unified infrastructure.`
 
 **PLAN DESCRIPTION (HTML required):**
-Use selection-focused structure per Principle 8
+Use `html-plan-category-selection.html` template
 
 ---
 

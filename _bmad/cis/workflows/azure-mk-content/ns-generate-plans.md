@@ -223,30 +223,13 @@ For each tier/variant:
 
 4. **Present final HTML**
 
-### 4B.4: Pricing Psychology Guidance
+---
 
-Include in output:
-
-**For Strategies 1-4:**
-- **Entry-level (tier 1):** Price to reduce barrier ($39-59/month range) - Attracts price-sensitive users
-- **Mid-tier (tier 2):** Mark as "Recommended" or "Most Popular" - Highest margin, 60-70% of buyers choose this ($99-149/month range)
-- **Premium (tier 3):** High anchor price to make mid-tier feel like better value ($249-399/month range)
-- **Price ratio:** Aim for ~2-3x between tiers (not linear) to maximize perceived value jumps
-
-**For Strategy 5 (OS-Based):**
-- **Debian/Ubuntu:** Standard pricing (baseline, e.g., $79-99/month)
-- **AlmaLinux:** Same as Debian/Ubuntu (community-supported, RHEL-compatible)
-- **Oracle Linux:** Can add 10-15% premium if targeting Oracle ecosystem buyers (e.g., $89-109/month)
-- Note: Technical delivery is identical - pricing differentiation is based on perceived enterprise value
-- Consider offering all OS variants at same price to simplify choice (let users pick by preference, not price)
-
-### 4B.5: Output Format
-
-Present as table with Plan ID, Plan Name, Plan Summary, and full Plan Description for each tier.
+## Step 5: Output Formatting
 
 ---
 
-## Step 5: Output Formatting for Partner Center
+## Step 5: Output Formatting
 
 ### 5.1: HTML Validation
 
@@ -255,22 +238,66 @@ Present as table with Plan ID, Plan Name, Plan Summary, and full Plan Descriptio
 
 ### 5.2: Present Final Output
 
-Present final output with clear section:
+**CRITICAL: Output ONLY the following structure with NO additional commentary:**
 
-```
-✅ Ready for Partner Center (copy below):
+```markdown
+## Plan 1: [Plan Name]
+
+**PLAN NAME:** [Plan Name Text]
+
+**PLAN SUMMARY:** [Summary text within character limit]
+
+**PLAN DESCRIPTION:**
+[Complete HTML content]
+
+---
+
+## Plan 2: [Plan Name]
+
+**PLAN NAME:** [Plan Name Text]
+
+**PLAN SUMMARY:** [Summary text within character limit]
+
+**PLAN DESCRIPTION:**
+[Complete HTML content]
+
+---
+
+## Plan 3: [Plan Name]
+
+**PLAN NAME:** [Plan Name Text]
+
+**PLAN SUMMARY:** [Summary text within character limit]
+
+**PLAN DESCRIPTION:**
+[Complete HTML content]
+
+---
+
+## Plan 4: [Plan Name]
+
+**PLAN NAME:** [Plan Name Text]
+
+**PLAN SUMMARY:** [Summary text within character limit]
+
+**PLAN DESCRIPTION:**
+[Complete HTML content]
 ```
 
-Add reminder note: "This content uses only Azure Marketplace-approved HTML and can be pasted directly into Partner Center Plan fields."
+**DO NOT INCLUDE:**
+- Pricing guidance
+- Marketing strategy notes
+- Validation reminders
+- Tables or comparison charts
+- "Ready for Partner Center" banners
+- File save confirmations
 
 ### 5.3: Save Output
 
-Save generated Plans table to `{project-root}/specs/output/[offer-name]-plans.md`
-
-Confirm file saved location to user.
+Save generated Plans to `{project-root}/specs/output/[offer-name]-plans.md`
 
 ---
 
 ## Output
 
-Complete Plan specifications with safe numeric claims and Partner Center-ready formatting.
+Four Plan specifications with name, summary, and description only.

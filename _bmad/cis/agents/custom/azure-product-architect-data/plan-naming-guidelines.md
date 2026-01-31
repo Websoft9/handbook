@@ -41,15 +41,15 @@ For [X users]. [modules] + [support level] + [SLA].
 - Support: Community / Email+AM / 24/7 Priority
 - SLA: 99.5% / 99.9% / 99.95%
 
-### Plan 4: Category Selection
+### Plan 4: Multi-Category Suite
 
-**Naming Format:** `[Category] Selection Suite`
+**Naming Format:** `Multi-[Category] Self-Hosted Suite`
 
-**Example:** `ERP Selection Suite`
+**Example:** `Multi-ERP Self-Hosted Suite`, `Multi-CMS Self-Hosted Suite`
 
 **Summary Format (50-80 chars):**
 ```
-Not sure which [category] fits? Deploy [options] for evaluation.
+Deploy multiple [category] apps simultaneously on unified infrastructure.
 ```
 
 ---
@@ -57,7 +57,7 @@ Not sure which [category] fits? Deploy [options] for evaluation.
 ## Validation Checklist
 
 **Before submission:**
-- [ ] Plan Name ≤200 chars, follows `[App] for [Scenario]` pattern (Plans 1-3) or `[Category] Selection Suite` (Plan 4)
+- [ ] Plan Name ≤200 chars, follows `[App] for [Scenario]` pattern (Plans 1-3) or `Multi-[Category] Self-Hosted Suite` (Plan 4)
 - [ ] Plan Summary ≤100 chars, includes user capacity + support + SLA (Plans 1-3)
 - [ ] Plan Description ≤3,000 chars, uses allowed HTML tags only
 - [ ] Plan 2 marked as ⭐ Recommended
@@ -67,4 +67,6 @@ Not sure which [category] fits? Deploy [options] for evaluation.
 ## Reference
 
 **Full Specification:** See Agent Principle 8 (Plan Structure Compliance)  
-**HTML Template:** `html-plan-single-product-tier.html`
+**HTML Templates:** 
+- Plans 1-3: `html-plan-single-product-tier.html`
+- Plan 4: `html-plan-category-selection.html`
