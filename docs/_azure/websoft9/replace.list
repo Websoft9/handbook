@@ -1,0 +1,14 @@
+# Replace list
+
+- devops: gitlab
+- data-analytics: grafana
+- ecm: nextcloud
+- dbs:postgresql
+- ecommerce: prestashop
+- digital-transformation: odoo
+- martech: wordpress
+- automation: n8n
+
+- open-knowledge-base:
+- ais: 
+- operation: 

@@ -118,7 +118,7 @@
 ```html
 <h3>Not Sure Which CMS Fits Your Business?</h3>
 
-<p>Deploy and evaluate multiple CMS solutions side-by-side in a unified infrastructure. Compare WordPress, Ghost, Joomla, and Drupal features, workflows, and user experience before committing to a single platform—or run them simultaneously for different content strategies.</p>
+<p>Deploy and evaluate multiple 30+ CMS solutions side-by-side in a unified infrastructure. Compare WordPress, Ghost, Joomla, and Drupal features, workflows, and user experience before committing to a single platform—or run them simultaneously for different content strategies.</p>
 
 <h3>Available CMS Options</h3>
 

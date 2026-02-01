@@ -70,11 +70,11 @@ Turnkey WordPress hosting on Azure. One-click deployment, automated security pat
 
 <p><b>Ease of Use:</b> Deploy production-ready WordPress in under 10 minutes. No Docker or DevOps skills required—skip weeks of manual setup.</p>
 
-<p><b>Day-2 Operations:</b> Save up to 8 hours/month on maintenance. Automated WordPress updates, security patches, malware scanning, SSL renewals, and database optimization—managed from unified Azure dashboard.</p>
+<p><b>Day-2 Operations:</b> Save up to 8 hours/month on maintenance. Automated WordPress updates, security patches, malware scanning, SSL renewals, and database optimization—managed from unified dashboard.</p>
 
 <p><b>Support:</b> 24/7/365 Specialized WordPress experts in your timezone.</p>
 
-<p><b>Cost Transparency:</b> Transparent Azure billing, MACC-eligible. Typically 40-60% lower TCO vs managed hosting for 50+ user deployments.</p>
+<p><b>Cost Transparency:</b> Transparent Azure billing, MACC-eligible. Typically 40-60% lower TCO vs managed hosting for enterprise deployments.</p>
 
 <p><b>Scalability:</b> Scale CPU, RAM, and storage in minutes as traffic grows—no migration downtime.</p>
 
@@ -90,7 +90,7 @@ Turnkey WordPress hosting on Azure. One-click deployment, automated security pat
 
 <h3>Technical Foundation</h3>
 
-<p>WordPress 6.x, Ubuntu 24.04 LTS, MySQL 8.0, Nginx + Varnish, Docker, Websoft9 Panel. Supports 60,000+ plugins, WooCommerce, multisite.</p>
+<p>WordPress 6.x, Ubuntu 24.04 LTS, MySQL 8.0, phpMyAdmin, Nginx + Varnish, Docker, Websoft9 Panel. Supports 60,000+ plugins, WooCommerce, multisite.</p>
 
 <h3>Available Plans</h3>
 
@@ -98,7 +98,7 @@ Turnkey WordPress hosting on Azure. One-click deployment, automated security pat
 <li><b>WordPress for Startups:</b> Personal blogs and small business sites (10-50K visitors)</li>
 <li><b>WordPress for Growing Teams ⭐:</b> Content publishers and agencies (50-200K visitors)—Most Popular</li>
 <li><b>WordPress for Enterprises:</b> High-traffic sites and e-commerce (200K+ visitors)</li>
-<li><b>Multi-CMS Suite:</b> WordPress, Ghost, Joomla, Drupal on unified infrastructure</li>
+<li><b>Multi-CMS Suite:</b> WordPress, Ghost, Joomla, Drupal and 30+ CMS on unified infrastructure</li>
 </ul>
 
 <h3>Enterprise Trust</h3>
