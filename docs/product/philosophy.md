@@ -20,6 +20,10 @@ sidebar_position: 1
 
 [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
 
+### 56条软件法则
+
+[56条软件法则](https://lawsofsoftwareengineering.com/): 
+
 ### 云原生 12 要素
 
 [The Twelve-Factor App](https://12factor.net/zh_cn/)
