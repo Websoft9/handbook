@@ -1,11 +1,67 @@
 installation:
-  version: 6.0.0-alpha.23
+  version: 6.10.0
   installDate: 2026-01-22T07:30:21.030Z
-  lastUpdated: 2026-01-22T07:30:21.030Z
+  lastUpdated: 2026-07-24T02:46:17.477Z
 modules:
-  - core
-  - bmb
-  - bmm
-  - cis
+  - name: core
+    version: 6.10.0
+    installDate: 2026-07-24T02:46:15.268Z
+    lastUpdated: 2026-07-24T02:46:17.455Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+  - name: bmm
+    version: 6.10.0
+    installDate: 2026-07-24T02:46:15.705Z
+    lastUpdated: 2026-07-24T02:46:17.456Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+  - name: bmb
+    version: v2.1.0
+    installDate: 2026-07-24T02:46:15.863Z
+    lastUpdated: 2026-07-24T02:46:17.460Z
+    source: external
+    npmPackage: bmad-builder
+    repoUrl: https://github.com/bmad-code-org/bmad-builder
+    channel: stable
+    sha: d54981a8ba3b990148256455ccf4e6c1cb4918f0
+  - name: cis
+    version: v0.2.1
+    installDate: 2026-07-24T02:46:15.933Z
+    lastUpdated: 2026-07-24T02:46:17.463Z
+    source: external
+    npmPackage: bmad-creative-intelligence-suite
+    repoUrl: https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite
+    channel: stable
+    sha: 07a8dd03d196a762f21c241d985293fe5b0f90e7
+  - name: bmad-loop
+    version: v0.9.0
+    installDate: 2026-07-24T02:46:15.959Z
+    lastUpdated: 2026-07-24T02:46:17.470Z
+    source: external
+    npmPackage: null
+    repoUrl: https://github.com/bmad-code-org/bmad-loop
+    channel: stable
+    sha: 72551742617b4e1c9cb72d2038dc67ce973f7eea
+  - name: tea
+    version: v1.19.1
+    installDate: 2026-07-24T02:46:16.309Z
+    lastUpdated: 2026-07-24T02:46:17.474Z
+    source: external
+    npmPackage: bmad-method-test-architecture-enterprise
+    repoUrl: https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise
+    channel: stable
+    sha: 74cf6e6adf5a6f46614788f184f340ea58336157
+  - name: wds
+    version: v0.4.3
+    installDate: 2026-07-24T02:46:17.245Z
+    lastUpdated: 2026-07-24T02:46:17.477Z
+    source: external
+    npmPackage: bmad-wds
+    repoUrl: https://github.com/bmad-code-org/bmad-method-wds-expansion
+    channel: stable
+    sha: cc16f09fcfab26d35635af1491f36a38a8431c8d
 ides:
   - github-copilot
+  - opencode

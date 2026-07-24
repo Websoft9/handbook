@@ -2,7 +2,7 @@
 # Provides standardized commands for development, build, and validation tasks
 # Platform Support: Linux and macOS only (use WSL2 on Windows)
 
-.PHONY: help install start build serve clean validate validate-md validate-build validate-quick check check-versions version proxy unproxy kill-port
+.PHONY: help install start build serve clean validate validate-md validate-build validate-quick check check-versions version proxy unproxy kill-port opencode opencode-clear
 
 # Default target
 .DEFAULT_GOAL := help
@@ -30,17 +30,17 @@ help: ## Display this help message
 	@echo "$(GREEN)Development:$(RESET)"
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
 		grep -E '^(install|start|build|serve|clean):' | \
-		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)%-20s$(RESET) %s\n", $$1, $$2}'
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)make %-20s$(RESET) %s\n", $$1, $$2}'
 	@echo ""
 	@echo "$(GREEN)Validation:$(RESET)"
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
 		grep -E '^validate' | \
-		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)%-20s$(RESET) %s\n", $$1, $$2}'
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)make %-20s$(RESET) %s\n", $$1, $$2}'
 	@echo ""
 	@echo "$(GREEN)Utilities:$(RESET)"
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
-		grep -E '^(check|version|proxy|unproxy|kill-port|help):' | \
-		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)%-20s$(RESET) %s\n", $$1, $$2}'
+		grep -E '^(check|version|proxy|unproxy|kill-port|opencode|opencode-clear|help):' | \
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(CYAN)make %-20s$(RESET) %s\n", $$1, $$2}'
 	@echo ""
 	@echo "$(YELLOW)Examples:$(RESET)"
 	@echo "  make start PORT=3003 LOCALE=en    # Start with custom port and locale"
@@ -176,6 +176,35 @@ unproxy: ## Unset HTTP/HTTPS proxy for current shell (use: eval $(make unproxy))
 	@echo "unset http_proxy;"
 	@echo "unset https_proxy;"
 	@echo "echo '$(GREEN)✓ Proxy unset$(RESET)';"
+
+opencode: ## Start opencode with SOCKS5 proxy disabled
+	@echo "$(CYAN)Starting opencode (proxy disabled)...$(RESET)"
+	@env -u http_proxy -u https_proxy -u all_proxy -u socks_proxy \
+		-u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u SOCKS_PROXY \
+		opencode
+
+opencode-clear: ## Clear all opencode sessions (requires confirmation)
+	@echo "$(CYAN)Current opencode sessions:$(RESET)"
+	@echo ""
+	@opencode session list
+	@echo ""
+	@echo "$(YELLOW)This will delete ALL opencode sessions listed above.$(RESET)"
+	@printf "Are you sure? [y/N] "; \
+	read -r confirm < /dev/tty; \
+	if [ "$$confirm" != "y" ] && [ "$$confirm" != "Y" ]; then \
+		echo "$(YELLOW)Cancelled.$(RESET)"; \
+		exit 0; \
+	fi; \
+	SESSION_IDS=$$(opencode session list 2>/dev/null | grep -oP 'ses_\w+'); \
+	if [ -z "$$SESSION_IDS" ]; then \
+		echo "$(YELLOW)No sessions found.$(RESET)"; \
+	else \
+		for id in $$SESSION_IDS; do \
+			echo "  Deleting session: $$id"; \
+			opencode session delete $$id; \
+		done; \
+		echo "$(GREEN)✓ All sessions deleted$(RESET)"; \
+	fi
 
 kill-port: ## Kill process using specified port (use: make kill-port 3002)
 	@TARGET_PORT=$$(echo "$(filter-out $@,$(MAKECMDGOALS))" | awk '{print $$1}'); \
