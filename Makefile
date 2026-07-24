@@ -126,10 +126,10 @@ check-versions: ## Verify system meets minimum requirements
 		exit 1; \
 	fi
 	@echo -n "  Node.js: "
-	@if node --version | grep -qE 'v(1[8-9]|[2-9][0-9])'; then \
+	@if node --version | grep -qE 'v(24|[3-9][0-9])'; then \
 		echo "$(GREEN)✓ $(shell node --version)$(RESET)"; \
 	else \
-		echo "$(RED)✗ $(shell node --version) (requires >=18.0)$(RESET)"; \
+		echo "$(RED)✗ $(shell node --version) (requires >=24.0)$(RESET)"; \
 		exit 1; \
 	fi
 	@echo -n "  Yarn: "

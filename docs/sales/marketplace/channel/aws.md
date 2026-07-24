@@ -10,24 +10,21 @@ AWS 是云市场的发明者和先驱，引领这个领域快速发展。我们�
 
 AWS Marketplace 只要符合[条件](https://aws.amazon.com/marketplace/management/tour/)，即可直接注册。    
 
-Azure Partner 注册与AWS Marketplace 是两个不同的体系，目前我们通过 AWS（中国）已经注册成为全球合作伙伴。
+Azure Partner 与 AWS Marketplace 已经融合在一个平台，目前我们通过 AWS（中国）已经注册成为全球合作伙伴。
 
 > 银行账号地址必须与AWS账号的地址保持一致，否则无法通过付款
 
 ## 合规性
 
-AWS 相对 Azure 来说，合规性管理宽松一些。但也必须严格考虑。
+AWS 相对 Azure 来说，合规性管理宽松一些，但也必须严格考虑。
 
-AWS云市场遵循 Digital Millennium Copyright Act (DMCA)。收到知识产权的投诉，参考：[DMCA 通知处理](https://aws.amazon.com/cn/premiumsupport/knowledge-center/dmca-counter-notice/)
+AWS 云市场遵循 Digital Millennium Copyright Act (DMCA)。收到知识产权的投诉，参考：[DMCA 通知处理](https://aws.amazon.com/cn/premiumsupport/knowledge-center/dmca-counter-notice/)
 
 ## 商品管理
 
-### 类型
+### 限额
 
-AWS支持的产品类型包括镜像、容器、许可证、CloudFormation等多种。
-
-* 容器类：所有相关的容器镜像必须上传到AWS镜像仓库，并获得审核通过方可开始[定价](https://docs.aws.amazon.com/marketplace/latest/userguide/pricing-container-products.html)。
-* 许可证类：AWS Marketplace 买方还可以使用 AWS License Manager 跟踪从 Marketplace 获得的自带许可 (BYOL) 软件，并保留其所有许可证的整合视图。
+目前 AWS 对 Partner 商品数量有限制，Websoft9 的商品数量上限为 **75** 个。
 
 ### 发布
 

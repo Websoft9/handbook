@@ -3,11 +3,11 @@
 
 # Handbook
 
-This website is built using [Docusaurus v3.9.2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus v3.10.2](https://docusaurus.io/), a modern static website generator.
 
 ## Requirements
 
-- Node.js >= 18.0
+- Node.js >= 24.0
 - Yarn 1.22+
 - Platform: Linux or macOS (Windows users must use WSL2)
 
