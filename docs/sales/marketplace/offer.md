@@ -67,16 +67,16 @@ sidebar_position: 1
 下面是商品信息的范式，但商品信息维护在 Contentful 中。
 
 
-### 标题
+### Title
 
 商品标题需要考量的因素包括：简洁、重点突出、便于用户检索、易维护、定位客户心智、合规 
 
-中文的标题在合规性上，更为宽松一些。一般采用【产品一句话介绍 + 商标 + 发行版】的模式：
+中文的标题在合规性上，更为宽松一些。一般采用【商标 + 产品类型】的模式：
 
 ```
-企业级电商系统 Mangeto
-图引擎数据库 Neo4j
-云原生关系型数据库 MySQL5.6
+WordPress 企业建站平台
+Neo4j 图引擎数据库
+Odoo 开源企业 ERP/CRM
 ```
 
 英文标题相对于中文需要更为慎重，原因是：
@@ -85,51 +85,47 @@ sidebar_position: 1
 * **合规**：英文标题中一般不允许出现其他公司的商标，即使使用也非常有讲究
 
 ```
-# Only Websoft9
+# Websoft9
 # Have two options, the short one is for Azure
 Websoft9 Applications Hosting Platform
 Websoft9 App Platform
 
-# Websoft9 + 单一应用
-Websoft9 Applications Hosting Platform for InfluxDB®
 
-# Websoft9 + 单一环境
-Websoft9 Web Runtime for deploying Python Apps
+# Application and not refer Websoft9
+GitLab CE on AWS — Preconfigured, Hardened, Ready in Minutes
 
-# Websoft9 + 单一数据库
-Websoft9 Cloud Database Service for RethinkDB
+# Application and refer Websoft9
 
-# Websoft9 + 单一数据库工具
-Websoft9 Cloud Database Tool for phpMyAdmin
-
-# Websoft9 + 单一 DevOps 工具
-Websoft9 DevOps Platform for GitLab
-
-# Websoft9 + 单一 Low Code 工具
-Websoft9 Low Code Hosting Platform for ToolJet
-
-# Websoft9 + 品类
-Websoft9 Websites Hosting Platform
-Websoft9 DevOps All-in-one Hosting Platform
+<App Trademark> on <Cloud Platform> Self-Hosted <Catalog> with Websoft9 Console
+Odoo on AWS - Self-Hosted ERP with Websoft9 Console
+PostgreSQL on AWS - Self-Hosted Database with Websoft9 Console
+GitLab on AWS - Self-Hosted DevOps tool with Websoft9 Console
 ```
 
-### 子标题
 
-子标题通常是不超过 10 个字（单词）的介绍。
+### Summary
+
+Summary 通常是不超过 10 个字（单词）的介绍。
 
 * 在 Azure 平台被称之为 **Search results summary**
-* 在 AWS 被称之为 **Short summary **
+* 在 AWS 被称之为 **Short summary**
+* Alibaba Cloud 被称之为 **Short Description**
 
 ```
-Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB with Websoft9 Applications Hosting Platform on AWS.
+# 中文
+开机即用 Odoo19/18/17/16 镜像，内置 Websoft9 自助管理面板，版本持续迭代，专家团队提供从运维支撑，可响应自定义配置需求，省去应用维护负担
+
+# English
+Deploy Odoo on AWS through Websoft9 Console with AMI or CloudFormation. Choose Odoo 15 to 19, manage domains, SSL, and databases from a web UI, and keep your stack current with GitOps-based upgrades.
+
+Odoo 15–19, preconfigured & hardened. Official packages, no forks. Web console for SSL, proxy, backup and monitoring. One-click upgrades with rollback. No lock-in.
 ```
 
-### 描述
+### Long summary
 
 此项在不同的云平台的项目名分别为：
 
 * Azure 被称之为：Long summary
-* 阿里云 被称之为：产品简介
 
 中文与 English 的模式化略有差异：
 
@@ -145,9 +141,30 @@ Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB wi
    Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB with Websoft9 Applications Hosting Platform on AWS. InfluxDB is... The price of this product includes charges for Websoft9 support.
    ```
 
-> 应用介绍来自官方首页（从首屏区、底部、SEO Description 等获取）
+### Highlights
 
-### 详情
+特征在某些平台又被成为产品两点，英文表达为 Highlights。
+
+模式化的亮点包括：
+
+``` 
+# 中文
+
+- 搭载应用运维管理面板，支持多应用、个性配置、备份升级、计划任务、域名访问、自动证书签发、安全加固、性能优化 
+- 基于 Docker 容器化部署，应用可迁移，无供应商锁定 
+- 配套专家技术支撑，上手简单易维护，使用开源软件也有保障
+
+# English
+
+- Official packages, no forks, migrate anytime.
+- Web console for SSL, proxy, backup, containers and monitoring — no CLI needed.
+- One-click upgrades with rollback, low-maintenance by design.
+
+```
+
+> 另外，针对于产品本身的亮点，也可以增加 1-2 条
+
+### Description
 
 #### 中文
 
@@ -163,57 +180,39 @@ Pre-configured, web-based, cloud-native, secure, one-click to deploy InfluxDB wi
 模式化范例：
 
 ```
-本产品是由 Websoft9 出品的 Akeneo 云原生应用，即买即用 + 产品官方介绍
+镜像基于 Odoo 官方原生版本构建（Odoo 19/18/17/16/15 多个版本可选），内置 Websoft9 可视化应用管理面板，集成自研运维与 AI 工具集。支持应用启停、升级、日志查看、域名配置、SSL 自动签发、备份监控，覆盖部署、安全、备份、高可用全生命周期，企业场景一键部署。
 
-# 组件：
+![](https://netmarket.oss-cn-hangzhou.aliyuncs.com/product/ab1dcebd71d84ea68e918e8b415d355epng.png)
 
-Redmine 4.2.8, MySQL 5.7, Nginx 1.22, phpMyAdmin 5.2, Docker 20.10 on Ubuntu 22.04
+组件
 
-版权申明
+Odoo,PostgreSQL, pgAdmin, GitLab, Metabase, Docker, Websoft9 自助管理面板（内置 Nginx 与各类运维工具）
 
-Elastic Stack 中的各个组件遵循 ELv2 协议，此协议允许最终用户免费使用，但不允许云分发。故本镜像仅包含 Elastic Stack 所需的运行环境以及自动化安装脚本以满足合规性，用户可根据文档自行下载后安装使用。
+费用说明
 
-版本约束
+Odoo 开源免费。本镜像内置 Websoft9 可视化管理面板与全套运维工具集，为付费镜像。购买后除镜像程序外，还可获得专业技术团队支持，包含持续功能迭代、人工技术协助与故障处置，应用运维无需您独自排障。
 
-Oracle Database XE 对安装主机的规模和 CPU 数量不作限制（每台计算机一个数据库），但 XE 将最多存储 11GB 的用户数据，最多使用 1GB 内存，使用主机上的一个 CPU。
+使用步骤
 
-# 最低配置：
+本镜像内置可视化初始化页面，浏览器访问 服务器 IP:9000 即可开始配置。无需登录服务器、无需额外获取密码，操作便捷。
 
-1核2G
+端口
 
-# 嵌入 1-3 张图片
+- 80/443: 域名访问（HTTP/HTTPS）
+- 9000: 面板控制台端口
+- 9001: IP 直连应用端口
 
-# 面向对象：
+在线文档
 
-站长，设计，开发者，运维，产品经理，企业...
+Odoo 镜像手册
 
-# 应用场景：
+关于 Odoo
 
-数据分析，自动化，企业内容营销...
+Odoo 是一个 面向全球用户的开源ERP/CRM软件，它被用于 ERP/财税/后勤 CRM/分销/订单 供应链/采购/生产/物流 战略/合规/人事 客服/售后/支持 产品生命周期 市场营销 企业建站 项目/任务/流程 运营与供应链数字化 内容营销技术 等场景。Odoo是面向全球用户的开源ERP/CRM软件，它有强大而灵活的系统架构，产品迭代速度非常快，用户可模块化修改、升级、新增功能。
 
-# 试用：
+关于 Websoft9
 
-要充分试用，请点击[立即购买]（其中云服务器的付费方式选择“按量”），试用完成后释放服务器即停止计费
-
-# 定价指南：
-
-本镜像当前免费，若启用收费我们会提前进行通知，详情参见本商品《云市场商品服务协议》
-
-# 快速指南：
-
-应用安装到云服务器后，本地浏览器访问页面：http://ECS公网IP。
-若无法访问，请检查安全组端口80与9090是否打开，参考：[阿里云安全组设置]
-
-# 在线文档：
-
-[WordPress 云原生在线文档]
- 
-# 常见问题
-
-1. 已有服务器，怎么使用ERPNext镜像？
-登录云控制台，对服务器进行【切换操作系统】操作，切换过程中在【市场镜像】搜索 erpnext
-2. 服务器购买方式是使用【推荐配置】还是【自定义云主机】？
-推荐配置仅供参考，建议通过【自定义云主机】购买服务器
+Websoft9（微聚云）专注开源应用工程化落地，深耕云原生应用自动化运维。基于开源官方原版打造企业级镜像，自研 Web 自助管理面板及运维工具集，覆盖部署、安全加固、监控备份、版本迭代全流程。产品上架全球主流公有云，依托专业团队提供运维支撑，帮助企业低成本、自主可控搭建开源业务系统.
 ```
 
 #### English
@@ -224,63 +223,58 @@ Oracle Database XE 对安装主机的规模和 CPU 数量不作限制（每台�
 * 代理商发布的镜像（例如：VMLAB）时，Why... 描述中需要澄清与 Websoft9 的关系
 
 ```
+Launch a fully-configured {App Name} in minutes — {core value: e.g. replace TeamViewer / AnyDesk with infrastructure you own}. No command line, no {biggest pricing pain: e.g. per-device license fees}.
 
-This is a cloud-native InfluxDB® Open Source Edition runtime on the Websoft9 Applications Hosting Platform. It is always up-to-date, secure, and ready to use right out of the box with business support from Websoft9.
+## Included Components
 
-InfluxDB® is the most popular open source database for developers managing time series data. Unlock real-time insights from time series data at any scale in any environment – in the cloud, on-prem, or at the edge.
+{core components of the app, e.g. Odoo}, Docker + Docker Compose, Nginx, Websoft9 management console with ops toolset (monitoring, backups, security hardening)
 
-Websoft9 is a lightweight, self-hosting PaaS that allows you to deploy multiple applications on your own cloud infrastructure. It employs a GitOps approach and includes an integrated app store that supports one-click deployment of over 200 template applications, as well as the ability to deploy custom applications. Users have complete autonomy, ensuring that applications can be easily configured and continuously deployed even after they are live. Additionally, the web-based interface allows users to effortlessly perform tasks such as domain binding, HTTPS setup, access control, and status monitoring.
+The built-in app store lets you one-click deploy related applications, including {3–5 apps commonly paired with this app}, and others you may need.
 
-**Included Components**  
+## What You Pay For
 
-InfluxDB® Open Source Edition 2.7/latest, Docker, Websoft9 v2.1.5
+{App Name} is free and open source. This paid image bundles the **management console, operations toolset, and technical support** — so you never debug alone.
 
-**Trademark Statement**  
+## Quick Start
 
-InfluxDB® is a trademark registered by InfluxData,which is not affiliated with, and does not endorse, this product
+1. Launch your instance with this image
+2. Open `http://<server-ip>:9000` in a browser and follow the wizard
+3. {final step: e.g. Share the auto-generated client download link with your team}
 
-**Use Cases**  
+## Ports
 
-Time Series Database, IoT Monitoring and Analytics, Network Monitoring, SaaS Operational Monitoring, Application Performance Monitoring (APM)
+- 80 / 443: domain access, HTTPS
+- 9000: Websoft9 management console
+- 9001: access your application console
+- {app-specific ports}: {purpose}
 
-**Ready-to-use related applications**  
+## Use Cases
 
-This product enables users to deploy additional applications related to InfluxDB® with a one-click, including Grafana, Prometheus, Elasticsearch, Kibana, Apache Kafka. Zabbix, Node-RED, and others you may need.
+{3–5 use cases of this app}
 
-**EC2 requirements**  
-CPU no less than 2 core, Memory no less than 4G.
+## Instance Requirements
+
+CPU no less than 2 cores, memory no less than 2 GB ({recommended RAM} GB recommended)
+
+## About {App Name}
+
+{What the app is, its open-source credibility (stars / ranking), key capabilities, and the core reason to self-host it — data sovereignty, cost, or vendor risk. Link to official site.}
+
+## About Websoft9
+
+Websoft9 productionizes open-source software on public clouds: official upstream releases, wrapped with our self-developed management panel, ops toolset, and expert support — so businesses can adopt open source with confidence.
+
+## Support
+
+Fault handling, upgrade guidance, configuration help, and optimization advice — included with the image.
+
+**Trademark Statement**
+
+{App Name} is a product of {upstream vendor / foundation}. This image is provided by Websoft9, which is not affiliated with, and does not endorse, this product.
 
 ```
 
-### 特征亮点 {#highlights}
 
-特征在某些平台又被成为产品两点，英文表达为 Highlights。
-
-模式化的亮点包括：
-
-``` 
-# 中文
-
-● 已完成预配置、密码初始化，购买后即可自主使用
-● 基于 Docker 的云原生架构，便于产品升级、版本变更、卸载以及安装更多应用
-● 提供免费的技术支持 
-
-# English
-
-* Docker-based, easy to deploy and upgrade
-* Control panel for installing and managing multiple applications on a single instance
-* One-click deployment of over 200 template applications from the console
-```
-
-非模式的亮点需增加到模式化亮点的之前：
-```
-● 绿色开源，无任何商用限制
-● Redmine可以方便地在线安装多个插件，比如：图形报表、导出xls、统计分析等
-● 可以灵活的自定义多个信息，包括：自定义字段、邮件通知、Bug管理流程、查询字段、报表字段等
-```
-
-如果平台可以嵌入 HTML 元素，可以适当排版或插入下面的图片
-![](https://libs.websoft9.com/Websoft9/ui/design/service_w800.jpg)
 
 ### Usage Instructions
 
