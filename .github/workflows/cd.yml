@@ -10,6 +10,7 @@ on:
       - 'src/**'
       - 'static/**'
       - '**.js'
+      - '.github/workflows/cd.yml'
       - '!docs/_list'
 
 jobs:
