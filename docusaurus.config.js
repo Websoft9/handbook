@@ -175,7 +175,7 @@ const config = {
               },
               {
                 label: 'Github',
-                href: 'https://https://github.com/Websoft9',
+                href: 'https://github.com/Websoft9',
               },
               {
                 label: '博客与资源',
