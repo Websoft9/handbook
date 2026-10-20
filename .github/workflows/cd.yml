@@ -53,4 +53,4 @@ jobs:
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: eb79f13320db531d8cf1f3720966b695
-        command: pages deploy build --project-name=handbook --branch=main
+        command: pages deploy build --project-name=handbook --branch=${{ github.ref_name }}
