@@ -49,11 +49,9 @@ jobs:
 
     - name: Publish to Cloudflare Pages
       if: success()
-      uses: cloudflare/pages-action@v1
+      uses: cloudflare/wrangler-action@v3
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: eb79f13320db531d8cf1f3720966b695
-        projectName: handbook
-        directory: build
+        command: pages deploy build --project-name=handbook --branch=main
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
