@@ -14,13 +14,16 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      deployments: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
       
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
         node-version: 24
         cache: 'yarn'
@@ -49,11 +52,9 @@ jobs:
 
     - name: Publish to Cloudflare Pages
       if: success()
-      uses: cloudflare/pages-action@v1
+      uses: cloudflare/wrangler-action@v4
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: eb79f13320db531d8cf1f3720966b695
-        projectName: handbook
-        directory: build
+        command: pages deploy build --project-name=handbook --branch=main
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
