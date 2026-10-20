@@ -569,9 +569,7 @@ Email: help@websoft9.com
 AWS 需提供 Refund and Cancelation Policy 的文字：  
 
 ```
-Annual Subscriptions: Refunds are allowed if you are canceling a subscription to purchase a new subscription from Websoft9 at the same or higher rate.   
-
-Hourly Subscriptions: We do not currently support refunds, but you can cancel at any time.
+This product is billed based on actual EC2 instance usage hours. You may terminate your instance at any time to stop all charges. No refunds are issued for partial usage periods already billed. For billing questions or disputes, contact operation@websoft9.com before opening a claim through AWS Marketplace.
 ```
 
 ## 附加
